@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sarkariyojnamitra.in/sitemap.xml
+Sitemap: https://sarkariyojnamitra.com/sitemap.xml
