@@ -88,7 +88,7 @@ section{padding:34px 0}
 .card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
 .ic{font-size:1.7rem}
 .lvl{font-size:.68rem;font-weight:700;padding:3px 9px;border-radius:20px}
-.lvl.c{background:#eef4ff;color:#2a5bd7}.lvl.up{background:#fff0e6;color:var(--o)}
+.lvl.c{background:#eef4ff;color:#2a5bd7}.lvl.up{background:#fff0e6;color:var(--o)}.lvl.st{background:#fff0e6;color:var(--o)}
 .card h3{font-size:1.04rem;margin-bottom:2px}
 .card .sub{font-family:'Tiro Devanagari Hindi',serif;color:var(--mut);font-size:.86rem;margin-bottom:10px}
 .ben{background:var(--bg);border-radius:9px;padding:7px 11px;font-size:.85rem;margin-bottom:12px}
