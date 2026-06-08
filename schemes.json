@@ -3688,5 +3688,1276 @@
     ]
    ]
   }
+ },
+ {
+  "slug": "delhi-mahila-samriddhi",
+  "icon": "👩",
+  "cat": "women",
+  "level": "delhi",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Mahila Samriddhi Yojana",
+  "hindi": "महिला समृद्धि योजना",
+  "portal": "https://wcd.delhi.gov.in",
+  "hi": {
+   "benefit": "₹2,500 / माह",
+   "who": "दिल्ली की 21–59 वर्ष की पात्र महिलाएँ",
+   "ministry": "महिला एवं बाल विकास विभाग, दिल्ली",
+   "intro": "दिल्ली सरकार की योजना (2025) — आर्थिक रूप से कमज़ोर महिलाओं को हर माह ₹2,500 सीधे बैंक खाते में। पंजीकरण/पोर्टल चरणबद्ध रूप से शुरू हो रहा है — आधिकारिक पोर्टल पर पुष्टि करें।",
+   "benefits": [
+    "हर माह ₹2,500 (DBT)",
+    "गरीब/EWS महिलाओं हेतु",
+    "सीधे बैंक खाते में"
+   ],
+   "eligibility": [
+    "दिल्ली की निवासी (प्रायः कम-से-कम 5 वर्ष)",
+    "आयु 21–59 वर्ष",
+    "गरीब/EWS परिवार",
+    "सरकारी कर्मचारी/आयकरदाता नहीं"
+   ],
+   "documents": [
+    "आधार",
+    "दिल्ली निवास प्रमाण",
+    "आय प्रमाण",
+    "बैंक खाता (आधार-लिंक)"
+   ],
+   "howToApply": [
+    "आधिकारिक पोर्टल पर पंजीकरण (शुरू हो रहा है)",
+    "आधार e-KYC",
+    "दस्तावेज़ सत्यापन",
+    "स्वीकृति पर मासिक राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹2,500/माह।"
+    ],
+    [
+     "आयु?",
+     "21–59 वर्ष।"
+    ],
+    [
+     "कब शुरू?",
+     "2025 में स्वीकृत; पंजीकरण चरणबद्ध।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹2,500 / month",
+   "who": "Eligible women of Delhi aged 21–59",
+   "ministry": "Women & Child Development Dept., Delhi",
+   "intro": "A Delhi government scheme (2025) giving economically weaker women ₹2,500 every month into their bank account. Registration/portal is rolling out in phases — confirm on the official portal.",
+   "benefits": [
+    "₹2,500 every month (DBT)",
+    "For poor/EWS women",
+    "Directly into bank account"
+   ],
+   "eligibility": [
+    "Resident of Delhi (usually 5+ years)",
+    "Age 21–59",
+    "Poor/EWS family",
+    "Not a govt employee/income-tax payer"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Delhi residence proof",
+    "Income proof",
+    "Bank account (Aadhaar-linked)"
+   ],
+   "howToApply": [
+    "Register on the official portal (rolling out)",
+    "Aadhaar e-KYC",
+    "Document verification",
+    "Monthly amount on approval"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "₹2,500/month."
+    ],
+    [
+     "Age?",
+     "21–59 years."
+    ],
+    [
+     "Since when?",
+     "Approved 2025; registration phased."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "delhi-lakhpati-bitiya",
+  "icon": "👧",
+  "cat": "women",
+  "level": "delhi",
+  "tags": [
+   "woman",
+   "student"
+  ],
+  "name": "Delhi Lakhpati Bitiya Yojana",
+  "hindi": "दिल्ली लखपति बिटिया योजना",
+  "portal": "https://wcd.delhi.gov.in",
+  "hi": {
+   "benefit": "₹1.20 लाख (जन्म से स्नातक तक)",
+   "who": "दिल्ली की बालिकाएँ",
+   "ministry": "महिला एवं बाल विकास विभाग, दिल्ली",
+   "intro": "दिल्ली सरकार की नई योजना (पुरानी लाडली के स्थान पर) — बालिका के खाते में जन्म से स्नातक तक राशि जमा, कुल लगभग ₹1.20 लाख।",
+   "benefits": [
+    "जन्म से स्नातक तक चरणों में जमा",
+    "कुल लगभग ₹1.20 लाख",
+    "बालिका शिक्षा को बढ़ावा"
+   ],
+   "eligibility": [
+    "दिल्ली की निवासी बालिका",
+    "पात्रता आधिकारिक दिशानिर्देश अनुसार"
+   ],
+   "documents": [
+    "जन्म प्रमाण",
+    "माता-पिता का आधार",
+    "दिल्ली निवास प्रमाण",
+    "बैंक विवरण"
+   ],
+   "howToApply": [
+    "आधिकारिक पोर्टल/केंद्र पर पंजीकरण",
+    "दस्तावेज़ जमा",
+    "चरणवार जमा राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कुल कितना?",
+     "लगभग ₹1.20 लाख।"
+    ],
+    [
+     "किसके लिए?",
+     "दिल्ली की बालिकाएँ।"
+    ],
+    [
+     "पुरानी लाडली?",
+     "उसके स्थान पर यह योजना।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1.20 lakh (birth to graduation)",
+   "who": "Girls of Delhi",
+   "ministry": "Women & Child Development Dept., Delhi",
+   "intro": "A new Delhi government scheme (replacing the old Ladli scheme) — money deposited in a girl's account from birth to graduation, totalling about ₹1.20 lakh.",
+   "benefits": [
+    "Deposited in stages from birth to graduation",
+    "Total around ₹1.20 lakh",
+    "Promotes girls' education"
+   ],
+   "eligibility": [
+    "Girl resident of Delhi",
+    "Eligibility as per official guidelines"
+   ],
+   "documents": [
+    "Birth certificate",
+    "Parents' Aadhaar",
+    "Delhi residence proof",
+    "Bank details"
+   ],
+   "howToApply": [
+    "Register on official portal/centre",
+    "Submit documents",
+    "Stage-wise deposits"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "Total amount?",
+     "About ₹1.20 lakh."
+    ],
+    [
+     "For whom?",
+     "Girls of Delhi."
+    ],
+    [
+     "Old Ladli?",
+     "Replaced by this scheme."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "delhi-ayushman",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "delhi",
+  "tags": [
+   "health"
+  ],
+  "name": "Ayushman Bharat (Delhi)",
+  "hindi": "आयुष्मान भारत (दिल्ली)",
+  "portal": "https://pmjay.gov.in",
+  "hi": {
+   "benefit": "₹5 लाख (राज्य top-up के साथ अधिक)",
+   "who": "दिल्ली के पात्र परिवार",
+   "ministry": "स्वास्थ्य विभाग, दिल्ली / NHA",
+   "intro": "दिल्ली में 2025 से आयुष्मान भारत (PM-JAY) लागू — सूचीबद्ध अस्पतालों में कैशलेस इलाज; राज्य के अतिरिक्त कवर के साथ ₹10 लाख तक भी।",
+   "benefits": [
+    "प्रति परिवार ₹5 लाख कैशलेस (PM-JAY)",
+    "दिल्ली के अतिरिक्त कवर के साथ ₹10 लाख तक",
+    "सरकारी व सूचीबद्ध निजी अस्पताल"
+   ],
+   "eligibility": [
+    "दिल्ली का पात्र परिवार (SECC/पात्रता सूची)",
+    "आयुष्मान कार्ड"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "आयुष्मान कार्ड"
+   ],
+   "howToApply": [
+    "pmjay.gov.in या CSC/अस्पताल आयुष्मान डेस्क",
+    "पात्रता जाँच कर कार्ड बनवाएँ",
+    "कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹5 लाख (राज्य top-up से ₹10 लाख तक)।"
+    ],
+    [
+     "कब से दिल्ली में?",
+     "2025 से।"
+    ],
+    [
+     "कैशलेस?",
+     "हाँ।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹5 lakh (more with state top-up)",
+   "who": "Eligible families of Delhi",
+   "ministry": "Health Department, Delhi / NHA",
+   "intro": "Ayushman Bharat (PM-JAY) has applied in Delhi since 2025 — cashless treatment at empanelled hospitals; up to ₹10 lakh with the state's additional cover.",
+   "benefits": [
+    "₹5 lakh cashless per family (PM-JAY)",
+    "Up to ₹10 lakh with Delhi's additional cover",
+    "Govt & empanelled private hospitals"
+   ],
+   "eligibility": [
+    "Eligible Delhi family (SECC/eligibility list)",
+    "Ayushman card"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Ayushman card"
+   ],
+   "howToApply": [
+    "pmjay.gov.in or CSC/hospital Ayushman desk",
+    "Check eligibility and get the card",
+    "Cashless treatment"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "₹5 lakh (up to ₹10 lakh with state top-up)."
+    ],
+    [
+     "Since when in Delhi?",
+     "2025."
+    ],
+    [
+     "Cashless?",
+     "Yes."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "rj-ayushman-arogya",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "rajasthan",
+  "tags": [
+   "health"
+  ],
+  "name": "Mukhyamantri Ayushman Arogya Yojana",
+  "hindi": "मुख्यमंत्री आयुष्मान आरोग्य योजना",
+  "portal": "https://chiranjeevi.rajasthan.gov.in",
+  "hi": {
+   "benefit": "₹25 लाख / परिवार / वर्ष",
+   "who": "राजस्थान के परिवार",
+   "ministry": "चिकित्सा एवं स्वास्थ्य विभाग, राजस्थान",
+   "intro": "राजस्थान की प्रमुख स्वास्थ्य योजना (पहले चिरंजीवी) — प्रति परिवार ₹25 लाख तक कैशलेस इलाज; साथ में ₹10 लाख दुर्घटना कवर। PM-JAY से एकीकृत।",
+   "benefits": [
+    "प्रति परिवार ₹25 लाख तक कैशलेस इलाज",
+    "₹10 लाख दुर्घटना कवर (MADBY)",
+    "PM-JAY से एकीकृत",
+    "2,000+ इलाज/पैकेज कवर"
+   ],
+   "eligibility": [
+    "राजस्थान का निवासी परिवार",
+    "BPL/NFSA/SECC/लघु किसान निःशुल्क",
+    "अन्य ₹850/वर्ष देकर",
+    "जन आधार आधारित"
+   ],
+   "documents": [
+    "जन आधार",
+    "आधार",
+    "निवास प्रमाण"
+   ],
+   "howToApply": [
+    "chiranjeevi.rajasthan.gov.in या e-Mitra",
+    "जन आधार से पंजीकरण",
+    "श्रेणी (निःशुल्क/₹850) चुनें",
+    "e-Card बनवाएँ"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹25 लाख/परिवार/वर्ष।"
+    ],
+    [
+     "पुराना नाम?",
+     "चिरंजीवी योजना।"
+    ],
+    [
+     "शुल्क?",
+     "कई के लिए निःशुल्क; अन्य ₹850/वर्ष।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹25 lakh / family / year",
+   "who": "Families of Rajasthan",
+   "ministry": "Medical & Health Department, Rajasthan",
+   "intro": "Rajasthan's flagship health scheme (formerly Chiranjeevi) — up to ₹25 lakh cashless treatment per family plus ₹10 lakh accident cover. Integrated with PM-JAY.",
+   "benefits": [
+    "Up to ₹25 lakh cashless treatment per family",
+    "₹10 lakh accident cover (MADBY)",
+    "Integrated with PM-JAY",
+    "2,000+ treatments/packages covered"
+   ],
+   "eligibility": [
+    "Family resident of Rajasthan",
+    "Free for BPL/NFSA/SECC/small farmers",
+    "Others by paying ₹850/year",
+    "Jan Aadhaar based"
+   ],
+   "documents": [
+    "Jan Aadhaar",
+    "Aadhaar",
+    "Residence proof"
+   ],
+   "howToApply": [
+    "chiranjeevi.rajasthan.gov.in or e-Mitra",
+    "Register via Jan Aadhaar",
+    "Choose category (free/₹850)",
+    "Generate e-Card"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "₹25 lakh/family/year."
+    ],
+    [
+     "Old name?",
+     "Chiranjeevi Yojana."
+    ],
+    [
+     "Fee?",
+     "Free for many; others ₹850/year."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "rj-lado-protsahan",
+  "icon": "👧",
+  "cat": "women",
+  "level": "rajasthan",
+  "tags": [
+   "woman",
+   "student"
+  ],
+  "name": "Lado Protsahan Yojana",
+  "hindi": "लाडो प्रोत्साहन योजना",
+  "portal": "https://wcd.rajasthan.gov.in",
+  "hi": {
+   "benefit": "₹1.50 लाख (चरणों में)",
+   "who": "राजस्थान की बालिकाएँ (गरीब/जरूरतमंद)",
+   "ministry": "महिला एवं बाल विकास विभाग, राजस्थान",
+   "intro": "राजस्थान सरकार की योजना (अगस्त 2024 से) — गरीब परिवारों की बालिका को जन्म से उच्च शिक्षा तक चरणों में कुल लगभग ₹1.50 लाख की सहायता।",
+   "benefits": [
+    "जन्म से उच्च शिक्षा तक चरणवार सहायता",
+    "कुल लगभग ₹1.50 लाख",
+    "बालिका शिक्षा व सशक्तिकरण"
+   ],
+   "eligibility": [
+    "राजस्थान की निवासी बालिका",
+    "गरीब/पिछड़े/जरूरतमंद परिवार",
+    "निर्धारित संस्थान/शर्तों अनुसार"
+   ],
+   "documents": [
+    "जन्म प्रमाण",
+    "जन आधार",
+    "माता-पिता का आधार",
+    "बैंक विवरण"
+   ],
+   "howToApply": [
+    "जन आधार/संबंधित पोर्टल पर पंजीकरण",
+    "दस्तावेज़ जमा",
+    "चरणवार राशि खाते में"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कुल कितना?",
+     "लगभग ₹1.50 लाख।"
+    ],
+    [
+     "कब से?",
+     "अगस्त 2024 से।"
+    ],
+    [
+     "किसके लिए?",
+     "गरीब परिवारों की बालिकाएँ।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1.50 lakh (in stages)",
+   "who": "Girls of Rajasthan (poor/needy)",
+   "ministry": "Women & Child Development Dept., Rajasthan",
+   "intro": "A Rajasthan government scheme (since August 2024) giving a girl from a poor family about ₹1.50 lakh in stages from birth to higher education.",
+   "benefits": [
+    "Stage-wise support from birth to higher education",
+    "Total around ₹1.50 lakh",
+    "Girls' education & empowerment"
+   ],
+   "eligibility": [
+    "Girl resident of Rajasthan",
+    "Poor/backward/needy family",
+    "As per set institutions/conditions"
+   ],
+   "documents": [
+    "Birth certificate",
+    "Jan Aadhaar",
+    "Parents' Aadhaar",
+    "Bank details"
+   ],
+   "howToApply": [
+    "Register on Jan Aadhaar/related portal",
+    "Submit documents",
+    "Stage-wise amount to account"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "Total amount?",
+     "About ₹1.50 lakh."
+    ],
+    [
+     "Since when?",
+     "August 2024."
+    ],
+    [
+     "For whom?",
+     "Girls of poor families."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "od-subhadra",
+  "icon": "👩",
+  "cat": "women",
+  "level": "odisha",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Subhadra Yojana",
+  "hindi": "सुभद्रा योजना",
+  "portal": "https://subhadra.odisha.gov.in",
+  "hi": {
+   "benefit": "₹50,000 (5 वर्ष में)",
+   "who": "ओडिशा की 21–60 वर्ष की महिलाएँ",
+   "ministry": "महिला एवं बाल विकास विभाग, ओडिशा",
+   "intro": "ओडिशा सरकार की प्रमुख योजना (सितंबर 2024) — पात्र महिलाओं को 5 वर्ष में कुल ₹50,000; हर वर्ष ₹10,000 (₹5,000 की दो किस्तों में)।",
+   "benefits": [
+    "5 वर्ष में कुल ₹50,000",
+    "हर वर्ष ₹10,000 — ₹5,000 की दो किस्तें (रक्षाबंधन व महिला दिवस)",
+    "सीधे बैंक खाते में (DBT)",
+    "सुभद्रा डेबिट कार्ड"
+   ],
+   "eligibility": [
+    "ओडिशा की निवासी महिला",
+    "आयु 21–60 वर्ष",
+    "आर्थिक रूप से कमज़ोर",
+    "सरकारी कर्मचारी/आयकरदाता व ₹1,500/माह से अधिक अन्य लाभ वाली अपात्र"
+   ],
+   "documents": [
+    "आधार",
+    "ओडिशा निवास",
+    "राशन कार्ड",
+    "बैंक खाता (आधार-लिंक)"
+   ],
+   "howToApply": [
+    "subhadra.odisha.gov.in या Mo Seva Kendra/आँगनवाड़ी",
+    "निःशुल्क फॉर्म भरें",
+    "Face e-KYC",
+    "सत्यापन पर राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कुल कितना?",
+     "5 वर्ष में ₹50,000।"
+    ],
+    [
+     "हर वर्ष?",
+     "₹10,000 (दो किस्तें)।"
+    ],
+    [
+     "आयु?",
+     "21–60 वर्ष।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹50,000 (over 5 years)",
+   "who": "Women of Odisha aged 21–60",
+   "ministry": "Women & Child Development Dept., Odisha",
+   "intro": "Odisha's flagship scheme (September 2024) giving eligible women ₹50,000 over five years — ₹10,000 a year in two instalments of ₹5,000.",
+   "benefits": [
+    "₹50,000 total over five years",
+    "₹10,000 a year — two ₹5,000 instalments (Raksha Bandhan & Women's Day)",
+    "Directly to bank account (DBT)",
+    "Subhadra debit card"
+   ],
+   "eligibility": [
+    "Woman resident of Odisha",
+    "Age 21–60",
+    "Economically weaker section",
+    "Govt employees/income-tax payers & those getting over ₹1,500/month from other schemes are ineligible"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Odisha residence",
+    "Ration card",
+    "Bank account (Aadhaar-linked)"
+   ],
+   "howToApply": [
+    "subhadra.odisha.gov.in or Mo Seva Kendra/Anganwadi",
+    "Fill the free form",
+    "Face e-KYC",
+    "Amount on verification"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "Total amount?",
+     "₹50,000 over 5 years."
+    ],
+    [
+     "Per year?",
+     "₹10,000 (two instalments)."
+    ],
+    [
+     "Age?",
+     "21–60 years."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "od-gjay",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "odisha",
+  "tags": [
+   "health"
+  ],
+  "name": "Gopabandhu Jan Arogya Yojana",
+  "hindi": "गोपबंधु जन आरोग्य योजना",
+  "portal": "https://nhmodisha.gov.in",
+  "hi": {
+   "benefit": "₹5 लाख (+₹5 लाख महिला)",
+   "who": "ओडिशा के परिवार",
+   "ministry": "स्वास्थ्य विभाग, ओडिशा",
+   "intro": "ओडिशा की स्वास्थ्य योजना (पहले BSKY) — सरकारी अस्पतालों में सबको निःशुल्क इलाज; सूचीबद्ध निजी अस्पतालों में ₹5 लाख/परिवार, महिला सदस्यों हेतु अतिरिक्त ₹5 लाख। आयुष्मान से एकीकृत।",
+   "benefits": [
+    "सरकारी अस्पतालों में सबको निःशुल्क इलाज",
+    "निजी सूचीबद्ध अस्पताल में ₹5 लाख/परिवार",
+    "महिला सदस्यों हेतु अतिरिक्त ₹5 लाख",
+    "आयुष्मान भारत से एकीकृत — देशभर के अस्पताल"
+   ],
+   "eligibility": [
+    "ओडिशा का निवासी परिवार",
+    "राशन कार्ड (NFSA/SFSS) या आयुष्मान कार्ड"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "आयुष्मान/GJAY कार्ड"
+   ],
+   "howToApply": [
+    "अस्पताल हेल्प डेस्क/Swasthya Mitra से",
+    "कार्ड दिखाएँ",
+    "कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹5 लाख/परिवार (+₹5 लाख महिला)।"
+    ],
+    [
+     "पुराना नाम?",
+     "बीजू स्वास्थ्य कल्याण योजना (BSKY)।"
+    ],
+    [
+     "कैशलेस?",
+     "हाँ, सूचीबद्ध अस्पताल में।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹5 lakh (+₹5 lakh women)",
+   "who": "Families of Odisha",
+   "ministry": "Health Department, Odisha",
+   "intro": "Odisha's health scheme (formerly BSKY) — free treatment for all at govt hospitals; ₹5 lakh per family at empanelled private hospitals, plus an extra ₹5 lakh for women. Integrated with Ayushman.",
+   "benefits": [
+    "Free treatment for all at govt hospitals",
+    "₹5 lakh per family at empanelled private hospitals",
+    "Extra ₹5 lakh for women members",
+    "Integrated with Ayushman Bharat — hospitals nationwide"
+   ],
+   "eligibility": [
+    "Family resident of Odisha",
+    "Ration card (NFSA/SFSS) or Ayushman card"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Ayushman/GJAY card"
+   ],
+   "howToApply": [
+    "Via hospital help desk/Swasthya Mitra",
+    "Show your card",
+    "Cashless treatment"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "₹5 lakh/family (+₹5 lakh women)."
+    ],
+    [
+     "Old name?",
+     "Biju Swasthya Kalyan Yojana (BSKY)."
+    ],
+    [
+     "Cashless?",
+     "Yes, at empanelled hospitals."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "gj-namo-lakshmi",
+  "icon": "👧",
+  "cat": "students",
+  "level": "gujarat",
+  "tags": [
+   "student",
+   "woman"
+  ],
+  "name": "Namo Lakshmi Yojana",
+  "hindi": "नमो लक्ष्मी योजना",
+  "portal": "https://www.gujarat.gov.in",
+  "hi": {
+   "benefit": "₹50,000 (कक्षा 9–12)",
+   "who": "गुजरात की कक्षा 9–12 की छात्राएँ",
+   "ministry": "शिक्षा विभाग, गुजरात",
+   "intro": "गुजरात सरकार की योजना — कक्षा 9 से 12 तक की छात्राओं को कुल ₹50,000 तक सहायता, ताकि बालिका शिक्षा न रुके।",
+   "benefits": [
+    "कक्षा 9–12 में कुल ₹50,000 तक",
+    "कक्षा 9–10: ₹10,000/वर्ष; 11–12: ₹15,000/वर्ष",
+    "सीधे खाते में"
+   ],
+   "eligibility": [
+    "गुजरात की निवासी छात्रा",
+    "सरकारी/अनुदानित/मान्यता प्राप्त स्कूल में कक्षा 9–12",
+    "निर्धारित आय शर्तें"
+   ],
+   "documents": [
+    "आधार",
+    "स्कूल प्रवेश/प्रमाण",
+    "बैंक विवरण",
+    "निवास प्रमाण"
+   ],
+   "howToApply": [
+    "स्कूल के माध्यम से पंजीकरण",
+    "दस्तावेज़ सत्यापन",
+    "राशि सीधे खाते में"
+   ],
+   "lastDate": "शैक्षणिक सत्र अनुसार",
+   "faqs": [
+    [
+     "कुल कितना?",
+     "कक्षा 9–12 में ₹50,000 तक।"
+    ],
+    [
+     "किसके लिए?",
+     "छात्राएँ (कक्षा 9–12)।"
+    ],
+    [
+     "कैसे?",
+     "स्कूल के माध्यम से।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹50,000 (Classes 9–12)",
+   "who": "Girl students of Gujarat in Classes 9–12",
+   "ministry": "Education Department, Gujarat",
+   "intro": "A Gujarat government scheme giving girl students in Classes 9–12 up to ₹50,000 so that girls' education doesn't stop.",
+   "benefits": [
+    "Up to ₹50,000 across Classes 9–12",
+    "Class 9–10: ₹10,000/year; 11–12: ₹15,000/year",
+    "Directly to account"
+   ],
+   "eligibility": [
+    "Girl student resident of Gujarat",
+    "In a govt/aided/recognised school, Classes 9–12",
+    "Set income conditions"
+   ],
+   "documents": [
+    "Aadhaar",
+    "School admission/proof",
+    "Bank details",
+    "Residence proof"
+   ],
+   "howToApply": [
+    "Register via the school",
+    "Document verification",
+    "Amount directly to account"
+   ],
+   "lastDate": "As per academic session",
+   "faqs": [
+    [
+     "Total amount?",
+     "Up to ₹50,000 across Classes 9–12."
+    ],
+    [
+     "For whom?",
+     "Girl students (Classes 9–12)."
+    ],
+    [
+     "How?",
+     "Through the school."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "gj-vahli-dikri",
+  "icon": "👧",
+  "cat": "women",
+  "level": "gujarat",
+  "tags": [
+   "woman",
+   "student"
+  ],
+  "name": "Vahli Dikri Yojana",
+  "hindi": "वहाली दीकरी योजना",
+  "portal": "https://wcd.gujarat.gov.in",
+  "hi": {
+   "benefit": "₹1.10 लाख (चरणों में)",
+   "who": "गुजरात की बालिकाएँ (पहली 2 बेटियाँ)",
+   "ministry": "महिला एवं बाल विकास विभाग, गुजरात",
+   "intro": "गुजरात सरकार की योजना — परिवार की पहली दो बेटियों को चरणों में कुल ₹1.10 लाख की सहायता।",
+   "benefits": [
+    "कक्षा 1 में ₹4,000",
+    "कक्षा 9 में ₹6,000",
+    "18 वर्ष पर ₹1,00,000 (कुल ₹1.10 लाख)",
+    "सीधे खाते में"
+   ],
+   "eligibility": [
+    "गुजरात की निवासी बालिका",
+    "परिवार की पहली दो बेटियाँ",
+    "परिवार की वार्षिक आय ₹2 लाख तक"
+   ],
+   "documents": [
+    "जन्म प्रमाण",
+    "माता-पिता का आधार",
+    "आय प्रमाण",
+    "बैंक विवरण"
+   ],
+   "howToApply": [
+    "आँगनवाड़ी/संबंधित कार्यालय से फॉर्म",
+    "दस्तावेज़ संलग्न कर जमा",
+    "चरणवार राशि"
+   ],
+   "lastDate": "जन्म के बाद निर्धारित अवधि में",
+   "faqs": [
+    [
+     "कुल कितना?",
+     "₹1.10 लाख।"
+    ],
+    [
+     "कितनी बेटियाँ?",
+     "पहली दो।"
+    ],
+    [
+     "आय सीमा?",
+     "₹2 लाख तक।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1.10 lakh (in stages)",
+   "who": "Girls of Gujarat (first 2 daughters)",
+   "ministry": "Women & Child Development Dept., Gujarat",
+   "intro": "A Gujarat government scheme giving the family's first two daughters a total of ₹1.10 lakh in stages.",
+   "benefits": [
+    "₹4,000 in Class 1",
+    "₹6,000 in Class 9",
+    "₹1,00,000 at age 18 (total ₹1.10 lakh)",
+    "Directly to account"
+   ],
+   "eligibility": [
+    "Girl resident of Gujarat",
+    "First two daughters of the family",
+    "Family annual income up to ₹2 lakh"
+   ],
+   "documents": [
+    "Birth certificate",
+    "Parents' Aadhaar",
+    "Income proof",
+    "Bank details"
+   ],
+   "howToApply": [
+    "Form from Anganwadi/related office",
+    "Attach documents and submit",
+    "Stage-wise amount"
+   ],
+   "lastDate": "Within the set period after birth",
+   "faqs": [
+    [
+     "Total amount?",
+     "₹1.10 lakh."
+    ],
+    [
+     "How many daughters?",
+     "First two."
+    ],
+    [
+     "Income limit?",
+     "Up to ₹2 lakh."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "gj-pmjay-ma",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "gujarat",
+  "tags": [
+   "health"
+  ],
+  "name": "PMJAY-Mukhyamantri Amrutam (MA)",
+  "hindi": "PMJAY-मुख्यमंत्री अमृतम (MA)",
+  "portal": "https://www.magujarat.com",
+  "hi": {
+   "benefit": "₹10 लाख तक / परिवार / वर्ष",
+   "who": "गुजरात के पात्र परिवार",
+   "ministry": "स्वास्थ्य विभाग, गुजरात",
+   "intro": "गुजरात की स्वास्थ्य योजना — PM-JAY व मुख्यमंत्री अमृतम (MA) मिलकर पात्र परिवारों को ₹10 लाख तक कैशलेस इलाज।",
+   "benefits": [
+    "प्रति परिवार ₹10 लाख तक कैशलेस इलाज",
+    "गंभीर बीमारियों, सर्जरी आदि कवर",
+    "सरकारी व सूचीबद्ध निजी अस्पताल",
+    "MA Vatsalya: ₹4 लाख तक आय वाले परिवार भी"
+   ],
+   "eligibility": [
+    "गुजरात का पात्र परिवार",
+    "BPL व निर्धारित आय वर्ग",
+    "MA/आयुष्मान कार्ड"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "आय प्रमाण",
+    "MA/आयुष्मान कार्ड"
+   ],
+   "howToApply": [
+    "MA कियोस्क/CSC या अस्पताल डेस्क",
+    "कार्ड बनवाएँ",
+    "कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹10 लाख तक/परिवार/वर्ष।"
+    ],
+    [
+     "MA Vatsalya?",
+     "₹4 लाख तक आय वाले परिवार भी।"
+    ],
+    [
+     "कैशलेस?",
+     "हाँ।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Up to ₹10 lakh / family / year",
+   "who": "Eligible families of Gujarat",
+   "ministry": "Health Department, Gujarat",
+   "intro": "Gujarat's health scheme — PM-JAY and Mukhyamantri Amrutam (MA) together give eligible families up to ₹10 lakh cashless treatment.",
+   "benefits": [
+    "Up to ₹10 lakh cashless treatment per family",
+    "Covers serious illnesses, surgeries and more",
+    "Govt & empanelled private hospitals",
+    "MA Vatsalya: families with income up to ₹4 lakh too"
+   ],
+   "eligibility": [
+    "Eligible Gujarat family",
+    "BPL & set income groups",
+    "MA/Ayushman card"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Income proof",
+    "MA/Ayushman card"
+   ],
+   "howToApply": [
+    "MA kiosk/CSC or hospital desk",
+    "Get the card",
+    "Cashless treatment"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "Up to ₹10 lakh/family/year."
+    ],
+    [
+     "MA Vatsalya?",
+     "Families with income up to ₹4 lakh too."
+    ],
+    [
+     "Cashless?",
+     "Yes."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "jk-sehat",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "jk",
+  "tags": [
+   "health"
+  ],
+  "name": "Ayushman Bharat SEHAT",
+  "hindi": "आयुष्मान भारत सेहत",
+  "portal": "https://pmjay.gov.in",
+  "hi": {
+   "benefit": "₹5 लाख / परिवार / वर्ष (सार्वत्रिक)",
+   "who": "J&K के सभी निवासी परिवार",
+   "ministry": "स्वास्थ्य विभाग, J&K / NHA",
+   "intro": "जम्मू-कश्मीर की सार्वत्रिक स्वास्थ्य योजना — आय की परवाह किए बिना हर निवासी परिवार को ₹5 लाख तक कैशलेस इलाज (PM-JAY का विस्तार)।",
+   "benefits": [
+    "प्रति परिवार ₹5 लाख कैशलेस इलाज",
+    "आय की कोई सीमा नहीं — सार्वत्रिक कवर",
+    "SEHAT/गोल्डन कार्ड",
+    "देशभर के सूचीबद्ध अस्पताल"
+   ],
+   "eligibility": [
+    "J&K का स्थायी निवासी परिवार",
+    "आय/श्रेणी की कोई शर्त नहीं",
+    "डोमिसाइल व आधार"
+   ],
+   "documents": [
+    "आधार",
+    "डोमिसाइल/निवास प्रमाण",
+    "राशन कार्ड (यदि हो)"
+   ],
+   "howToApply": [
+    "नज़दीकी CSC या सूचीबद्ध अस्पताल से SEHAT कार्ड बनवाएँ",
+    "आधार व निवास प्रमाण दें",
+    "कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹5 लाख/परिवार/वर्ष।"
+    ],
+    [
+     "आय सीमा?",
+     "नहीं — सबके लिए।"
+    ],
+    [
+     "कार्ड?",
+     "SEHAT/गोल्डन कार्ड।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹5 lakh / family / year (universal)",
+   "who": "All resident families of J&K",
+   "ministry": "Health Department, J&K / NHA",
+   "intro": "Jammu & Kashmir's universal health scheme — every resident family gets up to ₹5 lakh cashless treatment regardless of income (an extension of PM-JAY).",
+   "benefits": [
+    "₹5 lakh cashless treatment per family",
+    "No income limit — universal cover",
+    "SEHAT/Golden card",
+    "Empanelled hospitals nationwide"
+   ],
+   "eligibility": [
+    "Permanent resident family of J&K",
+    "No income/category condition",
+    "Domicile & Aadhaar"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Domicile/residence proof",
+    "Ration card (if any)"
+   ],
+   "howToApply": [
+    "Get a SEHAT card at a nearby CSC or empanelled hospital",
+    "Provide Aadhaar & residence proof",
+    "Cashless treatment"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "₹5 lakh/family/year."
+    ],
+    [
+     "Income limit?",
+     "No — for everyone."
+    ],
+    [
+     "Card?",
+     "SEHAT/Golden card."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "jk-ladli-beti",
+  "icon": "👧",
+  "cat": "women",
+  "level": "jk",
+  "tags": [
+   "woman",
+   "student"
+  ],
+  "name": "Ladli Beti Scheme",
+  "hindi": "लाडली बेटी योजना",
+  "portal": "https://jk.gov.in",
+  "hi": {
+   "benefit": "14 वर्ष जमा → 21 पर परिपक्व राशि",
+   "who": "J&K की बालिकाएँ (1 अप्रैल 2015 के बाद जन्मी)",
+   "ministry": "समाज कल्याण विभाग, J&K",
+   "intro": "जम्मू-कश्मीर सरकार की योजना — बालिका के नाम 14 वर्ष तक नियमित जमा; 21 वर्ष पर परिपक्व राशि, ताकि बेटी बोझ न बने।",
+   "benefits": [
+    "सरकार द्वारा 14 वर्ष तक नियमित जमा",
+    "21 वर्ष पर परिपक्व राशि",
+    "बालिका शिक्षा को बढ़ावा",
+    "कन्या भ्रूण हत्या रोकने हेतु"
+   ],
+   "eligibility": [
+    "1 अप्रैल 2015 के बाद जन्मी बालिका",
+    "J&K/लद्दाख की निवासी",
+    "निर्धारित आय शर्तें (निम्न आय परिवार)"
+   ],
+   "documents": [
+    "जन्म प्रमाण",
+    "माता-पिता का आधार",
+    "निवास/डोमिसाइल",
+    "आय प्रमाण",
+    "बैंक विवरण"
+   ],
+   "howToApply": [
+    "समाज कल्याण कार्यालय/CSC में आवेदन",
+    "दस्तावेज़ जमा",
+    "खाता खुलवाकर जमा शुरू"
+   ],
+   "lastDate": "जन्म के बाद निर्धारित अवधि में",
+   "faqs": [
+    [
+     "कब परिपक्व?",
+     "21 वर्ष पर।"
+    ],
+    [
+     "किसके लिए?",
+     "1 अप्रैल 2015 के बाद जन्मी बालिकाएँ।"
+    ],
+    [
+     "कौन देता है?",
+     "समाज कल्याण विभाग, J&K।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "14-year deposit → matures at 21",
+   "who": "Girls of J&K (born on/after 1 April 2015)",
+   "ministry": "Social Welfare Department, J&K",
+   "intro": "A J&K government scheme — regular deposits in the girl's name for 14 years; a matured amount at age 21, so a daughter is not a burden.",
+   "benefits": [
+    "Government deposits regularly for 14 years",
+    "Matured amount at age 21",
+    "Promotes girls' education",
+    "To curb female foeticide"
+   ],
+   "eligibility": [
+    "Girl born on/after 1 April 2015",
+    "Resident of J&K/Ladakh",
+    "Set income conditions (low-income family)"
+   ],
+   "documents": [
+    "Birth certificate",
+    "Parents' Aadhaar",
+    "Residence/domicile",
+    "Income proof",
+    "Bank details"
+   ],
+   "howToApply": [
+    "Apply at Social Welfare office/CSC",
+    "Submit documents",
+    "Open the account and start deposits"
+   ],
+   "lastDate": "Within the set period after birth",
+   "faqs": [
+    [
+     "Matures when?",
+     "At age 21."
+    ],
+    [
+     "For whom?",
+     "Girls born on/after 1 April 2015."
+    ],
+    [
+     "Who funds it?",
+     "Social Welfare Dept., J&K."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "jk-marriage-assistance",
+  "icon": "💍",
+  "cat": "women",
+  "level": "jk",
+  "tags": [
+   "woman"
+  ],
+  "name": "Marriage Assistance Scheme",
+  "hindi": "विवाह सहायता योजना",
+  "portal": "https://jk.gov.in",
+  "hi": {
+   "benefit": "₹50,000 (विवाह हेतु)",
+   "who": "J&K की 18+ बालिकाएँ (AAY/PPH राशन कार्ड)",
+   "ministry": "समाज कल्याण विभाग, J&K",
+   "intro": "जम्मू-कश्मीर सरकार की योजना — गरीब परिवारों की बालिका के विवाह हेतु ₹50,000 की एकमुश्त सहायता।",
+   "benefits": [
+    "विवाह हेतु ₹50,000 एकमुश्त",
+    "गरीब/AAY/PPH परिवारों हेतु",
+    "सीधे खाते में"
+   ],
+   "eligibility": [
+    "J&K की निवासी",
+    "बालिका 18 वर्ष या अधिक",
+    "AAY या PPH (प्राथमिकता) राशन कार्ड परिवार"
+   ],
+   "documents": [
+    "आधार",
+    "आयु प्रमाण",
+    "राशन कार्ड (AAY/PPH)",
+    "विवाह प्रमाण/निमंत्रण",
+    "बैंक विवरण"
+   ],
+   "howToApply": [
+    "समाज कल्याण कार्यालय में आवेदन",
+    "दस्तावेज़ जमा",
+    "सत्यापन पर सहायता"
+   ],
+   "lastDate": "पोर्टल/कार्यालय पर जाँचें",
+   "faqs": [
+    [
+     "कितनी सहायता?",
+     "₹50,000।"
+    ],
+    [
+     "किसके लिए?",
+     "18+ बालिका, AAY/PPH परिवार।"
+    ],
+    [
+     "कब?",
+     "विवाह हेतु।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹50,000 (for marriage)",
+   "who": "Girls 18+ of J&K (AAY/PPH ration card)",
+   "ministry": "Social Welfare Department, J&K",
+   "intro": "A J&K government scheme giving ₹50,000 one-time assistance for the marriage of a girl from a poor family.",
+   "benefits": [
+    "₹50,000 one-time for marriage",
+    "For poor/AAY/PPH families",
+    "Directly to account"
+   ],
+   "eligibility": [
+    "Resident of J&K",
+    "Girl aged 18 or above",
+    "AAY or PPH (priority) ration card family"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Age proof",
+    "Ration card (AAY/PPH)",
+    "Marriage proof/invitation",
+    "Bank details"
+   ],
+   "howToApply": [
+    "Apply at Social Welfare office",
+    "Submit documents",
+    "Assistance on verification"
+   ],
+   "lastDate": "Check on portal/office",
+   "faqs": [
+    [
+     "How much?",
+     "₹50,000."
+    ],
+    [
+     "For whom?",
+     "Girl 18+, AAY/PPH family."
+    ],
+    [
+     "When?",
+     "For marriage."
+    ]
+   ]
+  }
  }
 ]
