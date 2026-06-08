@@ -1,31 +1,43 @@
 # Sarkari Yojna Mitra (sarkariyojnamitra.com)
 
-Single-file scheme-finder site. Part of the Quimztech "Mitra" network (Emimitra ke same engine par).
+Searchable government-scheme directory with one SEO page per scheme. Quimztech "Mitra" network.
 
-## Files
-- `index.html` — pura site (HTML + CSS + JS ek hi file me)
-- `robots.txt` — crawlers ke liye
-- `sitemap.xml` — Google Search Console submission ke liye
+## How it works (engine)
+- `generate.py` — **source of truth.** Contains the `SCHEMES` data list + the site generator.
+- Running it builds: `index.html` (homepage finder), one `<slug>.html` per scheme, `sitemap.xml`, and `schemes.json`.
 
-## Deploy — Cloudflare Pages (Emimitra wala hi flow)
-1. GitHub par naya repo banao: `sarkariyojnamitra` → ye teeno files push karo (root me).
-2. Cloudflare Dashboard → Pages → **Create a project** → Connect to Git → repo select.
-3. Build settings:
-   - Framework preset: **None**
-   - Build command: *(khaali chhod do)*
-   - Output directory: `/` (root)
-4. Deploy → `*.pages.dev` URL milega → test karo.
-5. Custom domain add karo: **sarkariyojnamitra.com** (DNS already GoDaddy→Cloudflare par hai).
+### Add / edit a scheme
+1. Open `generate.py` → `SCHEMES` list.
+2. Copy any block, fill fields (slug = unique, lowercase-with-hyphens).
+3. Run:
+   ```
+   python3 generate.py
+   ```
+4. Push all generated files to GitHub → Cloudflare Pages auto-deploys.
 
-## Live hone ke baad
-1. **Google Search Console** → property add (`https://sarkariyojnamitra.com`) → `sitemap.xml` submit.
-2. **AdSense** — `index.html` me 2 jagah `<div class="ad-box">Advertisement</div>` hai. Approval ke baad apna `<ins class="adsbygoogle">` code wahan paste karo, aur `<head>` me AdSense loader script add karo.
-3. **Affiliate links** — `tools` section me 3 cards me `href="#"` hai (personal loan / health insurance / credit score). Apne affiliate program ke real links daal do. Emi Mitra link already live hai.
+> Har naya scheme = `SCHEMES` me ek entry + re-run. Page, homepage card, sitemap sab automatic.
 
-## Manual TODO (mere data ki zaroorat)
-- [ ] AdSense publisher ID + ad unit codes
-- [ ] Affiliate program links (loan/insurance/credit-score partner)
-- [ ] Optional: og:image banner (1200×630) host karke `og:image` meta add karna
+## Current batch: 21 schemes
+**Central (18):** PM Kisan, Ayushman Bharat, PMAY, Mudra, Kisan Credit Card, PM Fasal Bima, Sukanya Samriddhi, Atal Pension, Ujjwala, e-Shram, PMSBY, PMJJBY, PM Matru Vandana, PM Vishwakarma, PM SVANidhi, National Scholarship, Skill India (PMKVY), Jan Dhan.
+**Uttar Pradesh (3):** Kanya Sumangala, SSPY Pension, Abhyudaya.
 
-## Content note
-15 central schemes verified hain (June 2026). Aage chahe to UP state schemes add kar sakte hain (audience eastern UP) — `schemes` array me ek object add karne se card apne aap ban jayega.
+Target: batch-by-batch tak ~200. Sirf verified schemes add karna (galat info = fraud risk).
+
+## Files to deploy
+`index.html`, all `*.html` scheme pages, `sitemap.xml`, `robots.txt`.
+(`generate.py`, `schemes.json`, `README.md` repo me rakho — deploy par asar nahi.)
+
+## Deploy (Cloudflare Pages)
+1. Push files to GitHub repo `sarkariyojnamitra`.
+2. Cloudflare Pages → already connected → auto-deploy on push.
+3. Clean URLs: `pm-kisan.html` serves at `/pm-kisan` automatically.
+
+## After live (.com Active hone par)
+1. **Google Search Console** → property `https://sarkariyojnamitra.com` → submit `sitemap.xml` (22 URLs index honge).
+2. **AdSense** — `index.html` me 2 `ad-box` slots. Approval ke baad `<ins>` code daalo (yeh slots generator ke index template me hain — `generate.py` me edit karke re-run).
+3. **Affiliate links** — homepage "उपयोगी सेवाएँ" ke 3 `href="#"` apne real links se badlo (generate.py me).
+
+## SEO built-in (har scheme page par)
+- Unique title, meta description, canonical
+- JSON-LD: GovernmentService + FAQPage + BreadcrumbList
+- Breadcrumb, internal links (homepage ↔ scheme ↔ related), fraud disclaimer
