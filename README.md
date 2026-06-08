@@ -1,4 +1,4 @@
-# Sarkari Yojna Mitra (sarkariyojnamitra.in)
+# Sarkari Yojna Mitra (sarkariyojnamitra.com)
 
 Single-file scheme-finder site. Part of the Quimztech "Mitra" network (Emimitra ke same engine par).
 
@@ -15,10 +15,10 @@ Single-file scheme-finder site. Part of the Quimztech "Mitra" network (Emimitra 
    - Build command: *(khaali chhod do)*
    - Output directory: `/` (root)
 4. Deploy → `*.pages.dev` URL milega → test karo.
-5. Custom domain add karo: **sarkariyojnamitra.in** (DNS already GoDaddy→Cloudflare par hai).
+5. Custom domain add karo: **sarkariyojnamitra.com** (DNS already GoDaddy→Cloudflare par hai).
 
 ## Live hone ke baad
-1. **Google Search Console** → property add (`https://sarkariyojnamitra.in`) → `sitemap.xml` submit.
+1. **Google Search Console** → property add (`https://sarkariyojnamitra.com`) → `sitemap.xml` submit.
 2. **AdSense** — `index.html` me 2 jagah `<div class="ad-box">Advertisement</div>` hai. Approval ke baad apna `<ins class="adsbygoogle">` code wahan paste karo, aur `<head>` me AdSense loader script add karo.
 3. **Affiliate links** — `tools` section me 3 cards me `href="#"` hai (personal loan / health insurance / credit score). Apne affiliate program ke real links daal do. Emi Mitra link already live hai.
 
