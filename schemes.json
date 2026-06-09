@@ -7105,5 +7105,1173 @@
     ]
    ]
   }
+ },
+ {
+  "slug": "wb-annapurna-bhandar",
+  "icon": "👩",
+  "cat": "women",
+  "level": "wb",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Annapurna Bhandar Yojana",
+  "hindi": "अन्नपूर्णा भंडार योजना",
+  "portal": "https://socialsecurity.wb.gov.in",
+  "hi": {
+   "benefit": "₹3,000 / माह",
+   "who": "पश्चिम बंगाल की 25–60 वर्ष की महिलाएँ",
+   "ministry": "महिला एवं बाल विकास व समाज कल्याण, पश्चिम बंगाल",
+   "intro": "पश्चिम बंगाल की नई प्रमुख योजना (जून 2026) — पात्र महिलाओं को हर माह ₹3,000। यह पुरानी 'लक्ष्मीर भंडार' योजना के स्थान पर है; पुराने लाभार्थी स्वतः माइग्रेट। नई योजना — पोर्टल पर पुष्टि करें।",
+   "benefits": [
+    "हर माह ₹3,000 (सभी श्रेणियों हेतु समान)",
+    "सीधे आधार-लिंक खाते में (DBT)",
+    "लक्ष्मीर भंडार (₹1,500–1,700) से बढ़ाकर",
+    "पुराने लाभार्थी स्वतः माइग्रेट"
+   ],
+   "eligibility": [
+    "पश्चिम बंगाल की स्थायी निवासी महिला",
+    "आयु 25–60 वर्ष",
+    "आयकरदाता/सरकारी कर्मचारी अपात्र",
+    "आधार-लिंक बैंक खाता"
+   ],
+   "documents": [
+    "आधार",
+    "पश्चिम बंगाल निवास",
+    "बैंक खाता (आधार-लिंक)",
+    "फोटो"
+   ],
+   "howToApply": [
+    "socialsecurity.wb.gov.in पर आवेदन (नए लाभार्थी)",
+    "पुराने लक्ष्मीर भंडार लाभार्थी स्वतः माइग्रेट",
+    "सत्यापन पर राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें (आवेदन विंडो)",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹3,000/माह।"
+    ],
+    [
+     "पुरानी योजना?",
+     "लक्ष्मीर भंडार के स्थान पर।"
+    ],
+    [
+     "पुराने लाभार्थी?",
+     "स्वतः माइग्रेट।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹3,000 / month",
+   "who": "Women of West Bengal aged 25–60",
+   "ministry": "Women & Child Development & Social Welfare, West Bengal",
+   "intro": "West Bengal's new flagship scheme (June 2026) giving eligible women ₹3,000 every month. It replaces the old 'Lakshmir Bhandar' scheme; existing beneficiaries are auto-migrated. New scheme — confirm on the portal.",
+   "benefits": [
+    "₹3,000 every month (uniform for all categories)",
+    "Directly to Aadhaar-linked account (DBT)",
+    "Raised from Lakshmir Bhandar (₹1,500–1,700)",
+    "Existing beneficiaries auto-migrated"
+   ],
+   "eligibility": [
+    "Permanent woman resident of West Bengal",
+    "Age 25–60",
+    "Income-tax payers/govt employees ineligible",
+    "Aadhaar-linked bank account"
+   ],
+   "documents": [
+    "Aadhaar",
+    "West Bengal residence",
+    "Bank account (Aadhaar-linked)",
+    "Photo"
+   ],
+   "howToApply": [
+    "Apply on socialsecurity.wb.gov.in (new beneficiaries)",
+    "Existing Lakshmir Bhandar beneficiaries auto-migrate",
+    "Amount on verification"
+   ],
+   "lastDate": "Check on portal (application window)",
+   "faqs": [
+    [
+     "How much?",
+     "₹3,000/month."
+    ],
+    [
+     "Old scheme?",
+     "Replaces Lakshmir Bhandar."
+    ],
+    [
+     "Existing beneficiaries?",
+     "Auto-migrated."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "wb-kanyashree",
+  "icon": "👧",
+  "cat": "women",
+  "level": "wb",
+  "tags": [
+   "woman",
+   "student"
+  ],
+  "name": "Kanyashree Prakalpa",
+  "hindi": "कन्याश्री प्रकल्प",
+  "portal": "https://wbkanyashree.gov.in",
+  "hi": {
+   "benefit": "₹1,000/वर्ष + ₹25,000 एकमुश्त",
+   "who": "पश्चिम बंगाल की 13–18+ बालिकाएँ (पढ़ाई जारी)",
+   "ministry": "महिला एवं बाल विकास, पश्चिम बंगाल",
+   "intro": "पश्चिम बंगाल की बहुप्रशंसित योजना — बालिकाओं को पढ़ाई जारी रखने व बाल विवाह रोकने हेतु छात्रवृत्ति।",
+   "benefits": [
+    "K1: ₹1,000 वार्षिक (13–18 वर्ष, पढ़ाई जारी)",
+    "K2: ₹25,000 एकमुश्त (18+, अविवाहित, पढ़ाई/प्रशिक्षण जारी)",
+    "बालिका शिक्षा व सशक्तिकरण"
+   ],
+   "eligibility": [
+    "पश्चिम बंगाल की निवासी बालिका",
+    "स्कूल/कॉलेज में नामांकित",
+    "अविवाहित (K2 हेतु)",
+    "निर्धारित पारिवारिक शर्तें"
+   ],
+   "documents": [
+    "आधार/पहचान",
+    "नामांकन प्रमाण",
+    "आयु प्रमाण",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "स्कूल/कॉलेज के माध्यम से wbkanyashree.gov.in पर",
+    "फॉर्म व सत्यापन",
+    "राशि खाते में"
+   ],
+   "lastDate": "शैक्षणिक सत्र अनुसार",
+   "faqs": [
+    [
+     "K1 कितना?",
+     "₹1,000/वर्ष।"
+    ],
+    [
+     "K2 कितना?",
+     "₹25,000 एकमुश्त।"
+    ],
+    [
+     "शर्त?",
+     "पढ़ाई जारी; K2 हेतु अविवाहित।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,000/year + ₹25,000 one-time",
+   "who": "Girls of West Bengal aged 13–18+ (continuing studies)",
+   "ministry": "Women & Child Development, West Bengal",
+   "intro": "West Bengal's acclaimed scheme — a scholarship to help girls continue studying and to prevent child marriage.",
+   "benefits": [
+    "K1: ₹1,000 yearly (age 13–18, in study)",
+    "K2: ₹25,000 one-time (18+, unmarried, in study/training)",
+    "Girls' education & empowerment"
+   ],
+   "eligibility": [
+    "Girl resident of West Bengal",
+    "Enrolled in school/college",
+    "Unmarried (for K2)",
+    "Set family conditions"
+   ],
+   "documents": [
+    "Aadhaar/ID",
+    "Enrolment proof",
+    "Age proof",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Via school/college on wbkanyashree.gov.in",
+    "Form & verification",
+    "Amount to account"
+   ],
+   "lastDate": "As per academic session",
+   "faqs": [
+    [
+     "K1 amount?",
+     "₹1,000/year."
+    ],
+    [
+     "K2 amount?",
+     "₹25,000 one-time."
+    ],
+    [
+     "Condition?",
+     "In study; unmarried for K2."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "wb-swasthya-sathi",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "wb",
+  "tags": [
+   "health"
+  ],
+  "name": "Swasthya Sathi",
+  "hindi": "स्वास्थ्य साथी",
+  "portal": "https://swasthyasathi.gov.in",
+  "hi": {
+   "benefit": "₹5 लाख / परिवार / वर्ष",
+   "who": "पश्चिम बंगाल के परिवार",
+   "ministry": "स्वास्थ्य विभाग, पश्चिम बंगाल",
+   "intro": "पश्चिम बंगाल की स्वास्थ्य योजना — सूचीबद्ध अस्पतालों में परिवार को ₹5 लाख तक कैशलेस इलाज; कार्ड प्रायः परिवार की महिला के नाम।",
+   "benefits": [
+    "प्रति परिवार ₹5 लाख तक कैशलेस इलाज",
+    "सरकारी व सूचीबद्ध निजी अस्पताल",
+    "स्मार्ट कार्ड (प्रायः महिला मुखिया के नाम)",
+    "कोई प्रीमियम नहीं"
+   ],
+   "eligibility": [
+    "पश्चिम बंगाल का निवासी परिवार",
+    "स्वास्थ्य साथी कार्ड"
+   ],
+   "documents": [
+    "आधार",
+    "स्वास्थ्य साथी कार्ड",
+    "निवास प्रमाण"
+   ],
+   "howToApply": [
+    "swasthyasathi.gov.in या शिविर से कार्ड",
+    "सूचीबद्ध अस्पताल में कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹5 लाख/परिवार/वर्ष।"
+    ],
+    [
+     "प्रीमियम?",
+     "नहीं।"
+    ],
+    [
+     "कार्ड किसके नाम?",
+     "प्रायः परिवार की महिला।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹5 lakh / family / year",
+   "who": "Families of West Bengal",
+   "ministry": "Health Department, West Bengal",
+   "intro": "West Bengal's health scheme — up to ₹5 lakh cashless treatment per family at empanelled hospitals; the card is usually in the name of the woman of the family.",
+   "benefits": [
+    "Up to ₹5 lakh cashless treatment per family",
+    "Govt & empanelled private hospitals",
+    "Smart card (usually in the woman head's name)",
+    "No premium"
+   ],
+   "eligibility": [
+    "Family resident of West Bengal",
+    "Swasthya Sathi card"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Swasthya Sathi card",
+    "Residence proof"
+   ],
+   "howToApply": [
+    "Card via swasthyasathi.gov.in or camps",
+    "Cashless treatment at empanelled hospitals"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "₹5 lakh/family/year."
+    ],
+    [
+     "Premium?",
+     "None."
+    ],
+    [
+     "Card in whose name?",
+     "Usually the woman of the family."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "tn-magalir-urimai",
+  "icon": "👩",
+  "cat": "women",
+  "level": "tamilnadu",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Kalaignar Magalir Urimai Thogai",
+  "hindi": "कलैगनर मगलिर उरिमई तोगई",
+  "portal": "https://kmut.tn.gov.in",
+  "hi": {
+   "benefit": "₹1,000 / माह",
+   "who": "तमिलनाडु की महिला परिवार-मुखिया",
+   "ministry": "सामाजिक कल्याण विभाग, तमिलनाडु",
+   "intro": "तमिलनाडु सरकार की प्रमुख योजना — परिवार की महिला मुखिया को हर माह ₹1,000 सीधे खाते में।",
+   "benefits": [
+    "हर माह ₹1,000 (₹12,000/वर्ष)",
+    "राशन कार्ड की महिला मुखिया को",
+    "सीधे खाते में (DBT) + ATM कार्ड",
+    "1 करोड़+ महिलाएँ"
+   ],
+   "eligibility": [
+    "तमिलनाडु की निवासी",
+    "राशन कार्ड में परिवार की महिला मुखिया",
+    "आयु 21+",
+    "पारिवारिक आय ₹2.5 लाख/वर्ष से कम; 4-पहिया वाहन/बड़ी ज़मीन न हो"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "बैंक खाता (आधार-लिंक)"
+   ],
+   "howToApply": [
+    "kmut.tn.gov.in पर पंजीकरण या नज़दीकी केंद्र",
+    "दस्तावेज़ अपलोड",
+    "हर माह 15 तारीख को राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹1,000/माह।"
+    ],
+    [
+     "कौन?",
+     "परिवार की महिला मुखिया।"
+    ],
+    [
+     "आय सीमा?",
+     "₹2.5 लाख/वर्ष से कम।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,000 / month",
+   "who": "Woman head of family in Tamil Nadu",
+   "ministry": "Social Welfare Department, Tamil Nadu",
+   "intro": "Tamil Nadu's flagship scheme giving the woman head of a family ₹1,000 every month directly to her account.",
+   "benefits": [
+    "₹1,000 every month (₹12,000/year)",
+    "To the woman head on the ration card",
+    "Directly to account (DBT) + ATM card",
+    "1 crore+ women"
+   ],
+   "eligibility": [
+    "Resident of Tamil Nadu",
+    "Woman head of family on the ration card",
+    "Age 21+",
+    "Family income under ₹2.5 lakh/year; no four-wheeler/large land"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Bank account (Aadhaar-linked)"
+   ],
+   "howToApply": [
+    "Register on kmut.tn.gov.in or nearest centre",
+    "Upload documents",
+    "Amount on the 15th each month"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "₹1,000/month."
+    ],
+    [
+     "Who?",
+     "Woman head of family."
+    ],
+    [
+     "Income limit?",
+     "Under ₹2.5 lakh/year."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "tn-pudhumai-penn",
+  "icon": "🎓",
+  "cat": "students",
+  "level": "tamilnadu",
+  "tags": [
+   "student",
+   "woman"
+  ],
+  "name": "Pudhumai Penn Scheme",
+  "hindi": "पुधुमई पेण्ण योजना",
+  "portal": "https://penkalvi.tn.gov.in",
+  "hi": {
+   "benefit": "₹1,000 / माह (छात्राओं को)",
+   "who": "तमिलनाडु की सरकारी स्कूल से पढ़ी छात्राएँ",
+   "ministry": "स्कूल शिक्षा विभाग, तमिलनाडु",
+   "intro": "तमिलनाडु सरकार की योजना — कक्षा 6–12 सरकारी स्कूल में पढ़ी छात्राओं को उच्च शिक्षा हेतु ₹1,000 प्रति माह।",
+   "benefits": [
+    "उच्च शिक्षा के दौरान ₹1,000 प्रति माह",
+    "कक्षा 6–12 सरकारी स्कूल में पढ़ी छात्राओं को",
+    "स्नातक/डिप्लोमा/ITI तक",
+    "सीधे खाते में"
+   ],
+   "eligibility": [
+    "तमिलनाडु की निवासी छात्रा",
+    "कक्षा 6 से 12 तक सरकारी स्कूल में पढ़ाई",
+    "उच्च शिक्षा में नामांकित"
+   ],
+   "documents": [
+    "आधार",
+    "स्कूल/कॉलेज प्रमाण",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "कॉलेज/संस्थान के माध्यम से penkalvi.tn.gov.in पर",
+    "सत्यापन",
+    "राशि खाते में"
+   ],
+   "lastDate": "शैक्षणिक सत्र अनुसार",
+   "faqs": [
+    [
+     "कितना?",
+     "₹1,000/माह।"
+    ],
+    [
+     "किसके लिए?",
+     "सरकारी स्कूल से पढ़ी छात्राएँ।"
+    ],
+    [
+     "कब तक?",
+     "उच्च शिक्षा के दौरान।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,000 / month (to girl students)",
+   "who": "Girl students of TN who studied in govt schools",
+   "ministry": "School Education Department, Tamil Nadu",
+   "intro": "A Tamil Nadu government scheme giving girls who studied Classes 6–12 in govt schools ₹1,000 a month for higher education.",
+   "benefits": [
+    "₹1,000 per month during higher education",
+    "For girls who studied Classes 6–12 in govt schools",
+    "Up to graduation/diploma/ITI",
+    "Directly to account"
+   ],
+   "eligibility": [
+    "Girl student resident of Tamil Nadu",
+    "Studied Classes 6–12 in a govt school",
+    "Enrolled in higher education"
+   ],
+   "documents": [
+    "Aadhaar",
+    "School/college proof",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Via college/institution on penkalvi.tn.gov.in",
+    "Verification",
+    "Amount to account"
+   ],
+   "lastDate": "As per academic session",
+   "faqs": [
+    [
+     "How much?",
+     "₹1,000/month."
+    ],
+    [
+     "For whom?",
+     "Girls who studied in govt schools."
+    ],
+    [
+     "For how long?",
+     "During higher education."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "tn-cmchis",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "tamilnadu",
+  "tags": [
+   "health"
+  ],
+  "name": "CM Comprehensive Health Insurance (CMCHIS)",
+  "hindi": "मुख्यमंत्री समग्र स्वास्थ्य बीमा (CMCHIS)",
+  "portal": "https://www.cmchistn.com",
+  "hi": {
+   "benefit": "₹5 लाख तक / परिवार",
+   "who": "तमिलनाडु के पात्र परिवार",
+   "ministry": "स्वास्थ्य विभाग, तमिलनाडु",
+   "intro": "तमिलनाडु की स्वास्थ्य योजना — सूचीबद्ध अस्पतालों में पात्र परिवारों को कैशलेस इलाज (कुछ प्रक्रियाओं हेतु ₹5 लाख तक)।",
+   "benefits": [
+    "सूचीबद्ध अस्पतालों में कैशलेस इलाज",
+    "प्रति परिवार ₹5 लाख तक (प्रक्रिया अनुसार)",
+    "सरकारी व निजी अस्पताल",
+    "गंभीर बीमारियाँ कवर"
+   ],
+   "eligibility": [
+    "तमिलनाडु का निवासी परिवार",
+    "पारिवारिक वार्षिक आय ₹1.20 लाख तक (निर्धारित)",
+    "राशन कार्ड/पात्रता"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "आय प्रमाण"
+   ],
+   "howToApply": [
+    "सूचीबद्ध अस्पताल के सहायता डेस्क से",
+    "कार्ड/पात्रता जाँच",
+    "कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹5 लाख तक/परिवार।"
+    ],
+    [
+     "आय सीमा?",
+     "प्रायः ₹1.20 लाख/वर्ष तक।"
+    ],
+    [
+     "कैशलेस?",
+     "हाँ।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Up to ₹5 lakh / family",
+   "who": "Eligible families of Tamil Nadu",
+   "ministry": "Health Department, Tamil Nadu",
+   "intro": "Tamil Nadu's health scheme — cashless treatment for eligible families at empanelled hospitals (up to ₹5 lakh for certain procedures).",
+   "benefits": [
+    "Cashless treatment at empanelled hospitals",
+    "Up to ₹5 lakh per family (by procedure)",
+    "Govt & private hospitals",
+    "Covers serious illnesses"
+   ],
+   "eligibility": [
+    "Family resident of Tamil Nadu",
+    "Family annual income up to ₹1.20 lakh (set)",
+    "Ration card/eligibility"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Income proof"
+   ],
+   "howToApply": [
+    "Via the help desk at an empanelled hospital",
+    "Card/eligibility check",
+    "Cashless treatment"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "Up to ₹5 lakh/family."
+    ],
+    [
+     "Income limit?",
+     "Usually up to ₹1.20 lakh/year."
+    ],
+    [
+     "Cashless?",
+     "Yes."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "kl-pension",
+  "icon": "🧓",
+  "cat": "pension",
+  "level": "kerala",
+  "tags": [
+   "senior",
+   "pension"
+  ],
+  "name": "Kerala Social Security Pension",
+  "hindi": "केरल सामाजिक सुरक्षा पेंशन",
+  "portal": "https://welfarepension.lsgkerala.gov.in",
+  "hi": {
+   "benefit": "₹1,600 / माह",
+   "who": "केरल के वृद्ध, विधवा, दिव्यांग आदि",
+   "ministry": "स्थानीय स्वशासन विभाग, केरल",
+   "intro": "केरल सरकार की योजना — वृद्ध, विधवा, दिव्यांग व अन्य कमज़ोर वर्गों को ₹1,600 प्रति माह सामाजिक सुरक्षा पेंशन।",
+   "benefits": [
+    "₹1,600 प्रति माह",
+    "वृद्धावस्था, विधवा, दिव्यांग, अविवाहित महिला (50+) आदि",
+    "सीधे खाते/घर पर वितरण"
+   ],
+   "eligibility": [
+    "केरल का निवासी",
+    "निर्धारित श्रेणी (वृद्ध/विधवा/दिव्यांग आदि)",
+    "अन्य सरकारी पेंशन न हो",
+    "आय सीमा (श्रेणी अनुसार)"
+   ],
+   "documents": [
+    "आधार",
+    "श्रेणी प्रमाण (आयु/विधवा/दिव्यांगता)",
+    "बैंक/निवास प्रमाण"
+   ],
+   "howToApply": [
+    "पंचायत/नगरपालिका या welfarepension.lsgkerala.gov.in",
+    "सत्यापन",
+    "मासिक पेंशन"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितनी पेंशन?",
+     "₹1,600/माह।"
+    ],
+    [
+     "किसके लिए?",
+     "वृद्ध, विधवा, दिव्यांग आदि।"
+    ],
+    [
+     "शर्त?",
+     "अन्य सरकारी पेंशन न हो।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,600 / month",
+   "who": "Elderly, widows, disabled, etc. of Kerala",
+   "ministry": "Local Self Government Dept., Kerala",
+   "intro": "A Kerala government scheme giving the elderly, widows, disabled and other vulnerable groups ₹1,600 per month as social security pension.",
+   "benefits": [
+    "₹1,600 per month",
+    "Old age, widow, disabled, unmarried women (50+), etc.",
+    "Delivered to account/at home"
+   ],
+   "eligibility": [
+    "Resident of Kerala",
+    "Set category (elderly/widow/disabled, etc.)",
+    "No other government pension",
+    "Income limit (by category)"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Category proof (age/widow/disability)",
+    "Bank/residence proof"
+   ],
+   "howToApply": [
+    "Panchayat/municipality or welfarepension.lsgkerala.gov.in",
+    "Verification",
+    "Monthly pension"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much?",
+     "₹1,600/month."
+    ],
+    [
+     "For whom?",
+     "Elderly, widows, disabled, etc."
+    ],
+    [
+     "Condition?",
+     "No other government pension."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "kl-kasp",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "kerala",
+  "tags": [
+   "health"
+  ],
+  "name": "Karunya Arogya Suraksha Padhathi (KASP)",
+  "hindi": "करुण्या आरोग्य सुरक्षा पधति (KASP)",
+  "portal": "https://sha.kerala.gov.in",
+  "hi": {
+   "benefit": "₹5 लाख / परिवार / वर्ष",
+   "who": "केरल के गरीब/कमज़ोर परिवार",
+   "ministry": "राज्य स्वास्थ्य एजेंसी, केरल",
+   "intro": "केरल की स्वास्थ्य योजना — गरीब व कमज़ोर परिवारों (निचले 40%) को ₹5 लाख तक कैशलेस इलाज; आयुष्मान भारत से एकीकृत।",
+   "benefits": [
+    "प्रति परिवार ₹5 लाख तक कैशलेस इलाज",
+    "द्वितीयक व तृतीयक इलाज",
+    "सूचीबद्ध अस्पताल",
+    "आयुष्मान भारत (PM-JAY) से एकीकृत"
+   ],
+   "eligibility": [
+    "केरल का निवासी परिवार",
+    "निचले 40% गरीब/कमज़ोर (पात्रता सूची)",
+    "KASP/आयुष्मान कार्ड"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "KASP/आयुष्मान कार्ड"
+   ],
+   "howToApply": [
+    "सूचीबद्ध अस्पताल/अक्षय केंद्र से",
+    "कार्ड बनवाएँ",
+    "कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹5 लाख/परिवार/वर्ष।"
+    ],
+    [
+     "किसके लिए?",
+     "निचले 40% गरीब परिवार।"
+    ],
+    [
+     "कैशलेस?",
+     "हाँ।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹5 lakh / family / year",
+   "who": "Poor/vulnerable families of Kerala",
+   "ministry": "State Health Agency, Kerala",
+   "intro": "Kerala's health scheme — up to ₹5 lakh cashless treatment for poor and vulnerable families (bottom 40%); integrated with Ayushman Bharat.",
+   "benefits": [
+    "Up to ₹5 lakh cashless treatment per family",
+    "Secondary & tertiary care",
+    "Empanelled hospitals",
+    "Integrated with Ayushman Bharat (PM-JAY)"
+   ],
+   "eligibility": [
+    "Family resident of Kerala",
+    "Bottom 40% poor/vulnerable (eligibility list)",
+    "KASP/Ayushman card"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "KASP/Ayushman card"
+   ],
+   "howToApply": [
+    "Via empanelled hospital/Akshaya centre",
+    "Get the card",
+    "Cashless treatment"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "₹5 lakh/family/year."
+    ],
+    [
+     "For whom?",
+     "Bottom-40% poor families."
+    ],
+    [
+     "Cashless?",
+     "Yes."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "kl-life-mission",
+  "icon": "🏠",
+  "cat": "housing",
+  "level": "kerala",
+  "tags": [
+   "housing"
+  ],
+  "name": "LIFE Mission (Housing)",
+  "hindi": "LIFE मिशन (आवास)",
+  "portal": "https://life.lsgkerala.gov.in",
+  "hi": {
+   "benefit": "बेघर/भूमिहीन गरीबों को पक्का घर",
+   "who": "केरल के बेघर/भूमिहीन गरीब परिवार",
+   "ministry": "स्थानीय स्वशासन विभाग, केरल",
+   "intro": "केरल सरकार का प्रमुख आवास मिशन — बेघर व भूमिहीन गरीब परिवारों को पक्का घर बनाने में सहायता।",
+   "benefits": [
+    "पक्का घर बनाने हेतु आर्थिक सहायता (किस्तों में)",
+    "बेघर/भूमिहीन गरीब परिवारों को",
+    "कुछ हेतु भूमि सहित आवास परिसर"
+   ],
+   "eligibility": [
+    "केरल का निवासी",
+    "बेघर या भूमिहीन गरीब परिवार",
+    "निर्धारित पात्रता सूची"
+   ],
+   "documents": [
+    "आधार",
+    "निवास/आय प्रमाण",
+    "भूमि दस्तावेज़ (यदि हो)",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "पंचायत/नगरपालिका के माध्यम से life.lsgkerala.gov.in",
+    "सर्वे/पात्रता सूची",
+    "स्वीकृति पर सहायता"
+   ],
+   "lastDate": "पोर्टल/स्थानीय निकाय पर जाँचें",
+   "faqs": [
+    [
+     "क्या मिलता है?",
+     "पक्का घर बनाने में सहायता।"
+    ],
+    [
+     "किसके लिए?",
+     "बेघर/भूमिहीन गरीब।"
+    ],
+    [
+     "कहाँ?",
+     "पंचायत/नगरपालिका।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Pucca house for homeless/landless poor",
+   "who": "Homeless/landless poor families of Kerala",
+   "ministry": "Local Self Government Dept., Kerala",
+   "intro": "Kerala's flagship housing mission — helping homeless and landless poor families build a pucca house.",
+   "benefits": [
+    "Financial help to build a pucca house (in instalments)",
+    "For homeless/landless poor families",
+    "Housing complexes with land for some"
+   ],
+   "eligibility": [
+    "Resident of Kerala",
+    "Homeless or landless poor family",
+    "Set eligibility list"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Residence/income proof",
+    "Land documents (if any)",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Via panchayat/municipality on life.lsgkerala.gov.in",
+    "Survey/eligibility list",
+    "Support on approval"
+   ],
+   "lastDate": "Check on portal/local body",
+   "faqs": [
+    [
+     "What is given?",
+     "Help to build a pucca house."
+    ],
+    [
+     "For whom?",
+     "Homeless/landless poor."
+    ],
+    [
+     "Where?",
+     "Panchayat/municipality."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "as-orunodoi",
+  "icon": "👩",
+  "cat": "women",
+  "level": "assam",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Orunodoi Scheme",
+  "hindi": "ओरुनोदोई योजना",
+  "portal": "https://orunodoi.assam.gov.in",
+  "hi": {
+   "benefit": "₹1,250 / माह",
+   "who": "असम की कमज़ोर परिवारों की महिलाएँ",
+   "ministry": "वित्त / समाज कल्याण, असम",
+   "intro": "असम सरकार की प्रमुख योजना — आर्थिक रूप से कमज़ोर परिवारों की महिला को हर माह ₹1,250 सीधे खाते में (Orunodoi 3.0)।",
+   "benefits": [
+    "हर माह ₹1,250 (DBT)",
+    "परिवार की महिला के नाम",
+    "~38 लाख परिवार (Orunodoi 3.0)",
+    "भोजन/दवा आदि में सहायता"
+   ],
+   "eligibility": [
+    "असम का निवासी (कमज़ोर/AAY परिवार)",
+    "परिवार की महिला सदस्य",
+    "पारिवारिक आय कम (निर्धारित)",
+    "सरकारी कर्मचारी/करदाता नहीं"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "बैंक खाता (आधार-लिंक)"
+   ],
+   "howToApply": [
+    "orunodoi.assam.gov.in या शिविर/पंचायत",
+    "फॉर्म व सत्यापन",
+    "मासिक राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹1,250/माह।"
+    ],
+    [
+     "किसके नाम?",
+     "परिवार की महिला।"
+    ],
+    [
+     "संस्करण?",
+     "Orunodoi 3.0।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,250 / month",
+   "who": "Women of weaker families in Assam",
+   "ministry": "Finance / Social Welfare, Assam",
+   "intro": "Assam's flagship scheme giving the woman of an economically weaker family ₹1,250 every month directly to her account (Orunodoi 3.0).",
+   "benefits": [
+    "₹1,250 every month (DBT)",
+    "In the name of the woman of the family",
+    "~38 lakh families (Orunodoi 3.0)",
+    "Helps with food/medicines, etc."
+   ],
+   "eligibility": [
+    "Resident of Assam (weaker/AAY family)",
+    "Woman member of the family",
+    "Low family income (set)",
+    "Not a govt employee/taxpayer"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Bank account (Aadhaar-linked)"
+   ],
+   "howToApply": [
+    "orunodoi.assam.gov.in or camp/panchayat",
+    "Form & verification",
+    "Monthly amount"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "₹1,250/month."
+    ],
+    [
+     "In whose name?",
+     "The woman of the family."
+    ],
+    [
+     "Version?",
+     "Orunodoi 3.0."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "as-nijut-moina",
+  "icon": "🎓",
+  "cat": "students",
+  "level": "assam",
+  "tags": [
+   "student",
+   "woman"
+  ],
+  "name": "Mukhya Mantri Nijut Moina",
+  "hindi": "मुख्यमंत्री निजुत मोइना",
+  "portal": "https://nijutmoina.assam.gov.in",
+  "hi": {
+   "benefit": "₹1,000–2,500 / माह (छात्राओं को)",
+   "who": "असम की कक्षा 11 से PG तक की छात्राएँ",
+   "ministry": "शिक्षा विभाग, असम",
+   "intro": "असम सरकार की योजना — बालिकाओं की उच्च शिक्षा बढ़ाने व बाल विवाह रोकने हेतु मासिक छात्रवृत्ति।",
+   "benefits": [
+    "कक्षा 11–12: ₹1,000/माह",
+    "स्नातक: ₹1,250/माह",
+    "स्नातकोत्तर: ₹2,500/माह",
+    "(वर्ष में 10 माह); बाल विवाह रोकने व उच्च शिक्षा हेतु"
+   ],
+   "eligibility": [
+    "असम की निवासी छात्रा",
+    "कक्षा 11 से स्नातकोत्तर तक नामांकित",
+    "सभी आय वर्ग पात्र",
+    "अविवाहित"
+   ],
+   "documents": [
+    "आधार",
+    "नामांकन/संस्थान प्रमाण",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "संस्थान/कॉलेज के माध्यम से आवेदन",
+    "सत्यापन",
+    "मासिक राशि खाते में"
+   ],
+   "lastDate": "शैक्षणिक सत्र अनुसार",
+   "faqs": [
+    [
+     "कितना?",
+     "कक्षा 11–12 ₹1,000, स्नातक ₹1,250, PG ₹2,500/माह।"
+    ],
+    [
+     "किसके लिए?",
+     "छात्राएँ (कक्षा 11 से PG)।"
+    ],
+    [
+     "शर्त?",
+     "अविवाहित, नामांकित।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,000–2,500 / month (to girl students)",
+   "who": "Girl students of Assam from Class 11 to PG",
+   "ministry": "Education Department, Assam",
+   "intro": "An Assam government scheme — a monthly scholarship to boost girls' higher education and prevent child marriage.",
+   "benefits": [
+    "Class 11–12: ₹1,000/month",
+    "Graduation: ₹1,250/month",
+    "Post-graduation: ₹2,500/month",
+    "(10 months a year); to prevent child marriage & boost higher education"
+   ],
+   "eligibility": [
+    "Girl student resident of Assam",
+    "Enrolled Class 11 to post-graduation",
+    "All income groups eligible",
+    "Unmarried"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Enrolment/institution proof",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Apply via institution/college",
+    "Verification",
+    "Monthly amount to account"
+   ],
+   "lastDate": "As per academic session",
+   "faqs": [
+    [
+     "How much?",
+     "Class 11–12 ₹1,000, graduation ₹1,250, PG ₹2,500/month."
+    ],
+    [
+     "For whom?",
+     "Girl students (Class 11 to PG)."
+    ],
+    [
+     "Condition?",
+     "Unmarried, enrolled."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "as-mmua",
+  "icon": "💼",
+  "cat": "loan",
+  "level": "assam",
+  "tags": [
+   "woman",
+   "business"
+  ],
+  "name": "Mukhyamantri Mahila Udyamita Abhiyan (MMUA)",
+  "hindi": "मुख्यमंत्री महिला उद्यमिता अभियान",
+  "portal": "https://mmua.assam.gov.in",
+  "hi": {
+   "benefit": "₹10,000 बीज पूँजी (आगे और)",
+   "who": "असम के SHG से जुड़ी ग्रामीण महिलाएँ",
+   "ministry": "ग्रामीण विकास / ASRLM, असम",
+   "intro": "असम सरकार की योजना — स्वयं सहायता समूह (SHG) की महिलाओं को उद्यम हेतु बीज पूँजी, ताकि वे 'लखपति बाइदेउ' बनें।",
+   "benefits": [
+    "पहली किस्त ₹10,000 बीज पूँजी",
+    "उचित उपयोग पर आगे और सहायता",
+    "उद्यम (अचार, पशुपालन आदि) हेतु",
+    "महिला आत्मनिर्भरता"
+   ],
+   "eligibility": [
+    "असम की निवासी",
+    "किसी SHG की सदस्य",
+    "निर्धारित शर्तें"
+   ],
+   "documents": [
+    "आधार",
+    "SHG सदस्यता",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "अपने SHG/ब्लॉक मिशन के माध्यम से",
+    "बीज पूँजी चेक/DBT",
+    "उद्यम योजना"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "पहली किस्त ₹10,000।"
+    ],
+    [
+     "किसके लिए?",
+     "SHG महिलाएँ।"
+    ],
+    [
+     "लक्ष्य?",
+     "लखपति बाइदेउ बनना।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹10,000 seed capital (more to follow)",
+   "who": "Rural SHG women of Assam",
+   "ministry": "Rural Development / ASRLM, Assam",
+   "intro": "An Assam government scheme giving Self-Help Group (SHG) women seed capital for enterprise, so they become 'Lakhpati Baideu'.",
+   "benefits": [
+    "First instalment of ₹10,000 seed capital",
+    "More support on proper utilisation",
+    "For enterprise (pickle-making, animal husbandry, etc.)",
+    "Women's self-reliance"
+   ],
+   "eligibility": [
+    "Resident of Assam",
+    "Member of an SHG",
+    "Set conditions"
+   ],
+   "documents": [
+    "Aadhaar",
+    "SHG membership",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Via your SHG/block mission",
+    "Seed capital cheque/DBT",
+    "Enterprise plan"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "First instalment ₹10,000."
+    ],
+    [
+     "For whom?",
+     "SHG women."
+    ],
+    [
+     "Goal?",
+     "To become Lakhpati Baideu."
+    ]
+   ]
+  }
  }
 ]
