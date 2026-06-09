@@ -4959,5 +4959,2151 @@
     ]
    ]
   }
+ },
+ {
+  "slug": "ka-gruha-lakshmi",
+  "icon": "👩",
+  "cat": "women",
+  "level": "karnataka",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Gruha Lakshmi Yojana",
+  "hindi": "गृह लक्ष्मी योजना",
+  "portal": "https://sevasindhu.karnataka.gov.in",
+  "hi": {
+   "benefit": "₹2,000 / माह",
+   "who": "कर्नाटक की महिला गृह-मुखिया",
+   "ministry": "महिला एवं बाल विकास विभाग, कर्नाटक",
+   "intro": "कर्नाटक सरकार की योजना (5 गारंटी में से) — हर परिवार की महिला मुखिया को ₹2,000 प्रति माह सीधे बैंक खाते में।",
+   "benefits": [
+    "हर माह ₹2,000 (DBT)",
+    "राशन कार्ड की महिला मुखिया को",
+    "एक परिवार से एक महिला",
+    "1.15 करोड़+ महिलाएँ नामांकित"
+   ],
+   "eligibility": [
+    "कर्नाटक की निवासी",
+    "APL/BPL/अंत्योदय राशन कार्ड की महिला मुखिया",
+    "महिला या पति आयकर/GST दाता न हों",
+    "सरकारी कर्मचारी नहीं"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "बैंक खाता (आधार-लिंक)"
+   ],
+   "howToApply": [
+    "sevasindhu.karnataka.gov.in या Grama One केंद्र",
+    "आधार व राशन कार्ड से आवेदन",
+    "हर माह 10 तारीख के आसपास राशि"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹2,000/माह।"
+    ],
+    [
+     "कौन?",
+     "परिवार की महिला मुखिया।"
+    ],
+    [
+     "कहाँ?",
+     "sevasindhu.karnataka.gov.in।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹2,000 / month",
+   "who": "Woman head of family in Karnataka",
+   "ministry": "Women & Child Development Dept., Karnataka",
+   "intro": "A Karnataka government scheme (one of the 5 guarantees) giving the woman head of every family ₹2,000 per month directly to her bank account.",
+   "benefits": [
+    "₹2,000 every month (DBT)",
+    "To the woman head on the ration card",
+    "One woman per family",
+    "1.15 crore+ women enrolled"
+   ],
+   "eligibility": [
+    "Resident of Karnataka",
+    "Woman head on APL/BPL/Antyodaya ration card",
+    "Woman or husband not an income-tax/GST payer",
+    "Not a govt employee"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Bank account (Aadhaar-linked)"
+   ],
+   "howToApply": [
+    "sevasindhu.karnataka.gov.in or Grama One centre",
+    "Apply with Aadhaar & ration card",
+    "Amount around the 10th each month"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much?",
+     "₹2,000/month."
+    ],
+    [
+     "Who?",
+     "Woman head of family."
+    ],
+    [
+     "Where?",
+     "sevasindhu.karnataka.gov.in."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "ka-gruha-jyoti",
+  "icon": "💡",
+  "cat": "energy",
+  "level": "karnataka",
+  "tags": [
+   "energy",
+   "housing"
+  ],
+  "name": "Gruha Jyoti Yojana",
+  "hindi": "गृह ज्योति योजना",
+  "portal": "https://sevasindhu.karnataka.gov.in",
+  "hi": {
+   "benefit": "200 यूनिट तक मुफ्त बिजली",
+   "who": "कर्नाटक के घरेलू बिजली उपभोक्ता",
+   "ministry": "ऊर्जा विभाग, कर्नाटक",
+   "intro": "कर्नाटक सरकार की योजना (5 गारंटी में से) — घरेलू उपभोक्ताओं को हर माह 200 यूनिट तक मुफ्त बिजली।",
+   "benefits": [
+    "हर माह 200 यूनिट तक मुफ्त बिजली",
+    "सीमा के भीतर शून्य बिल",
+    "किरायेदार भी पात्र",
+    "1.74 करोड़+ उपभोक्ता"
+   ],
+   "eligibility": [
+    "कर्नाटक का घरेलू बिजली कनेक्शन",
+    "पिछले वर्ष की औसत खपत के आधार पर पात्र यूनिट",
+    "किरायेदार: किराया अनुबंध + आधार"
+   ],
+   "documents": [
+    "आधार",
+    "बिजली कनेक्शन/account ID",
+    "मोबाइल नंबर"
+   ],
+   "howToApply": [
+    "Seva Sindhu पर आवेदन",
+    "ESCOM, account ID, आधार भरें",
+    "मंज़ूरी पर मुफ्त यूनिट"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितनी मुफ्त?",
+     "200 यूनिट/माह तक।"
+    ],
+    [
+     "किरायेदार?",
+     "हाँ, अनुबंध से।"
+    ],
+    [
+     "कहाँ?",
+     "Seva Sindhu।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Free electricity up to 200 units",
+   "who": "Domestic power consumers in Karnataka",
+   "ministry": "Energy Department, Karnataka",
+   "intro": "A Karnataka government scheme (one of the 5 guarantees) giving domestic consumers up to 200 free units of electricity a month.",
+   "benefits": [
+    "Up to 200 free units per month",
+    "Zero bill within the limit",
+    "Tenants also eligible",
+    "1.74 crore+ consumers"
+   ],
+   "eligibility": [
+    "Domestic power connection in Karnataka",
+    "Free units based on last year's average usage",
+    "Tenants: rent agreement + Aadhaar"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Power connection/account ID",
+    "Mobile number"
+   ],
+   "howToApply": [
+    "Apply on Seva Sindhu",
+    "Enter ESCOM, account ID, Aadhaar",
+    "Free units on approval"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much free?",
+     "Up to 200 units/month."
+    ],
+    [
+     "Tenants?",
+     "Yes, with agreement."
+    ],
+    [
+     "Where?",
+     "Seva Sindhu."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "ka-yuva-nidhi",
+  "icon": "🎓",
+  "cat": "students",
+  "level": "karnataka",
+  "tags": [
+   "student",
+   "income"
+  ],
+  "name": "Yuva Nidhi Yojana",
+  "hindi": "युवा निधि योजना",
+  "portal": "https://sevasindhu.karnataka.gov.in",
+  "hi": {
+   "benefit": "₹1,500–3,000 / माह (बेरोज़गारी भत्ता)",
+   "who": "कर्नाटक के बेरोज़गार स्नातक/डिप्लोमा",
+   "ministry": "कौशल विकास विभाग, कर्नाटक",
+   "intro": "कर्नाटक सरकार की योजना (5 गारंटी में से) — पास होने के 6 माह बाद भी नौकरी न मिलने पर बेरोज़गार युवाओं को मासिक भत्ता।",
+   "benefits": [
+    "स्नातक: ₹3,000/माह",
+    "डिप्लोमा: ₹1,500/माह",
+    "अधिकतम 2 वर्ष तक",
+    "सीधे खाते में"
+   ],
+   "eligibility": [
+    "कर्नाटक का निवासी",
+    "2022-23 या 2023-24 में पास",
+    "पास होने के 6 माह बाद भी बेरोज़गार",
+    "कोई आय सीमा नहीं"
+   ],
+   "documents": [
+    "आधार",
+    "डिग्री/डिप्लोमा प्रमाण",
+    "निवास प्रमाण",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "sevasindhu.karnataka.gov.in या Seva Sindhu केंद्र",
+    "पंजीकरण व दस्तावेज़",
+    "मासिक भत्ता खाते में"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना भत्ता?",
+     "स्नातक ₹3,000, डिप्लोमा ₹1,500/माह।"
+    ],
+    [
+     "कब तक?",
+     "2 वर्ष तक।"
+    ],
+    [
+     "शर्त?",
+     "6 माह बाद भी बेरोज़गार।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,500–3,000 / month (unemployment allowance)",
+   "who": "Unemployed graduates/diploma holders of Karnataka",
+   "ministry": "Skill Development Dept., Karnataka",
+   "intro": "A Karnataka government scheme (one of the 5 guarantees) giving unemployed youth a monthly allowance if they don't get a job even 6 months after passing.",
+   "benefits": [
+    "Graduates: ₹3,000/month",
+    "Diploma holders: ₹1,500/month",
+    "For up to 2 years",
+    "Directly to account"
+   ],
+   "eligibility": [
+    "Resident of Karnataka",
+    "Passed in 2022-23 or 2023-24",
+    "Still unemployed 6 months after passing",
+    "No income limit"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Degree/diploma proof",
+    "Residence proof",
+    "Bank account"
+   ],
+   "howToApply": [
+    "sevasindhu.karnataka.gov.in or Seva Sindhu centre",
+    "Register & submit documents",
+    "Monthly allowance to account"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much?",
+     "Graduate ₹3,000, diploma ₹1,500/month."
+    ],
+    [
+     "For how long?",
+     "Up to 2 years."
+    ],
+    [
+     "Condition?",
+     "Unemployed 6 months after passing."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "tg-mahalakshmi",
+  "icon": "👩",
+  "cat": "women",
+  "level": "telangana",
+  "tags": [
+   "woman",
+   "energy"
+  ],
+  "name": "Mahalakshmi Scheme",
+  "hindi": "महालक्ष्मी योजना",
+  "portal": "https://www.telangana.gov.in",
+  "hi": {
+   "benefit": "मुफ्त बस + ₹500 गैस सिलेंडर",
+   "who": "तेलंगाना की महिलाएँ",
+   "ministry": "महिला एवं बाल कल्याण, तेलंगाना",
+   "intro": "तेलंगाना सरकार की योजना (6 गारंटी में से) — महिलाओं को सरकारी बसों में मुफ्त यात्रा व ₹500 में रसोई गैस सिलेंडर। ₹2,500 मासिक नकद की घोषणा हुई थी, पर रोलआउट अभी लंबित — पोर्टल पर पुष्टि करें।",
+   "benefits": [
+    "सरकारी (non-luxury) बसों में महिलाओं को मुफ्त यात्रा",
+    "₹500 में LPG रिफिल",
+    "₹2,500 मासिक नकद — घोषित, रोलआउट अभी लंबित"
+   ],
+   "eligibility": [
+    "तेलंगाना की निवासी महिला",
+    "राशन कार्ड/निर्धारित पात्रता",
+    "बस यात्रा हेतु निवास प्रमाण"
+   ],
+   "documents": [
+    "आधार",
+    "तेलंगाना निवास/राशन कार्ड",
+    "गैस कनेक्शन (LPG हेतु)"
+   ],
+   "howToApply": [
+    "मुफ्त बस: सरकारी बस में सीधे (ज़ीरो टिकट)",
+    "LPG सब्सिडी हेतु गैस एजेंसी/पोर्टल",
+    "नकद हेतु आधिकारिक सूचना की प्रतीक्षा"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "अभी क्या मिलता है?",
+     "मुफ्त बस + ₹500 गैस।"
+    ],
+    [
+     "₹2,500 नकद?",
+     "घोषित, पर अभी लंबित।"
+    ],
+    [
+     "किसके लिए?",
+     "तेलंगाना की महिलाएँ।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Free bus + ₹500 gas cylinder",
+   "who": "Women of Telangana",
+   "ministry": "Women & Child Welfare, Telangana",
+   "intro": "A Telangana government scheme (one of the 6 guarantees) giving women free travel on govt buses and an LPG cylinder at ₹500. A ₹2,500 monthly cash component was announced but its rollout is still pending — confirm on the portal.",
+   "benefits": [
+    "Free travel for women on govt (non-luxury) buses",
+    "LPG refill at ₹500",
+    "₹2,500 monthly cash — announced, rollout still pending"
+   ],
+   "eligibility": [
+    "Woman resident of Telangana",
+    "Ration card/set eligibility",
+    "Residence proof for bus travel"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Telangana residence/ration card",
+    "Gas connection (for LPG)"
+   ],
+   "howToApply": [
+    "Free bus: directly on govt buses (zero ticket)",
+    "For LPG subsidy via gas agency/portal",
+    "Await official notice for the cash component"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "What is given now?",
+     "Free bus + ₹500 gas."
+    ],
+    [
+     "₹2,500 cash?",
+     "Announced, but still pending."
+    ],
+    [
+     "For whom?",
+     "Women of Telangana."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "tg-rythu-bharosa",
+  "icon": "🚜",
+  "cat": "agri",
+  "level": "telangana",
+  "tags": [
+   "farmer",
+   "income"
+  ],
+  "name": "Rythu Bharosa",
+  "hindi": "रायतु भरोसा",
+  "portal": "https://rythubharosa.telangana.gov.in",
+  "hi": {
+   "benefit": "₹12,000 / एकड़ / वर्ष",
+   "who": "तेलंगाना के खेती करने वाले किसान",
+   "ministry": "कृषि विभाग, तेलंगाना",
+   "intro": "तेलंगाना सरकार की प्रमुख योजना (पहले रायतु बंधु) — खेती कर रहे किसानों को ₹12,000 प्रति एकड़ प्रति वर्ष निवेश सहायता।",
+   "benefits": [
+    "₹12,000 प्रति एकड़ प्रति वर्ष",
+    "₹6,000 की दो किस्तें (खरीफ व रबी)",
+    "सक्रिय रूप से खेती करने वालों को",
+    "सीधे खाते में (DBT)"
+   ],
+   "eligibility": [
+    "तेलंगाना का निवासी किसान",
+    "कृषि भूमि का स्वामी व सक्रिय खेती",
+    "भू-अभिलेख में दर्ज"
+   ],
+   "documents": [
+    "आधार",
+    "भूमि/पट्टादार पासबुक",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "rythubharosa.telangana.gov.in पर स्थिति देखें",
+    "भूमि सत्यापन के बाद स्वतः",
+    "किस्तें खाते में"
+   ],
+   "lastDate": "फसल मौसम अनुसार",
+   "faqs": [
+    [
+     "कितना?",
+     "₹12,000/एकड़/वर्ष।"
+    ],
+    [
+     "किस्तें?",
+     "₹6,000 की दो।"
+    ],
+    [
+     "पुराना नाम?",
+     "रायतु बंधु।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹12,000 / acre / year",
+   "who": "Cultivating farmers of Telangana",
+   "ministry": "Agriculture Department, Telangana",
+   "intro": "Telangana's flagship scheme (formerly Rythu Bandhu) giving cultivating farmers ₹12,000 per acre per year as investment support.",
+   "benefits": [
+    "₹12,000 per acre per year",
+    "Two instalments of ₹6,000 (Kharif & Rabi)",
+    "For those actively cultivating",
+    "Directly to account (DBT)"
+   ],
+   "eligibility": [
+    "Farmer resident of Telangana",
+    "Owns agricultural land & actively cultivates",
+    "Recorded in land records"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Land/pattadar passbook",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Check status on rythubharosa.telangana.gov.in",
+    "Automatic after land verification",
+    "Instalments to account"
+   ],
+   "lastDate": "As per crop season",
+   "faqs": [
+    [
+     "How much?",
+     "₹12,000/acre/year."
+    ],
+    [
+     "Instalments?",
+     "Two of ₹6,000."
+    ],
+    [
+     "Old name?",
+     "Rythu Bandhu."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "tg-aarogyasri",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "telangana",
+  "tags": [
+   "health"
+  ],
+  "name": "Rajiv Aarogyasri",
+  "hindi": "राजीव आरोग्यश्री",
+  "portal": "https://www.aarogyasri.telangana.gov.in",
+  "hi": {
+   "benefit": "₹10 लाख तक / परिवार / वर्ष",
+   "who": "तेलंगाना के पात्र परिवार",
+   "ministry": "स्वास्थ्य विभाग, तेलंगाना",
+   "intro": "तेलंगाना की स्वास्थ्य योजना — सूचीबद्ध अस्पतालों में पात्र परिवारों को ₹10 लाख तक कैशलेस इलाज।",
+   "benefits": [
+    "प्रति परिवार ₹10 लाख तक कैशलेस इलाज",
+    "गंभीर बीमारियों, सर्जरी आदि",
+    "सरकारी व सूचीबद्ध निजी अस्पताल"
+   ],
+   "eligibility": [
+    "तेलंगाना का निवासी परिवार",
+    "सफ़ेद राशन कार्ड/निर्धारित पात्रता",
+    "आरोग्यश्री कार्ड"
+   ],
+   "documents": [
+    "आधार",
+    "राशन कार्ड",
+    "आरोग्यश्री कार्ड"
+   ],
+   "howToApply": [
+    "सूचीबद्ध अस्पताल के आरोग्यमित्र से",
+    "कार्ड दिखाएँ",
+    "कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹10 लाख तक।"
+    ],
+    [
+     "कैशलेस?",
+     "हाँ।"
+    ],
+    [
+     "कार्ड?",
+     "आरोग्यश्री कार्ड।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Up to ₹10 lakh / family / year",
+   "who": "Eligible families of Telangana",
+   "ministry": "Health Department, Telangana",
+   "intro": "Telangana's health scheme — up to ₹10 lakh cashless treatment for eligible families at empanelled hospitals.",
+   "benefits": [
+    "Up to ₹10 lakh cashless treatment per family",
+    "Serious illnesses, surgeries and more",
+    "Govt & empanelled private hospitals"
+   ],
+   "eligibility": [
+    "Family resident of Telangana",
+    "White ration card/set eligibility",
+    "Aarogyasri card"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Ration card",
+    "Aarogyasri card"
+   ],
+   "howToApply": [
+    "Via the Arogya Mitra at an empanelled hospital",
+    "Show your card",
+    "Cashless treatment"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "Up to ₹10 lakh."
+    ],
+    [
+     "Cashless?",
+     "Yes."
+    ],
+    [
+     "Card?",
+     "Aarogyasri card."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "ap-thalliki-vandanam",
+  "icon": "👩",
+  "cat": "women",
+  "level": "andhra",
+  "tags": [
+   "woman",
+   "student"
+  ],
+  "name": "Thalliki Vandanam",
+  "hindi": "तल्लिकी वंदनम",
+  "portal": "https://www.ap.gov.in",
+  "hi": {
+   "benefit": "₹15,000 / वर्ष प्रति बच्चा",
+   "who": "आंध्र प्रदेश की स्कूली बच्चों की माताएँ",
+   "ministry": "स्कूल शिक्षा विभाग, आंध्र प्रदेश",
+   "intro": "आंध्र प्रदेश सरकार की योजना — कक्षा 1 से 12 तक के हर स्कूली बच्चे की माँ को ₹15,000 प्रति वर्ष, ताकि पढ़ाई न रुके।",
+   "benefits": [
+    "प्रति बच्चा ₹15,000 प्रति वर्ष",
+    "राशि माँ के खाते में",
+    "कक्षा 1–12, सरकारी व निजी स्कूल",
+    "स्कूल विकास हेतु ₹2,000 की कटौती"
+   ],
+   "eligibility": [
+    "आंध्र प्रदेश का निवासी",
+    "कक्षा 1–12 में पढ़ने वाला बच्चा",
+    "पारिवारिक मासिक आय ग्रामीण ₹10,000 / शहरी ₹12,000 तक",
+    "न्यूनतम उपस्थिति"
+   ],
+   "documents": [
+    "आधार (बच्चा व माँ)",
+    "स्कूल नामांकन प्रमाण",
+    "राशन/आय",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "स्कूल शिक्षा विभाग डेटा एकत्र कर सूची बनाता है",
+    "सत्यापन के बाद माँ के खाते में राशि",
+    "सीधे आवेदन नहीं"
+   ],
+   "lastDate": "शैक्षणिक सत्र अनुसार",
+   "faqs": [
+    [
+     "कितना?",
+     "₹15,000/वर्ष प्रति बच्चा।"
+    ],
+    [
+     "किसके खाते में?",
+     "माँ के।"
+    ],
+    [
+     "कौन सी कक्षा?",
+     "1 से 12।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹15,000 / year per child",
+   "who": "Mothers of school-going children in Andhra Pradesh",
+   "ministry": "School Education Dept., Andhra Pradesh",
+   "intro": "An Andhra Pradesh government scheme giving the mother of every school child (Classes 1–12) ₹15,000 per year so that education doesn't stop.",
+   "benefits": [
+    "₹15,000 per year per child",
+    "Amount to the mother's account",
+    "Classes 1–12, govt & private schools",
+    "₹2,000 deducted for school development"
+   ],
+   "eligibility": [
+    "Resident of Andhra Pradesh",
+    "Child studying in Classes 1–12",
+    "Family monthly income up to ₹10,000 rural / ₹12,000 urban",
+    "Minimum attendance"
+   ],
+   "documents": [
+    "Aadhaar (child & mother)",
+    "School enrolment proof",
+    "Ration/income",
+    "Bank account"
+   ],
+   "howToApply": [
+    "School Education Dept. collects data and makes the list",
+    "Amount to mother's account after verification",
+    "No direct application"
+   ],
+   "lastDate": "As per academic session",
+   "faqs": [
+    [
+     "How much?",
+     "₹15,000/year per child."
+    ],
+    [
+     "To whose account?",
+     "The mother's."
+    ],
+    [
+     "Which classes?",
+     "1 to 12."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "ap-annadata-sukhibhava",
+  "icon": "🚜",
+  "cat": "agri",
+  "level": "andhra",
+  "tags": [
+   "farmer",
+   "income"
+  ],
+  "name": "Annadata Sukhibhava",
+  "hindi": "अन्नदाता सुखीभव",
+  "portal": "https://www.ap.gov.in",
+  "hi": {
+   "benefit": "₹20,000 / वर्ष (PM Kisan सहित)",
+   "who": "आंध्र प्रदेश के किसान परिवार",
+   "ministry": "कृषि विभाग, आंध्र प्रदेश",
+   "intro": "आंध्र प्रदेश सरकार की योजना — किसान परिवार को कुल ₹20,000 प्रति वर्ष (₹13,500 राज्य + ₹6,000 PM Kisan)।",
+   "benefits": [
+    "कुल ₹20,000/वर्ष प्रति किसान परिवार",
+    "₹13,500 राज्य + ₹6,000 PM Kisan",
+    "किस्तों में सीधे खाते में",
+    "51 लाख+ किसान परिवार"
+   ],
+   "eligibility": [
+    "आंध्र प्रदेश का निवासी किसान परिवार",
+    "PM Kisan में पात्र",
+    "आधार-लिंक खाता"
+   ],
+   "documents": [
+    "आधार",
+    "भूमि दस्तावेज़",
+    "PM Kisan पंजीकरण",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "Raithu Seva Kendra पर eKYC",
+    "पात्रता सत्यापन",
+    "किस्तें खाते में"
+   ],
+   "lastDate": "फसल मौसम अनुसार",
+   "faqs": [
+    [
+     "कुल कितना?",
+     "₹20,000/वर्ष।"
+    ],
+    [
+     "राज्य हिस्सा?",
+     "₹13,500 (+ ₹6,000 PM Kisan)।"
+    ],
+    [
+     "पुराना नाम?",
+     "YSR रायतु भरोसा।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹20,000 / year (incl. PM Kisan)",
+   "who": "Farmer families of Andhra Pradesh",
+   "ministry": "Agriculture Department, Andhra Pradesh",
+   "intro": "An Andhra Pradesh government scheme giving a farmer family a total of ₹20,000 a year (₹13,500 state + ₹6,000 PM Kisan).",
+   "benefits": [
+    "Total ₹20,000/year per farmer family",
+    "₹13,500 state + ₹6,000 PM Kisan",
+    "In instalments directly to account",
+    "51 lakh+ farmer families"
+   ],
+   "eligibility": [
+    "Farmer family resident of Andhra Pradesh",
+    "Eligible under PM Kisan",
+    "Aadhaar-linked account"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Land records",
+    "PM Kisan registration",
+    "Bank account"
+   ],
+   "howToApply": [
+    "eKYC at Raithu Seva Kendra",
+    "Eligibility verification",
+    "Instalments to account"
+   ],
+   "lastDate": "As per crop season",
+   "faqs": [
+    [
+     "Total amount?",
+     "₹20,000/year."
+    ],
+    [
+     "State share?",
+     "₹13,500 (+ ₹6,000 PM Kisan)."
+    ],
+    [
+     "Old name?",
+     "YSR Rythu Bharosa."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "jh-maiya-samman",
+  "icon": "👩",
+  "cat": "women",
+  "level": "jharkhand",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Mukhyamantri Maiya Samman Yojana",
+  "hindi": "मुख्यमंत्री मंईयां सम्मान योजना",
+  "portal": "https://mmmsy.jharkhand.gov.in",
+  "hi": {
+   "benefit": "₹2,500 / माह",
+   "who": "झारखंड की 18–50 वर्ष की महिलाएँ",
+   "ministry": "महिला, बाल विकास एवं सामाजिक सुरक्षा विभाग, झारखंड",
+   "intro": "झारखंड सरकार की प्रमुख योजना (अगस्त 2024) — पात्र महिलाओं को हर माह ₹2,500 सीधे खाते में (₹1,000 से बढ़ाकर दिसंबर 2024 से ₹2,500)।",
+   "benefits": [
+    "हर माह ₹2,500 (₹30,000/वर्ष)",
+    "₹1,000 → ₹2,500 (दिसंबर 2024)",
+    "56 लाख+ महिलाएँ",
+    "सीधे खाते में (DBT)"
+   ],
+   "eligibility": [
+    "झारखंड की निवासी",
+    "आयु 18–50 वर्ष",
+    "आधार-लिंक बैंक खाता",
+    "आयकरदाता परिवार प्रायः बाहर"
+   ],
+   "documents": [
+    "आधार",
+    "झारखंड निवास/राशन कार्ड",
+    "बैंक पासबुक",
+    "फोटो"
+   ],
+   "howToApply": [
+    "mmmsy.jharkhand.gov.in या शिविर/आँगनवाड़ी",
+    "फॉर्म व दस्तावेज़",
+    "e-KYC व आधार-बैंक लिंक"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹2,500/माह।"
+    ],
+    [
+     "आयु?",
+     "18–50 वर्ष।"
+    ],
+    [
+     "कब बढ़ी?",
+     "दिसंबर 2024 से ₹2,500।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹2,500 / month",
+   "who": "Women of Jharkhand aged 18–50",
+   "ministry": "Women, Child Development & Social Security Dept., Jharkhand",
+   "intro": "Jharkhand's flagship scheme (August 2024) giving eligible women ₹2,500 every month (raised from ₹1,000 to ₹2,500 from December 2024).",
+   "benefits": [
+    "₹2,500 every month (₹30,000/year)",
+    "₹1,000 → ₹2,500 (December 2024)",
+    "56 lakh+ women",
+    "Directly to account (DBT)"
+   ],
+   "eligibility": [
+    "Resident of Jharkhand",
+    "Age 18–50",
+    "Aadhaar-linked bank account",
+    "Income-tax-paying families generally excluded"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Jharkhand residence/ration card",
+    "Bank passbook",
+    "Photo"
+   ],
+   "howToApply": [
+    "mmmsy.jharkhand.gov.in or camp/Anganwadi",
+    "Form & documents",
+    "e-KYC and Aadhaar-bank link"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "₹2,500/month."
+    ],
+    [
+     "Age?",
+     "18–50 years."
+    ],
+    [
+     "Raised when?",
+     "To ₹2,500 from December 2024."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "jh-abua-awas",
+  "icon": "🏠",
+  "cat": "housing",
+  "level": "jharkhand",
+  "tags": [
+   "housing"
+  ],
+  "name": "Abua Awas Yojana",
+  "hindi": "अबुआ आवास योजना",
+  "portal": "https://aay.jharkhand.gov.in",
+  "hi": {
+   "benefit": "पक्के घर हेतु सहायता (~₹2 लाख)",
+   "who": "झारखंड के बेघर/कच्चे घर वाले परिवार",
+   "ministry": "ग्रामीण विकास विभाग, झारखंड",
+   "intro": "झारखंड सरकार की योजना — उन गरीब परिवारों को पक्का (3-कमरे का) घर बनाने हेतु सहायता जो PM आवास से छूट गए।",
+   "benefits": [
+    "पक्का 3-कमरे का घर बनाने हेतु आर्थिक सहायता (~₹2 लाख)",
+    "कई किस्तों में",
+    "PM आवास से वंचित परिवारों को"
+   ],
+   "eligibility": [
+    "झारखंड का निवासी",
+    "बेघर/कच्चा घर",
+    "PM आवास का लाभ न मिला हो",
+    "निर्धारित पात्रता"
+   ],
+   "documents": [
+    "आधार",
+    "निवास प्रमाण",
+    "राशन कार्ड",
+    "बैंक खाता",
+    "भूमि/आवास विवरण"
+   ],
+   "howToApply": [
+    "aay.jharkhand.gov.in या ग्राम सभा/प्रखंड कार्यालय",
+    "आवेदन व सत्यापन",
+    "किस्तों में राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी सहायता?",
+     "पक्के घर हेतु ~₹2 लाख (किस्तों में)।"
+    ],
+    [
+     "किसके लिए?",
+     "PM आवास से वंचित परिवार।"
+    ],
+    [
+     "कहाँ?",
+     "aay.jharkhand.gov.in।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "House support (~₹2 lakh)",
+   "who": "Homeless/kutcha-house families of Jharkhand",
+   "ministry": "Rural Development Dept., Jharkhand",
+   "intro": "A Jharkhand government scheme helping poor families left out of PM Awas to build a pucca (3-room) house.",
+   "benefits": [
+    "Financial help to build a pucca 3-room house (~₹2 lakh)",
+    "In several instalments",
+    "For families left out of PM Awas"
+   ],
+   "eligibility": [
+    "Resident of Jharkhand",
+    "Homeless/kutcha house",
+    "Did not get PM Awas benefit",
+    "As per set eligibility"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Residence proof",
+    "Ration card",
+    "Bank account",
+    "Land/house details"
+   ],
+   "howToApply": [
+    "aay.jharkhand.gov.in or Gram Sabha/Block office",
+    "Apply & verification",
+    "Amount in instalments"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "~₹2 lakh for a pucca house (in instalments)."
+    ],
+    [
+     "For whom?",
+     "Families left out of PM Awas."
+    ],
+    [
+     "Where?",
+     "aay.jharkhand.gov.in."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "cg-mahtari-vandan",
+  "icon": "👩",
+  "cat": "women",
+  "level": "chhattisgarh",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Mahtari Vandan Yojana",
+  "hindi": "महतारी वंदन योजना",
+  "portal": "https://mahtarivandan.cgstate.gov.in",
+  "hi": {
+   "benefit": "₹1,000 / माह",
+   "who": "छत्तीसगढ़ की 21+ विवाहित महिलाएँ",
+   "ministry": "महिला एवं बाल विकास विभाग, छत्तीसगढ़",
+   "intro": "छत्तीसगढ़ सरकार की योजना (मार्च 2024) — विवाहित महिलाओं को हर माह ₹1,000 सीधे खाते में।",
+   "benefits": [
+    "हर माह ₹1,000 (₹12,000/वर्ष)",
+    "विवाहित/विधवा/तलाकशुदा/परित्यक्ता महिलाएँ",
+    "70 लाख+ महिलाएँ",
+    "सीधे खाते में (DBT)"
+   ],
+   "eligibility": [
+    "छत्तीसगढ़ की निवासी",
+    "विवाहित महिला, आयु 21+",
+    "पारिवारिक आय ₹2.5 लाख/वर्ष से कम",
+    "आयकरदाता परिवार नहीं"
+   ],
+   "documents": [
+    "आधार",
+    "निवास/राशन कार्ड",
+    "बैंक खाता (आधार-लिंक)",
+    "फोटो"
+   ],
+   "howToApply": [
+    "mahtarivandan.cgstate.gov.in या आँगनवाड़ी/शिविर",
+    "फॉर्म व e-KYC",
+    "मासिक राशि खाते में"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹1,000/माह।"
+    ],
+    [
+     "आयु?",
+     "21+ (विवाहित)।"
+    ],
+    [
+     "आय सीमा?",
+     "₹2.5 लाख/वर्ष से कम।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,000 / month",
+   "who": "Married women of Chhattisgarh aged 21+",
+   "ministry": "Women & Child Development Dept., Chhattisgarh",
+   "intro": "A Chhattisgarh government scheme (March 2024) giving married women ₹1,000 every month directly to their account.",
+   "benefits": [
+    "₹1,000 every month (₹12,000/year)",
+    "Married/widowed/divorced/deserted women",
+    "70 lakh+ women",
+    "Directly to account (DBT)"
+   ],
+   "eligibility": [
+    "Resident of Chhattisgarh",
+    "Married woman, age 21+",
+    "Family income under ₹2.5 lakh/year",
+    "Not an income-tax-paying family"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Residence/ration card",
+    "Bank account (Aadhaar-linked)",
+    "Photo"
+   ],
+   "howToApply": [
+    "mahtarivandan.cgstate.gov.in or Anganwadi/camp",
+    "Form & e-KYC",
+    "Monthly amount to account"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "₹1,000/month."
+    ],
+    [
+     "Age?",
+     "21+ (married)."
+    ],
+    [
+     "Income limit?",
+     "Under ₹2.5 lakh/year."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "cg-krishak-unnati",
+  "icon": "🚜",
+  "cat": "agri",
+  "level": "chhattisgarh",
+  "tags": [
+   "farmer"
+  ],
+  "name": "Krishak Unnati Yojana",
+  "hindi": "कृषक उन्नति योजना",
+  "portal": "https://kisan.cg.nic.in",
+  "hi": {
+   "benefit": "धान पर MSP + बोनस (प्रति एकड़)",
+   "who": "छत्तीसगढ़ के धान किसान",
+   "ministry": "कृषि विभाग, छत्तीसगढ़",
+   "intro": "छत्तीसगढ़ सरकार की योजना (मार्च 2024) — धान किसानों को MSP के साथ अतिरिक्त बोनस/आदान सहायता, प्रति एकड़ अच्छी कीमत।",
+   "benefits": [
+    "खरीफ में धान की सरकारी खरीद",
+    "MSP + बोनस का अंतर किसानों को",
+    "प्रति एकड़ ~₹19,000+ (वर्ष अनुसार)",
+    "सीधे खाते में"
+   ],
+   "eligibility": [
+    "छत्तीसगढ़ का निवासी धान किसान",
+    "पंजीकृत भूमि व फसल",
+    "निर्धारित पात्रता"
+   ],
+   "documents": [
+    "आधार",
+    "भूमि/ऋण पुस्तिका",
+    "पंजीकरण",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "kisan.cg.nic.in या समिति/मंडी में पंजीकरण",
+    "धान बेचें",
+    "अंतर राशि खाते में"
+   ],
+   "lastDate": "खरीद मौसम अनुसार",
+   "faqs": [
+    [
+     "क्या मिलता है?",
+     "धान पर MSP + बोनस।"
+    ],
+    [
+     "कब?",
+     "खरीफ खरीद मौसम।"
+    ],
+    [
+     "कहाँ?",
+     "kisan.cg.nic.in।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "MSP + bonus on paddy (per acre)",
+   "who": "Paddy farmers of Chhattisgarh",
+   "ministry": "Agriculture Department, Chhattisgarh",
+   "intro": "A Chhattisgarh government scheme (March 2024) giving paddy farmers a bonus/input support over MSP — a good price per acre.",
+   "benefits": [
+    "Govt procurement of paddy in Kharif",
+    "Difference of MSP + bonus to farmers",
+    "~₹19,000+ per acre (varies by year)",
+    "Directly to account"
+   ],
+   "eligibility": [
+    "Paddy farmer resident of Chhattisgarh",
+    "Registered land & crop",
+    "As per set eligibility"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Land/loan book",
+    "Registration",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Register on kisan.cg.nic.in or society/mandi",
+    "Sell paddy",
+    "Difference amount to account"
+   ],
+   "lastDate": "As per procurement season",
+   "faqs": [
+    [
+     "What is given?",
+     "MSP + bonus on paddy."
+    ],
+    [
+     "When?",
+     "Kharif procurement season."
+    ],
+    [
+     "Where?",
+     "kisan.cg.nic.in."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "pb-free-power",
+  "icon": "💡",
+  "cat": "energy",
+  "level": "punjab",
+  "tags": [
+   "energy",
+   "housing"
+  ],
+  "name": "Punjab Free Electricity (300 Units)",
+  "hindi": "पंजाब मुफ्त बिजली (300 यूनिट)",
+  "portal": "https://www.pspcl.in",
+  "hi": {
+   "benefit": "300 यूनिट/माह तक मुफ्त बिजली",
+   "who": "पंजाब के घरेलू बिजली उपभोक्ता",
+   "ministry": "ऊर्जा विभाग, पंजाब / PSPCL",
+   "intro": "पंजाब सरकार की योजना — हर घरेलू उपभोक्ता को हर माह 300 यूनिट तक मुफ्त बिजली (दो माह में 600 यूनिट)। लगभग 90% परिवारों का बिल शून्य।",
+   "benefits": [
+    "हर माह 300 यूनिट तक मुफ्त (दो माह में 600)",
+    "सीमा के भीतर शून्य बिल",
+    "~90% घरेलू उपभोक्ता लाभान्वित",
+    "कोई आय/श्रेणी सीमा नहीं"
+   ],
+   "eligibility": [
+    "पंजाब का घरेलू बिजली कनेक्शन (PSPCL)",
+    "प्रति कनेक्शन लाभ",
+    "600 यूनिट/2 माह से अधिक पर पूरा बिल (सामान्य श्रेणी)"
+   ],
+   "documents": [
+    "बिजली कनेक्शन/account number",
+    "आधार"
+   ],
+   "howToApply": [
+    "स्वतः लागू — अलग आवेदन नहीं",
+    "PSPCL बिल में समायोजन",
+    "जानकारी pspcl.in पर"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितनी मुफ्त?",
+     "300 यूनिट/माह (600/2 माह)।"
+    ],
+    [
+     "आवेदन?",
+     "ज़रूरी नहीं, स्वतः।"
+    ],
+    [
+     "सीमा पार?",
+     "सामान्य श्रेणी को पूरा बिल।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Free electricity up to 300 units/month",
+   "who": "Domestic power consumers of Punjab",
+   "ministry": "Power Department, Punjab / PSPCL",
+   "intro": "A Punjab government scheme giving every domestic consumer up to 300 free units a month (600 units over two months). Nearly 90% of families get a zero bill.",
+   "benefits": [
+    "Up to 300 free units/month (600 over two months)",
+    "Zero bill within the limit",
+    "~90% of domestic consumers benefit",
+    "No income/category limit"
+   ],
+   "eligibility": [
+    "Domestic power connection in Punjab (PSPCL)",
+    "Benefit per connection",
+    "Full bill if over 600 units/2 months (general category)"
+   ],
+   "documents": [
+    "Power connection/account number",
+    "Aadhaar"
+   ],
+   "howToApply": [
+    "Applied automatically — no separate application",
+    "Adjusted in the PSPCL bill",
+    "Details on pspcl.in"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much free?",
+     "300 units/month (600/2 months)."
+    ],
+    [
+     "Application?",
+     "Not needed, automatic."
+    ],
+    [
+     "Over the limit?",
+     "Full bill for general category."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "pb-aam-aadmi-clinic",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "punjab",
+  "tags": [
+   "health"
+  ],
+  "name": "Aam Aadmi Clinic",
+  "hindi": "आम आदमी क्लीनिक",
+  "portal": "https://www.punjab.gov.in",
+  "hi": {
+   "benefit": "मुफ्त इलाज, दवा व जाँच",
+   "who": "पंजाब के सभी निवासी",
+   "ministry": "स्वास्थ्य विभाग, पंजाब",
+   "intro": "पंजाब सरकार की योजना — मोहल्ला-स्तर पर आम आदमी क्लीनिक, जहाँ मुफ्त डॉक्टर परामर्श, दवाइयाँ व जाँच।",
+   "benefits": [
+    "मुफ्त OPD/डॉक्टर परामर्श",
+    "मुफ्त आवश्यक दवाइयाँ",
+    "मुफ्त नैदानिक जाँच (कई टेस्ट)",
+    "घर के पास उपलब्ध"
+   ],
+   "eligibility": [
+    "पंजाब का कोई भी निवासी",
+    "कोई आय सीमा नहीं"
+   ],
+   "documents": [
+    "पहचान (वांछनीय)",
+    "प्रायः किसी पंजीकरण की ज़रूरत नहीं"
+   ],
+   "howToApply": [
+    "नज़दीकी आम आदमी क्लीनिक जाएँ",
+    "परामर्श, दवा व जाँच मुफ्त"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "क्या मुफ्त?",
+     "परामर्श, दवा, जाँच।"
+    ],
+    [
+     "किसके लिए?",
+     "सभी निवासी।"
+    ],
+    [
+     "शुल्क?",
+     "नहीं।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Free treatment, medicines & tests",
+   "who": "All residents of Punjab",
+   "ministry": "Health Department, Punjab",
+   "intro": "A Punjab government scheme — neighbourhood Aam Aadmi Clinics offering free doctor consultation, medicines and diagnostic tests.",
+   "benefits": [
+    "Free OPD/doctor consultation",
+    "Free essential medicines",
+    "Free diagnostic tests (many tests)",
+    "Available close to home"
+   ],
+   "eligibility": [
+    "Any resident of Punjab",
+    "No income limit"
+   ],
+   "documents": [
+    "ID (desirable)",
+    "Usually no registration needed"
+   ],
+   "howToApply": [
+    "Visit the nearest Aam Aadmi Clinic",
+    "Consultation, medicines & tests free"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "What is free?",
+     "Consultation, medicines, tests."
+    ],
+    [
+     "For whom?",
+     "All residents."
+    ],
+    [
+     "Fee?",
+     "None."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "pb-ashirwad",
+  "icon": "💍",
+  "cat": "women",
+  "level": "punjab",
+  "tags": [
+   "woman"
+  ],
+  "name": "Ashirwad Scheme",
+  "hindi": "आशीर्वाद योजना",
+  "portal": "https://www.punjab.gov.in",
+  "hi": {
+   "benefit": "₹51,000 (बेटी के विवाह हेतु)",
+   "who": "पंजाब के SC/BC/EWS/ईसाई परिवारों की बेटियाँ",
+   "ministry": "सामाजिक न्याय एवं अधिकारिता, पंजाब",
+   "intro": "पंजाब सरकार की योजना — गरीब परिवारों की बेटी के विवाह हेतु ₹51,000 की एकमुश्त सहायता।",
+   "benefits": [
+    "बेटी के विवाह हेतु ₹51,000 एकमुश्त",
+    "SC/BC/EWS/ईसाई परिवारों को",
+    "सीधे खाते में"
+   ],
+   "eligibility": [
+    "पंजाब का निवासी",
+    "SC/पिछड़ा वर्ग/EWS/ईसाई परिवार",
+    "निर्धारित वार्षिक आय सीमा",
+    "बेटी की आयु 18+"
+   ],
+   "documents": [
+    "आधार",
+    "जाति/आय प्रमाण",
+    "विवाह प्रमाण",
+    "बैंक विवरण"
+   ],
+   "howToApply": [
+    "संबंधित पोर्टल/ज़िला कार्यालय में आवेदन",
+    "दस्तावेज़ सत्यापन",
+    "सहायता खाते में"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी सहायता?",
+     "₹51,000।"
+    ],
+    [
+     "किसके लिए?",
+     "SC/BC/EWS/ईसाई परिवार की बेटी।"
+    ],
+    [
+     "कब?",
+     "विवाह हेतु।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹51,000 (for daughter's marriage)",
+   "who": "Daughters of SC/BC/EWS/Christian families in Punjab",
+   "ministry": "Social Justice & Empowerment, Punjab",
+   "intro": "A Punjab government scheme giving ₹51,000 one-time assistance for the marriage of a daughter from a poor family.",
+   "benefits": [
+    "₹51,000 one-time for daughter's marriage",
+    "For SC/BC/EWS/Christian families",
+    "Directly to account"
+   ],
+   "eligibility": [
+    "Resident of Punjab",
+    "SC/backward class/EWS/Christian family",
+    "Set annual income limit",
+    "Daughter aged 18+"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Caste/income proof",
+    "Marriage proof",
+    "Bank details"
+   ],
+   "howToApply": [
+    "Apply on the relevant portal/district office",
+    "Document verification",
+    "Assistance to account"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "₹51,000."
+    ],
+    [
+     "For whom?",
+     "Daughter of SC/BC/EWS/Christian family."
+    ],
+    [
+     "When?",
+     "For marriage."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "hr-old-age-pension",
+  "icon": "🧓",
+  "cat": "pension",
+  "level": "haryana",
+  "tags": [
+   "senior",
+   "pension"
+  ],
+  "name": "Old Age Samman Pension",
+  "hindi": "वृद्धावस्था सम्मान पेंशन",
+  "portal": "https://pension.socialjusticehry.gov.in",
+  "hi": {
+   "benefit": "₹3,200 / माह",
+   "who": "हरियाणा के 60+ वरिष्ठ नागरिक",
+   "ministry": "सामाजिक न्याय एवं अधिकारिता, हरियाणा",
+   "intro": "हरियाणा सरकार की योजना — 60 वर्ष से अधिक वरिष्ठ नागरिकों को मासिक पेंशन (नवंबर 2025 से ₹3,000 से बढ़ाकर ₹3,200), देश की सबसे अधिक राज्य पेंशन में से।",
+   "benefits": [
+    "₹3,200 प्रति माह (नवंबर 2025 से)",
+    "सीधे बैंक खाते में",
+    "देश की सबसे अधिक राज्य वृद्धा पेंशन में से"
+   ],
+   "eligibility": [
+    "हरियाणा का निवासी (प्रायः 15 वर्ष)",
+    "आयु 60 वर्ष या अधिक",
+    "निर्धारित आय सीमा",
+    "परिवार पहचान पत्र (PPP)"
+   ],
+   "documents": [
+    "आधार",
+    "परिवार पहचान पत्र (PPP)",
+    "आयु प्रमाण",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "परिवार पहचान पत्र से प्रायः स्वतः पात्रता",
+    "या Antyodaya-SARAL पोर्टल/CSC",
+    "सत्यापन पर पेंशन"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितनी पेंशन?",
+     "₹3,200/माह।"
+    ],
+    [
+     "आयु?",
+     "60+।"
+    ],
+    [
+     "कैसे?",
+     "परिवार पहचान पत्र आधारित।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹3,200 / month",
+   "who": "Senior citizens of Haryana aged 60+",
+   "ministry": "Social Justice & Empowerment, Haryana",
+   "intro": "A Haryana government scheme giving senior citizens above 60 a monthly pension (raised from ₹3,000 to ₹3,200 from November 2025) — one of the highest state pensions in India.",
+   "benefits": [
+    "₹3,200 per month (from November 2025)",
+    "Directly to bank account",
+    "Among the highest state old-age pensions in India"
+   ],
+   "eligibility": [
+    "Resident of Haryana (usually 15 years)",
+    "Age 60 or above",
+    "Set income limit",
+    "Parivar Pehchan Patra (PPP)"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Parivar Pehchan Patra (PPP)",
+    "Age proof",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Often automatic via Parivar Pehchan Patra",
+    "Or Antyodaya-SARAL portal/CSC",
+    "Pension on verification"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much?",
+     "₹3,200/month."
+    ],
+    [
+     "Age?",
+     "60+."
+    ],
+    [
+     "How?",
+     "Based on Parivar Pehchan Patra."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "hr-lado-lakshmi",
+  "icon": "👩",
+  "cat": "women",
+  "level": "haryana",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Deen Dayal Lado Lakshmi Yojana",
+  "hindi": "दीन दयाल लाडो लक्ष्मी योजना",
+  "portal": "https://www.haryana.gov.in",
+  "hi": {
+   "benefit": "₹2,100 / माह",
+   "who": "हरियाणा की 23–60 वर्ष की पात्र महिलाएँ",
+   "ministry": "महिला एवं बाल विकास विभाग, हरियाणा",
+   "intro": "हरियाणा सरकार की योजना (सितंबर 2025) — पात्र महिलाओं को ₹2,100 प्रति माह। जनवरी 2026 से ₹1,100 खाते में + ₹1,000 5-वर्षीय RD में।",
+   "benefits": [
+    "₹2,100 प्रति माह",
+    "जनवरी 2026 से: ₹1,100 नकद + ₹1,000 RD (5 वर्ष)",
+    "चरणबद्ध रूप से लागू",
+    "एक परिवार में कई महिलाएँ पात्र"
+   ],
+   "eligibility": [
+    "हरियाणा की निवासी (विवाहित: पति 15 वर्ष से डोमिसाइल)",
+    "आयु 23–60 वर्ष",
+    "पारिवारिक वार्षिक आय (वर्तमान में) ₹1.40 लाख तक",
+    "₹2,100+ अन्य पेंशन वाली प्रायः अपात्र"
+   ],
+   "documents": [
+    "आधार",
+    "परिवार पहचान पत्र (PPP)",
+    "आय प्रमाण",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "Lado Lakshmi ऐप/पोर्टल या परिवार पहचान पत्र आधारित",
+    "e-KYC",
+    "मासिक राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹2,100/माह (₹1,100 नकद + ₹1,000 RD)।"
+    ],
+    [
+     "आयु?",
+     "23–60 वर्ष।"
+    ],
+    [
+     "आय सीमा?",
+     "वर्तमान में ₹1.40 लाख तक।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹2,100 / month",
+   "who": "Eligible women of Haryana aged 23–60",
+   "ministry": "Women & Child Development Dept., Haryana",
+   "intro": "A Haryana government scheme (September 2025) giving eligible women ₹2,100 per month. From January 2026: ₹1,100 to the account + ₹1,000 into a 5-year RD.",
+   "benefits": [
+    "₹2,100 per month",
+    "From January 2026: ₹1,100 cash + ₹1,000 RD (5 years)",
+    "Rolled out in phases",
+    "Multiple women per family eligible"
+   ],
+   "eligibility": [
+    "Resident of Haryana (married: husband domiciled 15 years)",
+    "Age 23–60",
+    "Family annual income (currently) up to ₹1.40 lakh",
+    "Those getting ₹2,100+ other pension generally ineligible"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Parivar Pehchan Patra (PPP)",
+    "Income proof",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Lado Lakshmi app/portal or via Parivar Pehchan Patra",
+    "e-KYC",
+    "Monthly amount"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "₹2,100/month (₹1,100 cash + ₹1,000 RD)."
+    ],
+    [
+     "Age?",
+     "23–60 years."
+    ],
+    [
+     "Income limit?",
+     "Currently up to ₹1.40 lakh."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "hr-chirayu-ayushman",
+  "icon": "🏥",
+  "cat": "health",
+  "level": "haryana",
+  "tags": [
+   "health"
+  ],
+  "name": "Chirayu Haryana (Ayushman)",
+  "hindi": "चिरायु हरियाणा (आयुष्मान)",
+  "portal": "https://chirayuayushmanharyana.in",
+  "hi": {
+   "benefit": "₹5 लाख / परिवार / वर्ष",
+   "who": "हरियाणा के पात्र परिवार",
+   "ministry": "स्वास्थ्य विभाग, हरियाणा",
+   "intro": "हरियाणा की स्वास्थ्य योजना — आयुष्मान भारत का विस्तार; पात्र परिवारों को ₹5 लाख तक कैशलेस इलाज। कम आय वालों को निःशुल्क, कुछ को मामूली वार्षिक शुल्क।",
+   "benefits": [
+    "प्रति परिवार ₹5 लाख तक कैशलेस इलाज",
+    "सरकारी व सूचीबद्ध निजी अस्पताल",
+    "₹1.80 लाख तक आय: निःशुल्क",
+    "₹1.80–3 लाख आय: ₹1,500/वर्ष देकर"
+   ],
+   "eligibility": [
+    "हरियाणा का निवासी परिवार",
+    "परिवार पहचान पत्र में सत्यापित आय",
+    "आयुष्मान/चिरायु कार्ड"
+   ],
+   "documents": [
+    "आधार",
+    "परिवार पहचान पत्र (PPP)",
+    "आयुष्मान/चिरायु कार्ड"
+   ],
+   "howToApply": [
+    "chirayuayushmanharyana.in या CSC",
+    "पात्रता जाँच कर कार्ड बनवाएँ",
+    "कैशलेस इलाज"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "कितना कवर?",
+     "₹5 लाख/परिवार/वर्ष।"
+    ],
+    [
+     "निःशुल्क?",
+     "₹1.80 लाख तक आय को; अन्य ₹1,500/वर्ष।"
+    ],
+    [
+     "कैशलेस?",
+     "हाँ।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹5 lakh / family / year",
+   "who": "Eligible families of Haryana",
+   "ministry": "Health Department, Haryana",
+   "intro": "Haryana's health scheme — an extension of Ayushman Bharat; up to ₹5 lakh cashless treatment for eligible families. Free for low income, a small annual fee for some.",
+   "benefits": [
+    "Up to ₹5 lakh cashless treatment per family",
+    "Govt & empanelled private hospitals",
+    "Income up to ₹1.80 lakh: free",
+    "Income ₹1.80–3 lakh: by paying ₹1,500/year"
+   ],
+   "eligibility": [
+    "Family resident of Haryana",
+    "Income verified in Parivar Pehchan Patra",
+    "Ayushman/Chirayu card"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Parivar Pehchan Patra (PPP)",
+    "Ayushman/Chirayu card"
+   ],
+   "howToApply": [
+    "chirayuayushmanharyana.in or CSC",
+    "Check eligibility and get the card",
+    "Cashless treatment"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "How much cover?",
+     "₹5 lakh/family/year."
+    ],
+    [
+     "Free?",
+     "For income up to ₹1.80 lakh; others ₹1,500/year."
+    ],
+    [
+     "Cashless?",
+     "Yes."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "uk-mahalakshmi-kit",
+  "icon": "👩",
+  "cat": "women",
+  "level": "uttarakhand",
+  "tags": [
+   "woman"
+  ],
+  "name": "Mukhyamantri Mahalakshmi Kit Yojana",
+  "hindi": "मुख्यमंत्री महालक्ष्मी किट योजना",
+  "portal": "https://wecd.uk.gov.in",
+  "hi": {
+   "benefit": "माँ व बालिका हेतु महालक्ष्मी किट",
+   "who": "उत्तराखंड में संस्थागत प्रसव वाली माताएँ",
+   "ministry": "महिला एवं बाल विकास विभाग, उत्तराखंड",
+   "intro": "उत्तराखंड सरकार की योजना — संस्थागत प्रसव के बाद माँ व नवजात बालिका को महालक्ष्मी किट, ताकि दोनों का स्वास्थ्य व पोषण बेहतर हो।",
+   "benefits": [
+    "माँ व नवजात बालिका हेतु पोषण/देखभाल किट",
+    "प्रायः पहली दो बालिकाओं तक",
+    "संस्थागत प्रसव को बढ़ावा",
+    "माँ-बच्चे का स्वास्थ्य"
+   ],
+   "eligibility": [
+    "उत्तराखंड की निवासी",
+    "अस्पताल/संस्थान में प्रसव",
+    "प्रायः पहली दो बालिकाओं तक"
+   ],
+   "documents": [
+    "आधार",
+    "प्रसव/अस्पताल प्रमाण",
+    "निवास प्रमाण"
+   ],
+   "howToApply": [
+    "प्रसव के समय अस्पताल/आँगनवाड़ी से किट",
+    "पंजीकरण व सत्यापन"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "क्या मिलता है?",
+     "माँ व बालिका हेतु किट।"
+    ],
+    [
+     "कब?",
+     "संस्थागत प्रसव पर।"
+    ],
+    [
+     "कितनी बालिकाएँ?",
+     "प्रायः पहली दो।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Mahalakshmi kit for mother & girl",
+   "who": "Mothers with institutional delivery in Uttarakhand",
+   "ministry": "Women & Child Development Dept., Uttarakhand",
+   "intro": "An Uttarakhand government scheme giving a Mahalakshmi kit to the mother and newborn girl after an institutional delivery, to improve the health and nutrition of both.",
+   "benefits": [
+    "Nutrition/care kit for mother & newborn girl",
+    "Usually up to the first two girls",
+    "Promotes institutional delivery",
+    "Mother & child health"
+   ],
+   "eligibility": [
+    "Resident of Uttarakhand",
+    "Delivery at a hospital/institution",
+    "Usually up to the first two girls"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Delivery/hospital proof",
+    "Residence proof"
+   ],
+   "howToApply": [
+    "Kit from the hospital/Anganwadi at the time of delivery",
+    "Registration & verification"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "What is given?",
+     "A kit for the mother & girl."
+    ],
+    [
+     "When?",
+     "On institutional delivery."
+    ],
+    [
+     "How many girls?",
+     "Usually the first two."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "uk-lakhpati-didi",
+  "icon": "👩",
+  "cat": "women",
+  "level": "uttarakhand",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Lakhpati Didi Yojana",
+  "hindi": "लखपति दीदी योजना",
+  "portal": "https://uksrlm.com",
+  "hi": {
+   "benefit": "SHG महिलाओं को ₹1 लाख+ वार्षिक आय का लक्ष्य",
+   "who": "उत्तराखंड के SHG से जुड़ी महिलाएँ",
+   "ministry": "ग्रामीण विकास विभाग (SRLM), उत्तराखंड",
+   "intro": "उत्तराखंड में सक्रिय अभियान — स्वयं सहायता समूह (SHG) की महिलाओं को कौशल, ऋण व उद्यम सहायता देकर सालाना ₹1 लाख+ की आय तक पहुँचाना।",
+   "benefits": [
+    "SHG महिलाओं को कौशल व उद्यम प्रशिक्षण",
+    "आसान ऋण व बाज़ार सहायता",
+    "लक्ष्य: ₹1 लाख+ वार्षिक आय",
+    "आत्मनिर्भरता"
+   ],
+   "eligibility": [
+    "उत्तराखंड की निवासी",
+    "किसी स्वयं सहायता समूह (SHG) की सदस्य"
+   ],
+   "documents": [
+    "आधार",
+    "SHG सदस्यता",
+    "बैंक खाता"
+   ],
+   "howToApply": [
+    "अपने SHG/ब्लॉक मिशन कार्यालय से जुड़ें",
+    "प्रशिक्षण व उद्यम योजना",
+    "ऋण/सहायता"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "लक्ष्य क्या?",
+     "₹1 लाख+ वार्षिक आय।"
+    ],
+    [
+     "किसके लिए?",
+     "SHG महिलाएँ।"
+    ],
+    [
+     "कैसे?",
+     "अपने SHG के माध्यम से।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1 lakh+ annual income goal for SHG women",
+   "who": "SHG women in Uttarakhand",
+   "ministry": "Rural Development Dept. (SRLM), Uttarakhand",
+   "intro": "An active mission in Uttarakhand — helping Self-Help Group (SHG) women reach an annual income of ₹1 lakh+ through skills, credit and enterprise support.",
+   "benefits": [
+    "Skills & enterprise training for SHG women",
+    "Easy credit & market support",
+    "Goal: ₹1 lakh+ annual income",
+    "Self-reliance"
+   ],
+   "eligibility": [
+    "Resident of Uttarakhand",
+    "Member of a Self-Help Group (SHG)"
+   ],
+   "documents": [
+    "Aadhaar",
+    "SHG membership",
+    "Bank account"
+   ],
+   "howToApply": [
+    "Connect via your SHG/block mission office",
+    "Training & enterprise plan",
+    "Credit/support"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "The goal?",
+     "₹1 lakh+ annual income."
+    ],
+    [
+     "For whom?",
+     "SHG women."
+    ],
+    [
+     "How?",
+     "Through your SHG."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "hp-pyari-behna",
+  "icon": "👩",
+  "cat": "women",
+  "level": "himachal",
+  "tags": [
+   "woman",
+   "income"
+  ],
+  "name": "Indira Gandhi Pyari Behna Sukh Samman Nidhi",
+  "hindi": "इंदिरा गांधी प्यारी बहना सुख सम्मान निधि",
+  "portal": "https://esomsa.hp.gov.in",
+  "hi": {
+   "benefit": "₹1,500 / माह",
+   "who": "हिमाचल की 18–59 वर्ष की महिलाएँ",
+   "ministry": "सामाजिक न्याय एवं अधिकारिता, हिमाचल प्रदेश",
+   "intro": "हिमाचल सरकार की योजना — पात्र महिलाओं को हर माह ₹1,500 सीधे खाते में।",
+   "benefits": [
+    "हर माह ₹1,500 (DBT)",
+    "महिला सशक्तिकरण",
+    "चरणबद्ध रूप से लागू"
+   ],
+   "eligibility": [
+    "हिमाचल की स्थायी निवासी",
+    "आयु 18–59 वर्ष",
+    "परिवार में सरकारी कर्मचारी/पेंशनर/आयकरदाता न हों",
+    "अन्य ₹1,500+ पेंशन वाली अपात्र"
+   ],
+   "documents": [
+    "आधार",
+    "हिमाचल निवास प्रमाण",
+    "बैंक खाता",
+    "आय/शपथ पत्र"
+   ],
+   "howToApply": [
+    "तहसील कल्याण अधिकारी/esomsa.hp.gov.in",
+    "फॉर्म व सत्यापन",
+    "स्वीकृति पर मासिक राशि"
+   ],
+   "lastDate": "पोर्टल पर जाँचें",
+   "faqs": [
+    [
+     "कितनी राशि?",
+     "₹1,500/माह।"
+    ],
+    [
+     "आयु?",
+     "18–59 वर्ष।"
+    ],
+    [
+     "शर्त?",
+     "सरकारी कर्मचारी/आयकरदाता परिवार अपात्र।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "₹1,500 / month",
+   "who": "Women of Himachal aged 18–59",
+   "ministry": "Social Justice & Empowerment, Himachal Pradesh",
+   "intro": "A Himachal government scheme giving eligible women ₹1,500 every month directly to their account.",
+   "benefits": [
+    "₹1,500 every month (DBT)",
+    "Women's empowerment",
+    "Rolled out in phases"
+   ],
+   "eligibility": [
+    "Permanent resident of Himachal",
+    "Age 18–59",
+    "No govt employee/pensioner/income-tax payer in family",
+    "Those getting ₹1,500+ other pension ineligible"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Himachal residence proof",
+    "Bank account",
+    "Income/affidavit"
+   ],
+   "howToApply": [
+    "Tehsil Welfare Officer/esomsa.hp.gov.in",
+    "Form & verification",
+    "Monthly amount on approval"
+   ],
+   "lastDate": "Check on portal",
+   "faqs": [
+    [
+     "How much?",
+     "₹1,500/month."
+    ],
+    [
+     "Age?",
+     "18–59 years."
+    ],
+    [
+     "Condition?",
+     "Govt employee/income-tax-payer families ineligible."
+    ]
+   ]
+  }
+ },
+ {
+  "slug": "hp-sukhashray",
+  "icon": "🧒",
+  "cat": "students",
+  "level": "himachal",
+  "tags": [
+   "student"
+  ],
+  "name": "Mukhya Mantri Sukhashray Yojana",
+  "hindi": "मुख्यमंत्री सुखाश्रय योजना",
+  "portal": "https://esomsa.hp.gov.in",
+  "hi": {
+   "benefit": "अनाथ/निराश्रित बच्चों की पूरी देखभाल",
+   "who": "हिमाचल के अनाथ/निराश्रित बच्चे",
+   "ministry": "सामाजिक न्याय एवं अधिकारिता, हिमाचल प्रदेश",
+   "intro": "हिमाचल सरकार की योजना — अनाथ व निराश्रित बच्चों को 'राज्य के बच्चे' मानकर शिक्षा, मासिक भरण-पोषण, कौशल, आवास व विवाह में सहायता।",
+   "benefits": [
+    "शिक्षा का खर्च (उच्च शिक्षा तक)",
+    "मासिक भरण-पोषण भत्ता",
+    "कौशल व कोचिंग सहायता",
+    "आवास व विवाह हेतु अनुदान"
+   ],
+   "eligibility": [
+    "हिमाचल का निवासी अनाथ/निराश्रित बच्चा/युवा",
+    "निर्धारित श्रेणियाँ (अनाथ, निराश्रित महिला आदि)"
+   ],
+   "documents": [
+    "आधार",
+    "अनाथ/निराश्रित प्रमाण",
+    "निवास प्रमाण",
+    "बैंक विवरण"
+   ],
+   "howToApply": [
+    "बाल देखभाल संस्थान/ज़िला कल्याण कार्यालय",
+    "पंजीकरण व सत्यापन",
+    "योजना अनुसार लाभ"
+   ],
+   "lastDate": "सतत",
+   "faqs": [
+    [
+     "किसके लिए?",
+     "अनाथ/निराश्रित बच्चे।"
+    ],
+    [
+     "क्या मिलता है?",
+     "शिक्षा, भरण-पोषण, आवास, विवाह सहायता।"
+    ],
+    [
+     "कौन?",
+     "हिमाचल सरकार ('राज्य के बच्चे')।"
+    ]
+   ]
+  },
+  "en": {
+   "benefit": "Full care for orphan/destitute children",
+   "who": "Orphan/destitute children of Himachal",
+   "ministry": "Social Justice & Empowerment, Himachal Pradesh",
+   "intro": "A Himachal government scheme treating orphan and destitute children as 'Children of the State' — providing education, monthly maintenance, skills, housing and marriage support.",
+   "benefits": [
+    "Education costs (up to higher education)",
+    "Monthly maintenance allowance",
+    "Skills & coaching support",
+    "Grants for housing & marriage"
+   ],
+   "eligibility": [
+    "Orphan/destitute child/youth resident of Himachal",
+    "Set categories (orphan, destitute woman, etc.)"
+   ],
+   "documents": [
+    "Aadhaar",
+    "Orphan/destitute proof",
+    "Residence proof",
+    "Bank details"
+   ],
+   "howToApply": [
+    "Child care institution/district welfare office",
+    "Registration & verification",
+    "Benefits as per scheme"
+   ],
+   "lastDate": "Open / ongoing",
+   "faqs": [
+    [
+     "For whom?",
+     "Orphan/destitute children."
+    ],
+    [
+     "What is given?",
+     "Education, maintenance, housing, marriage support."
+    ],
+    [
+     "Who?",
+     "Himachal govt ('Children of the State')."
+    ]
+   ]
+  }
  }
 ]
