@@ -226,7 +226,7 @@ def render_index(lang):
     who = ''.join('<button class="opt" data-g="who" data-v="%s">%s</button>' % (v, e(n)) for v, n in t["who_opts"])
     need = ''.join('<button class="opt" data-g="need" data-v="%s">%s</button>' % (v, e(n)) for v, n in t["need_opts"])
     tools = ''.join('<div class="tool"><span class="tag">%s</span><div class="e">%s</div>'
-                    '<h3>%s</h3><p>%s</p><a href="%s" target="_blank" rel="nofollow sponsored">%s</a></div>'
+                    '<h3>%s</h3><p>%s</p><a href="%s" target="_blank" rel="noopener">%s</a></div>'
                     % (e(tg), ic, e(ti), e(de), hr, e(ct))
                     for ic, ti, de, ct, hr, tg in t["tools"])
     js_data = [{"slug": s["slug"], "name": s["name"], "url": scheme_url(lang, s["slug"]),
@@ -380,6 +380,7 @@ if __name__ == "__main__":
             p = (s["slug"] + ".html") if lang == "hi" else ("en/" + s["slug"] + ".html")
             w(p, render_scheme(s, lang)); n += 1
     w("sitemap.xml", render_sitemap())
+    w("google6b8fece3b82b2876.html", "google-site-verification: google6b8fece3b82b2876.html")
     json.dump([{**{k:s[k] for k in ("slug","icon","cat","level","tags","name","hindi","portal")},
                 "hi":s["hi"],"en":s["en"]} for s in SCHEMES],
               open(os.path.join(OUT,"schemes.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=1)
