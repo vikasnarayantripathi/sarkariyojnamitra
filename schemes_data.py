@@ -71,6 +71,65 @@ T = {
  "alert":"<b>सावधान — धोखाधड़ी से बचें:</b> असली सरकारी योजनाओं में आवेदन हमेशा <b>निःशुल्क या आधिकारिक रूप से सब्सिडी वाला</b> होता है। किसी एजेंट को पैसे न दें, अनजान लिंक से APK डाउनलोड न करें, और अपनी बैंक/OTP जानकारी किसी से साझा न करें। आवेदन केवल आधिकारिक <b>.gov.in</b> पोर्टल से ही करें।",
  "foot_about":"भारत की प्रमुख सरकारी योजनाओं की सरल भाषा में जानकारी — पात्रता, लाभ और आधिकारिक आवेदन लिंक एक जगह।",
  "foot_popular":"लोकप्रिय योजनाएँ","foot_links":"लिंक","foot_links_items":["सभी योजनाएँ","पात्रता जाँच","उपयोगी सेवाएँ"],
+ "foot_pages_items":[("privacy","गोपनीयता नीति"),("about","हमारे बारे में"),("contact","संपर्क")],
+ "static":{
+  "privacy":{
+   "title":"गोपनीयता नीति | Sarkari Yojna Mitra",
+   "desc":"Sarkari Yojna Mitra की गोपनीयता नीति — हम आपकी जानकारी कैसे संभालते हैं, कुकीज़ व विज्ञापन भागीदारों की जानकारी।",
+   "h1":"गोपनीयता नीति",
+   "body":"<p>Sarkari Yojna Mitra (\"हम\") एक स्वतंत्र सूचनात्मक वेबसाइट है जो भारत की सरकारी योजनाओं की जानकारी देती है। यह नीति बताती है कि हम कौन-सी जानकारी एकत्र करते हैं, कैसे उपयोग करते हैं, और आपके पास क्या विकल्प हैं।</p>"
+   "<h2>हम क्या जानकारी एकत्र करते हैं</h2>"
+   "<p>हम आपसे खाता बनाने को नहीं कहते और सीधे कोई व्यक्तिगत पहचान वाली जानकारी एकत्र नहीं करते। सुरक्षा व विश्लेषण के लिए सामान्य सर्वर लॉग में आपका IP, ब्राउज़र व देखे गए पन्ने दर्ज हो सकते हैं।</p>"
+   "<h2>कुकीज़ व तृतीय-पक्ष विज्ञापन</h2>"
+   "<p>यह साइट कुकीज़ (छोटी डेटा फ़ाइलें) का उपयोग करती है — आपके अनुभव को बेहतर बनाने व विज्ञापन दिखाने के लिए। हम <b>Google AdSense</b> का उपयोग करते हैं विज्ञापन दिखाने हेतु। Google तृतीय-पक्ष विक्रेता के रूप में कुकीज़ (DART कुकी सहित) का उपयोग करके आपकी पिछली विज़िट के अनुसार विज्ञापन दिखा सकता है।</p>"
+   "<p>आप व्यक्तिगत विज्ञापन से बाहर निकल सकते हैं: <a href=\"https://www.google.com/settings/ads\" rel=\"nofollow\" target=\"_blank\">Google Ads Settings</a> पर जाकर। तृतीय-पक्ष कुकीज़ हेतु <a href=\"https://www.aboutads.info/choices/\" rel=\"nofollow\" target=\"_blank\">aboutads.info/choices</a> पर भी विकल्प हैं।</p>"
+   "<h2>तृतीय-पक्ष लिंक</h2>"
+   "<p>यह साइट आधिकारिक सरकारी पोर्टल (.gov.in) व अन्य संसाधनों के लिंक देती है। उन साइटों की सामग्री व गोपनीयता नीति के लिए हम ज़िम्मेदार नहीं — कृपया उनकी अपनी नीति देखें।</p>"
+   "<h2>बच्चे</h2>"
+   "<p>यह साइट सामान्य दर्शकों के लिए है — 13 वर्ष से कम बच्चों के लिए विशेष रूप से नहीं बनाई गई।</p>"
+   "<h2>नीति में बदलाव</h2>"
+   "<p>हम समय-समय पर इस नीति को अद्यतन कर सकते हैं। बदलाव इसी पन्ने पर नई तिथि के साथ दिखेंगे।</p>"
+   "<h2>संपर्क</h2>"
+   "<p>इस नीति से जुड़े सवाल? हमें ईमेल करें: <a href=\"mailto:quimztech@gmail.com\">quimztech@gmail.com</a></p>"
+   "<p><small>आख़िरी अद्यतन: जून 2026</small></p>"
+  },
+  "about":{
+   "title":"हमारे बारे में | Sarkari Yojna Mitra",
+   "desc":"Sarkari Yojna Mitra के बारे में — हम कौन हैं, क्यों हैं, और हम क्या जानकारी देते हैं।",
+   "h1":"हमारे बारे में",
+   "body":"<p>Sarkari Yojna Mitra भारत की प्रमुख सरकारी योजनाओं की सरल भाषा में जानकारी देने वाली एक स्वतंत्र वेबसाइट है — पात्रता, लाभ और आधिकारिक आवेदन लिंक एक जगह।</p>"
+   "<h2>हम क्यों हैं</h2>"
+   "<p>केंद्र व राज्यों की सैकड़ों योजनाएँ हैं — लेकिन सही जानकारी, सरल भाषा में, एक जगह मिलना अक्सर मुश्किल होता है। लोग अक्सर बिचौलियों के चक्कर में फँस जाते हैं या नकली पोर्टलों पर पैसा गँवा देते हैं। हमारा मक़सद है हर पात्र व्यक्ति तक सही जानकारी पहुँचाना — पूरी तरह निःशुल्क।</p>"
+   "<h2>हम क्या करते हैं</h2>"
+   "<ul>"
+   "<li>केंद्र व 22+ राज्यों की प्रमुख योजनाएँ — हिंदी व English दोनों में</li>"
+   "<li>हर योजना के लिए: लाभ, पात्रता, ज़रूरी दस्तावेज़, आवेदन का तरीक़ा</li>"
+   "<li>केवल आधिकारिक <b>.gov.in</b> पोर्टलों के लिंक</li>"
+   "<li>धोखाधड़ी से बचने की चेतावनी हर पन्ने पर</li>"
+   "</ul>"
+   "<h2>हमारे बारे में संक्षेप में</h2>"
+   "<p>यह साइट <b>Quimztech Network</b> की है — एक स्वतंत्र छोटा प्रकाशक नेटवर्क। हम किसी सरकारी संस्था से संबद्ध नहीं हैं। योजनाओं की शर्तें व राशियाँ समय-समय पर बदल सकती हैं — पूरी पुष्टि के लिए हमेशा आधिकारिक पोर्टल देखें।</p>"
+   "<h2>संपर्क</h2>"
+   "<p>सुझाव, सुधार या जानकारी के लिए: <a href=\"mailto:quimztech@gmail.com\">quimztech@gmail.com</a></p>"
+  },
+  "contact":{
+   "title":"संपर्क करें | Sarkari Yojna Mitra",
+   "desc":"Sarkari Yojna Mitra से संपर्क करें — सुझाव, सुधार, सहयोग, या किसी जानकारी हेतु।",
+   "h1":"संपर्क करें",
+   "body":"<p>हमसे संपर्क करें — सुझाव, सुधार, ग़लती की रिपोर्ट, या सहयोग के लिए।</p>"
+   "<h2>ईमेल</h2>"
+   "<p>👉 <a href=\"mailto:quimztech@gmail.com\">quimztech@gmail.com</a></p>"
+   "<p>हम सामान्यतः 2–3 कार्य-दिवसों में उत्तर देने की कोशिश करते हैं।</p>"
+   "<h2>हम किसमें मदद कर सकते हैं</h2>"
+   "<ul>"
+   "<li>किसी योजना की जानकारी में ग़लती मिले तो बताइए — हम जाँचकर सुधारेंगे</li>"
+   "<li>किसी नई/अद्यतन योजना के बारे में सुझाव</li>"
+   "<li>सहयोग या पार्टनरशिप से जुड़े प्रस्ताव</li>"
+   "</ul>"
+   "<h2>एक ज़रूरी बात</h2>"
+   "<p>हम सरकारी संस्था नहीं हैं — योजनाओं के लिए <b>आवेदन हमारे ज़रिए नहीं</b> होते। आवेदन हमेशा सीधे आधिकारिक <b>.gov.in</b> पोर्टल पर करें। हम बिचौलिए नहीं हैं और न ही किसी से पैसे लेकर आवेदन कराते हैं।</p>"
+  }
+ },
  "disclaimer":"<b>Disclaimer:</b> यह एक स्वतंत्र सूचनात्मक वेबसाइट है, किसी सरकारी संस्था से संबद्ध नहीं। योजना की शर्तें, ब्याज़ दर और पात्रता समय-समय पर बदल सकती हैं — कृपया आधिकारिक पोर्टल पर पुष्टि करें।",
  "crumb_home":"होम","sec_what":"योजना क्या है?","sec_benefits":"मुख्य लाभ","sec_elig":"पात्रता (कौन ले सकता है?)",
  "sec_docs":"ज़रूरी दस्तावेज़","sec_apply":"आवेदन कैसे करें?","sec_faq":"अक्सर पूछे जाने वाले सवाल",
@@ -101,6 +160,65 @@ T = {
  "alert":"<b>Stay alert — avoid fraud:</b> Genuine government schemes are always <b>free or officially subsidised</b>. Never pay an agent, never download APKs from unknown links, and never share your bank/OTP details. Apply only through official <b>.gov.in</b> portals.",
  "foot_about":"Simple-language information on India's major government schemes — eligibility, benefits and official apply links in one place.",
  "foot_popular":"Popular Schemes","foot_links":"Links","foot_links_items":["All schemes","Check eligibility","Useful services"],
+ "foot_pages_items":[("privacy","Privacy Policy"),("about","About"),("contact","Contact")],
+ "static":{
+  "privacy":{
+   "title":"Privacy Policy | Sarkari Yojna Mitra",
+   "desc":"Sarkari Yojna Mitra Privacy Policy — how we handle your information, cookies, and advertising partners.",
+   "h1":"Privacy Policy",
+   "body":"<p>Sarkari Yojna Mitra (\"we\", \"us\") is an independent informational website providing details about Indian government schemes. This policy explains what information we collect, how we use it, and your choices.</p>"
+   "<h2>Information We Collect</h2>"
+   "<p>We do not require accounts and we do not directly collect personally identifiable information. Standard server logs may record your IP address, browser type, and pages visited for security and analytics purposes.</p>"
+   "<h2>Cookies and Third-Party Advertising</h2>"
+   "<p>This site uses cookies — small data files saved on your device — to improve your experience and to serve advertising. We use <b>Google AdSense</b> to display ads. Google, as a third-party vendor, uses cookies (including the DART cookie) to serve ads based on your prior visits to this site and other sites on the Internet.</p>"
+   "<p>You may opt out of personalized advertising by visiting <a href=\"https://www.google.com/settings/ads\" rel=\"nofollow\" target=\"_blank\">Google Ads Settings</a>. You can also opt out of third-party vendor cookies via <a href=\"https://www.aboutads.info/choices/\" rel=\"nofollow\" target=\"_blank\">aboutads.info/choices</a>.</p>"
+   "<h2>Third-Party Links</h2>"
+   "<p>The site links to official government portals (.gov.in) and other resources. We are not responsible for the content or privacy practices of those sites — please review their own policies.</p>"
+   "<h2>Children</h2>"
+   "<p>This site is intended for general audiences and is not specifically directed at children under 13.</p>"
+   "<h2>Changes to This Policy</h2>"
+   "<p>We may update this policy from time to time. Changes will be posted on this page with a revised date.</p>"
+   "<h2>Contact</h2>"
+   "<p>Questions about this policy? Email us at <a href=\"mailto:quimztech@gmail.com\">quimztech@gmail.com</a>.</p>"
+   "<p><small>Last updated: June 2026</small></p>"
+  },
+  "about":{
+   "title":"About | Sarkari Yojna Mitra",
+   "desc":"About Sarkari Yojna Mitra — who we are, why we exist, and what information we provide.",
+   "h1":"About Us",
+   "body":"<p>Sarkari Yojna Mitra is an independent website that provides clear, simple-language information about India's major government schemes — eligibility, benefits, and official apply links, all in one place.</p>"
+   "<h2>Why We Exist</h2>"
+   "<p>India has hundreds of central and state schemes — but accurate information, in simple language, in one place, is often hard to find. People frequently get stuck with middlemen or lose money on fake portals. Our goal is to bring correct information to every eligible person — completely free.</p>"
+   "<h2>What We Do</h2>"
+   "<ul>"
+   "<li>Major schemes of the Centre and 22+ states — in both Hindi and English</li>"
+   "<li>For each scheme: benefits, eligibility, required documents, how to apply</li>"
+   "<li>Only official <b>.gov.in</b> portal links</li>"
+   "<li>A fraud-awareness warning on every page</li>"
+   "</ul>"
+   "<h2>About Us in Short</h2>"
+   "<p>This site is part of the <b>Quimztech Network</b> — a small independent publisher network. We are not affiliated with any government body. Scheme terms and amounts can change from time to time — for full confirmation, always check the official portal.</p>"
+   "<h2>Contact</h2>"
+   "<p>For suggestions, corrections, or general questions: <a href=\"mailto:quimztech@gmail.com\">quimztech@gmail.com</a></p>"
+  },
+  "contact":{
+   "title":"Contact | Sarkari Yojna Mitra",
+   "desc":"Contact Sarkari Yojna Mitra — suggestions, corrections, partnerships, or any information request.",
+   "h1":"Contact Us",
+   "body":"<p>Get in touch — for suggestions, corrections, error reports, or collaboration.</p>"
+   "<h2>Email</h2>"
+   "<p>👉 <a href=\"mailto:quimztech@gmail.com\">quimztech@gmail.com</a></p>"
+   "<p>We typically respond within 2–3 working days.</p>"
+   "<h2>What We Can Help With</h2>"
+   "<ul>"
+   "<li>If you find an error in scheme information, tell us — we will verify and correct it</li>"
+   "<li>Suggestions for new or updated schemes</li>"
+   "<li>Collaboration or partnership proposals</li>"
+   "</ul>"
+   "<h2>One Important Note</h2>"
+   "<p>We are <b>not a government body</b> — applications for schemes are <b>not made through us</b>. Always apply directly on the official <b>.gov.in</b> portal. We are not middlemen and we do not take money from anyone to file applications.</p>"
+  }
+ },
  "disclaimer":"<b>Disclaimer:</b> This is an independent informational website, not affiliated with any government body. Scheme terms, interest rates and eligibility may change over time — please confirm on the official portal.",
  "crumb_home":"Home","sec_what":"What is the scheme?","sec_benefits":"Key Benefits","sec_elig":"Eligibility (Who can apply?)",
  "sec_docs":"Documents Required","sec_apply":"How to Apply","sec_faq":"Frequently Asked Questions",

@@ -22,8 +22,11 @@ def e(x): return html.escape(str(x))
 # ---------- URL helpers (Hindi at root, English under /en/) ----------
 def home_url(lang):       return "/" if lang == "hi" else "/en/"
 def scheme_url(lang, sl): return ("/" + sl) if lang == "hi" else ("/en/" + sl)
+def static_url(lang, sl): return ("/" + sl) if lang == "hi" else ("/en/" + sl)
 def anchor(lang, a):      return home_url(lang) + "#" + a
 def other(lang):          return "en" if lang == "hi" else "hi"
+
+STATIC_SLUGS = ["privacy", "about", "contact"]
 
 def hreflang(slug=None):
     if slug:
@@ -51,6 +54,14 @@ body{font-family:'Mukta',system-ui,Arial,sans-serif;color:var(--ink);background:
 .tricolor{height:4px;background:linear-gradient(90deg,#FF9933 33%,#fff 33% 66%,#138808 66%)}
 a{color:inherit;text-decoration:none}
 .wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+/* static pages (privacy/about/contact) */
+.static{padding:30px 0 50px;max-width:760px}
+.static h1{font-size:1.8rem;margin-bottom:18px;color:var(--ink)}
+.static h2{font-size:1.2rem;margin:24px 0 10px;color:var(--ink)}
+.static p{margin-bottom:12px;line-height:1.65;color:var(--ink)}
+.static ul{margin:8px 0 16px 22px}
+.static li{margin-bottom:6px;line-height:1.55}
+.static a{color:var(--o);text-decoration:underline}
 /* header */
 header{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
 .hd{display:flex;align-items:center;gap:12px;padding:12px 0}
@@ -172,6 +183,7 @@ def head(lang, title, desc, canonical, slug=None, jsonld=None):
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>%s</title><meta name="description" content="%s">'
             '<link rel="canonical" href="%s">\n%s\n%s%s'
+            '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3246006644123903" crossorigin="anonymous"></script>'
             '<style>%s</style></head><body><div class="tricolor"></div>'
             % (lang, e(title), e(desc), canonical, hreflang(slug), GF, j, CSS))
 
@@ -191,15 +203,17 @@ def footer(lang):
                   for s in SCHEMES[:6])
     lk = ''.join('<li><a href="%s">%s</a></li>' % (anchor(lang, a), e(x))
                  for a, x in zip(["schemes","finder","tools"], t["foot_links_items"]))
+    pg = ''.join('<li><a href="%s">%s</a></li>' % (static_url(lang, sl), e(lb))
+                 for sl, lb in t["foot_pages_items"])
     return ('<footer><div class="wrap"><div class="fgrid">'
             '<div><div class="flogo"><span class="box">%s</span><b>%s</b></div>'
             '<p>%s</p></div>'
             '<div><h4>%s</h4><ul>%s</ul></div>'
-            '<div><h4>%s</h4><ul>%s</ul></div></div>'
+            '<div><h4>%s</h4><ul>%s%s</ul></div></div>'
             '<div class="disc">%s</div>'
             '<div class="copy">© 2026 %s · A Quimztech Network site</div>'
             '</div></footer>' % (LOGO, BRAND, t["foot_about"], e(t["foot_popular"]), pop,
-                                 e(t["foot_links"]), lk, t["disclaimer"], BRAND))
+                                 e(t["foot_links"]), lk, pg, t["disclaimer"], BRAND))
 
 def alert(lang):
     return '<div class="wrap"><div class="alert">%s</div></div>' % T[lang]["alert"]
@@ -354,14 +368,34 @@ def render_scheme(s, lang):
     H += "</body></html>"
     return H
 
+def render_static(slug, lang):
+    t = T[lang]
+    sp = t["static"][slug]
+    canonical = SITE + static_url(lang, slug)
+    H = head(lang, sp["title"], sp["desc"], canonical, slug=slug)
+    H += header(lang, static_url(other(lang), slug))
+    H += '<main><div class="wrap"><div class="static">'
+    H += '<h1>%s</h1>' % e(sp["h1"])
+    H += sp["body"]
+    H += '</div></div></main>'
+    H += footer(lang)
+    H += '</body></html>'
+    return H
+
 def render_sitemap():
     urls = []
     for lang in LANGS:
         urls.append(SITE + home_url(lang))
         for s in SCHEMES:
             urls.append(SITE + scheme_url(lang, s["slug"]))
+        for sl in STATIC_SLUGS:
+            urls.append(SITE + static_url(lang, sl))
+    def pri(u):
+        if u.rstrip("/") in (SITE, SITE+"/en"): return "1.0"
+        if any(u.endswith("/"+sl) or u.endswith("/en/"+sl) for sl in STATIC_SLUGS): return "0.5"
+        return "0.8"
     body = ''.join('<url><loc>%s</loc><changefreq>weekly</changefreq><priority>%s</priority></url>'
-                   % (u, "1.0" if u.rstrip("/") in (SITE, SITE+"/en") else "0.8") for u in urls)
+                   % (u, pri(u)) for u in urls)
     return '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">%s</urlset>' % body
 
 # ---------------- build ----------------
@@ -379,9 +413,12 @@ if __name__ == "__main__":
         for s in SCHEMES:
             p = (s["slug"] + ".html") if lang == "hi" else ("en/" + s["slug"] + ".html")
             w(p, render_scheme(s, lang)); n += 1
+        for sl in STATIC_SLUGS:
+            p = (sl + ".html") if lang == "hi" else ("en/" + sl + ".html")
+            w(p, render_static(sl, lang)); n += 1
     w("sitemap.xml", render_sitemap())
     w("google6b8fece3b82b2876.html", "google-site-verification: google6b8fece3b82b2876.html")
     json.dump([{**{k:s[k] for k in ("slug","icon","cat","level","tags","name","hindi","portal")},
                 "hi":s["hi"],"en":s["en"]} for s in SCHEMES],
               open(os.path.join(OUT,"schemes.json"),"w",encoding="utf-8"), ensure_ascii=False, indent=1)
-    print("Built %d HTML pages (%d schemes x 2 langs + 2 homes) + sitemap.xml + schemes.json" % (n, len(SCHEMES)))
+    print("Built %d HTML pages (%d schemes x 2 + 2 homes + %d static x 2) + sitemap.xml + schemes.json" % (n, len(SCHEMES), len(STATIC_SLUGS)))
