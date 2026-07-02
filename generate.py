@@ -26,7 +26,7 @@ def static_url(lang, sl): return ("/" + sl) if lang == "hi" else ("/en/" + sl)
 def anchor(lang, a):      return home_url(lang) + "#" + a
 def other(lang):          return "en" if lang == "hi" else "hi"
 
-STATIC_SLUGS = ["privacy", "about", "contact"]
+STATIC_SLUGS = ["privacy", "about", "contact", "disclaimer", "terms"]
 
 def hreflang(slug=None):
     if slug:
@@ -417,6 +417,7 @@ if __name__ == "__main__":
             p = (sl + ".html") if lang == "hi" else ("en/" + sl + ".html")
             w(p, render_static(sl, lang)); n += 1
     w("sitemap.xml", render_sitemap())
+    w("ads.txt", "google.com, pub-3246006644123903, DIRECT, f08c47fec0942fa0\n")
     w("google6b8fece3b82b2876.html", "google-site-verification: google6b8fece3b82b2876.html")
     json.dump([{**{k:s[k] for k in ("slug","icon","cat","level","tags","name","hindi","portal")},
                 "hi":s["hi"],"en":s["en"]} for s in SCHEMES],
