@@ -1,4 +1,53 @@
+# Sarkari Yojna Mitra — robots.txt
+# Allow all search engines and AI crawlers
+
 User-agent: *
 Allow: /
 
+# Google
+User-agent: Googlebot
+Allow: /
+
+# Google AdSense crawler
+User-agent: Mediapartners-Google
+Allow: /
+
+# Google ads.txt crawler
+User-agent: Google-adstxt
+Allow: /ads.txt
+
+# AI Search Engines — GEO Optimization
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Bing
+User-agent: Bingbot
+Allow: /
+
+# Yandex
+User-agent: YandexBot
+Allow: /
+
+# Sitemap
 Sitemap: https://sarkariyojnamitra.com/sitemap.xml
