@@ -183,7 +183,7 @@ def head(lang, title, desc, canonical, slug=None, jsonld=None):
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>%s</title><meta name="description" content="%s"><meta property="og:type" content="article"><meta property="article:modified_time" content="2026-07-03">'
             '<link rel="canonical" href="%s">\n%s\n%s%s'
-            '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3246006644123903" crossorigin="anonymous"></script>'
+            '<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ7KBCEX94"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-YQ7KBCEX94');</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3246006644123903" crossorigin="anonymous"></script>'
             '<style>%s</style></head><body><div class="tricolor"></div>'
             % (lang, e(title), e(desc), canonical, hreflang(slug), GF, j, CSS))
 
