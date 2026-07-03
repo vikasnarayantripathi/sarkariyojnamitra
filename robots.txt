@@ -51,3 +51,6 @@ Allow: /
 
 # Sitemap
 Sitemap: https://sarkariyojnamitra.com/sitemap.xml
+
+# LLM metadata
+Llms-txt: https://sarkariyojnamitra.com/llms.txt

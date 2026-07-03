@@ -181,7 +181,7 @@ def head(lang, title, desc, canonical, slug=None, jsonld=None):
         j = "\n".join('<script type="application/ld+json">%s</script>' % json.dumps(o, ensure_ascii=False) for o in jsonld)
     return ('<!DOCTYPE html><html lang="%s"><head><meta charset="UTF-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
-            '<title>%s</title><meta name="description" content="%s">'
+            '<title>%s</title><meta name="description" content="%s"><meta property="og:type" content="article"><meta property="article:modified_time" content="2026-07-03">'
             '<link rel="canonical" href="%s">\n%s\n%s%s'
             '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3246006644123903" crossorigin="anonymous"></script>'
             '<style>%s</style></head><body><div class="tricolor"></div>'
@@ -342,7 +342,7 @@ def render_scheme(s, lang):
           % (home_url(lang), e(t["crumb_home"]), e(s["name"])))
     H += ('<div class="sp-hero"><span class="ic">%s</span>'
           '<span class="lvl %s" style="margin-left:10px">%s</span>'
-          '<h1>%s</h1><p class="sub">%s</p>'
+          '<h1>%s</h1><p class="updated">अंतिम अपडेट: 03/07/2026</p><p class="sub">%s</p>'
           '<div class="facts">'
           '<div class="fact"><span>%s</span><b>%s</b></div>'
           '<div class="fact"><span>%s</span><b>%s</b></div>'
@@ -417,6 +417,7 @@ if __name__ == "__main__":
             p = (sl + ".html") if lang == "hi" else ("en/" + sl + ".html")
             w(p, render_static(sl, lang)); n += 1
     w("sitemap.xml", render_sitemap())
+    w("llms.txt", open(os.path.join(OUT,"llms.txt"),"r",encoding="utf-8").read())
     w("ads.txt", "google.com, pub-3246006644123903, DIRECT, f08c47fec0942fa0\n")
     w("google6b8fece3b82b2876.html", "google-site-verification: google6b8fece3b82b2876.html")
     json.dump([{**{k:s[k] for k in ("slug","icon","cat","level","tags","name","hindi","portal")},

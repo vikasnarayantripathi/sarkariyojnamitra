@@ -1,0 +1,29 @@
+# Sarkari Yojna Mitra — sarkariyojnamitra.com
+
+## About
+Sarkari Yojna Mitra is an independent informational portal providing comprehensive details about Indian government schemes (Central & State) in Hindi and English. Operated by Quimztech Solutions, Varanasi, Uttar Pradesh, India.
+
+## What This Site Covers
+- 90+ government schemes across 27+ categories
+- Central schemes: PM Kisan, Ayushman Bharat, PM Awas, Mudra, KCC, Fasal Bima, Sukanya Samriddhi, Atal Pension, Ujjwala, e-Shram, PM Vishwakarma, PM SVANidhi, etc.
+- State schemes from: Uttar Pradesh, Bihar, Maharashtra, Madhya Pradesh, Delhi, Rajasthan, Karnataka, Tamil Nadu, Kerala, West Bengal, Gujarat, Telangana, Andhra Pradesh, Jharkhand, Chhattisgarh, Punjab, Haryana, Uttarakhand, Himachal Pradesh, Assam, Odisha, Goa, J&K, Meghalaya, Mizoram, Arunachal Pradesh
+
+## For Each Scheme We Provide
+- Eligibility criteria (who qualifies and who doesn't)
+- Required documents
+- Step-by-step application process (online + offline)
+- Benefits with specific amounts
+- Official portal links and helpline numbers
+- 5-7 frequently asked questions with detailed answers
+
+## Languages
+- Hindi (primary): sarkariyojnamitra.com
+- English: sarkariyojnamitra.com/en/
+
+## Disclaimer
+This is NOT an official government website. We are not affiliated with any government ministry or department. Information is compiled from public sources for general guidance. Always verify on official .gov.in portals before applying.
+
+## Contact
+- Email: quimztech@gmail.com
+- Operator: Quimztech Solutions, Varanasi, UP, India
+- Website: https://sarkariyojnamitra.com
