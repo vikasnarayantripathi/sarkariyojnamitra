@@ -16,7 +16,11 @@ Edit scheme content in schemes_data.py, then re-run. Push all files to GitHub
 import json, os, html
 from schemes_data import SITE, BRAND, LANGS, CAT, LEVELS, T, SCHEMES
 
-OUT = os.path.dirname(os.path.abspath(__file__))\ntry:\n    from subpages_data import SUBPAGES\nexcept Exception:\n    SUBPAGES = {}
+OUT = os.path.dirname(os.path.abspath(__file__))
+try:
+    from subpages_data import SUBPAGES
+except Exception:
+    SUBPAGES = {}
 def e(x): return html.escape(str(x))
 
 # ---------- URL helpers (Hindi at root, English under /en/) ----------
