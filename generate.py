@@ -16,7 +16,7 @@ Edit scheme content in schemes_data.py, then re-run. Push all files to GitHub
 import json, os, html
 from schemes_data import SITE, BRAND, LANGS, CAT, LEVELS, T, SCHEMES
 
-OUT = os.path.dirname(os.path.abspath(__file__))
+OUT = os.path.dirname(os.path.abspath(__file__))\ntry:\n    from subpages_data import SUBPAGES\nexcept Exception:\n    SUBPAGES = {}
 def e(x): return html.escape(str(x))
 
 # ---------- URL helpers (Hindi at root, English under /en/) ----------
@@ -372,6 +372,10 @@ def render_scheme(s, lang):
              e(t["lbl_benefit"]), e(c["benefit"]), e(t["lbl_who"]), e(c["who"]),
              e(t["lbl_ministry"]), e(c["ministry"]), e(t["lbl_lastdate"]), e(c["lastDate"])))
     H += '<div class="block"><h2>%s</h2><p>%s</p></div>' % (e(t["sec_what"]), e(c["intro"]))
+    sp_guides = SUBPAGES.get(s["slug"], [])
+    if lang == "hi" and sp_guides:
+        g = ''.join('<a href="/%s/%s">📄 %s</a>' % (s["slug"], x["slug"], e(x["nav"])) for x in sp_guides)
+        H += '<div class="block"><h2>विस्तृत गाइड</h2><div class="related">%s</div></div>' % g
     H += '<div class="block"><h2>%s</h2>%s</div>' % (e(t["sec_benefits"]), ul(c["benefits"]))
     H += '<div class="block"><h2>%s</h2>%s</div>' % (e(t["sec_elig"]), ul(c["eligibility"]))
     H += '<div class="block"><h2>%s</h2>%s</div>' % (e(t["sec_docs"]), ul(c["documents"]))
@@ -402,6 +406,57 @@ def render_static(slug, lang):
     H += '</body></html>'
     return H
 
+
+def render_subpage(s, sp):
+    """Render one Hindi subpage for scheme s."""
+    lang = "hi"; t = T[lang]; c = s[lang]
+    url = "/" + s["slug"] + "/" + sp["slug"]
+    canonical = SITE + url
+    sibs = SUBPAGES.get(s["slug"], [])
+    sibnav = '<div class="chips" style="justify-content:flex-start;margin:0 0 18px">'
+    sibnav += '<a class="chip" href="%s">%s सम्पूर्ण गाइड</a>' % (scheme_url(lang, s["slug"]), s["icon"])
+    for x in sibs:
+        cls = "chip on" if x["slug"] == sp["slug"] else "chip"
+        sibnav += '<a class="%s" href="/%s/%s">%s</a>' % (cls, s["slug"], x["slug"], e(x["nav"]))
+    sibnav += "</div>"
+    steps_html = '<ul class="steps">%s</ul>' % ''.join('<li>%s</li>' % e(i) for i in sp["steps"])
+    faqs_html = ''.join('<div class="faq"><b>%s</b><span>%s</span></div>' % (e(q), e(a)) for q, a in sp["faqs"])
+    jsonld = [
+        {"@context":"https://schema.org","@type":"HowTo","name":sp["h1"],
+         "description":sp["intro"][:200],"inLanguage":"hi",
+         "step":[{"@type":"HowToStep","position":i+1,"text":st} for i, st in enumerate(sp["steps"])]},
+        {"@context":"https://schema.org","@type":"FAQPage","inLanguage":"hi",
+         "mainEntity":[{"@type":"Question","name":q,
+            "acceptedAnswer":{"@type":"Answer","text":a}} for q, a in sp["faqs"]]},
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+            {"@type":"ListItem","position":1,"name":t["crumb_home"],"item":SITE+home_url(lang)},
+            {"@type":"ListItem","position":2,"name":s["name"],"item":SITE+scheme_url(lang,s["slug"])},
+            {"@type":"ListItem","position":3,"name":sp["nav"],"item":canonical}]}
+    ]
+    H = head(lang, sp["title"], sp["desc"], canonical, None, jsonld)
+    H += header(lang, home_url("en"))
+    H += ('<div class="wrap"><div class="crumb"><a href="%s">%s</a> › <a href="%s">%s</a> › %s</div>'
+          % (home_url(lang), e(t["crumb_home"]), scheme_url(lang, s["slug"]), e(s["name"]), e(sp["nav"])))
+    H += sibnav
+    H += ('<div class="sp-hero"><span class="ic">%s</span>'
+          '<h1>%s</h1><p class="updated">अंतिम अपडेट: जुलाई 2026 · स्रोत: %s</p>'
+          '<p style="color:#3D2E22;margin-top:8px">%s</p></div>'
+          % (s["icon"], e(sp["h1"]), e(s["portal"].replace("https://","")), e(sp["intro"])))
+    H += '<div class="block"><h2>%s</h2>%s</div>' % (e(sp["steps_h"]), steps_html)
+    if sp.get("extra_html"):
+        H += sp["extra_html"]
+    H += '<div class="block"><h2>अक्सर पूछे जाने वाले सवाल</h2>%s</div>' % faqs_html
+    H += ('<div class="block"><h2>आधिकारिक लिंक</h2>'
+          '<p><a class="cta-apply" href="%s" target="_blank" rel="noopener">%s पर जाएं →</a></p></div>'
+          % (s["portal"], e(s["portal"].replace("https://",""))))
+    rel = ''.join('<a href="/%s/%s">%s</a>' % (s["slug"], x["slug"], e(x["nav"]))
+                  for x in sibs if x["slug"] != sp["slug"])
+    H += '<div class="block"><h2>इस योजना की अन्य गाइड</h2><div class="related">%s<a href="%s">%s सम्पूर्ण जानकारी</a></div></div>' % (rel, scheme_url(lang, s["slug"]), s["icon"])
+    H += "</div>"
+    H += footer(lang)
+    H += "</body></html>"
+    return H
+
 def render_sitemap():
     urls = []
     for lang in LANGS:
@@ -410,6 +465,9 @@ def render_sitemap():
             urls.append(SITE + scheme_url(lang, s["slug"]))
         for sl in STATIC_SLUGS:
             urls.append(SITE + static_url(lang, sl))
+    for sslug, subs in SUBPAGES.items():
+        for sp in subs:
+            urls.append(SITE + "/" + sslug + "/" + sp["slug"])
     def pri(u):
         if u.rstrip("/") in (SITE, SITE+"/en"): return "1.0"
         if any(u.endswith("/"+sl) or u.endswith("/en/"+sl) for sl in STATIC_SLUGS): return "0.5"

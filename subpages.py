@@ -1,0 +1,338 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+SESSION 3: SUBPAGE ENGINE + PM KISAN PILOT (6 pages)
+Creates: subpages_data.py + patches generate.py (render, build loop, sitemap, hub links)
+URLs: /pm-kisan/status, /pm-kisan/ekyc, /pm-kisan/installment-date,
+      /pm-kisan/beneficiary-list, /pm-kisan/registration, /pm-kisan/helpline
+Run: python subpages.py
+"""
+import os, sys
+
+REPO = os.path.dirname(os.path.abspath(__file__))
+
+def read(f):
+    with open(os.path.join(REPO, f), "r", encoding="utf-8") as fh: return fh.read()
+def write(f, c):
+    with open(os.path.join(REPO, f), "w", encoding="utf-8") as fh: fh.write(c)
+
+# ═══════════════════════════════════════════
+# PART A: subpages_data.py (PM Kisan content)
+# ═══════════════════════════════════════════
+SUBPAGES_DATA = '''# -*- coding: utf-8 -*-
+# SUBPAGES: scheme-slug -> list of subpage dicts (Hindi)
+# Each: slug, nav (short label), title, desc, h1, intro (answer-first),
+#       steps_h, steps[], extra_html (optional), faqs[[q,a]]
+
+SUBPAGES = {
+"pm-kisan": [
+{
+ "slug": "status",
+ "nav": "किस्त स्टेटस",
+ "title": "PM Kisan Beneficiary Status 2026 — किस्त स्टेटस ऐसे चेक करें | Sarkari Yojna Mitra",
+ "desc": "PM Kisan किस्त स्टेटस चेक करें 2 मिनट में — pmkisan.gov.in पर मोबाइल नंबर या रजिस्ट्रेशन नंबर से। पैसा आया या नहीं, तुरंत जानें।",
+ "h1": "PM Kisan किस्त स्टेटस कैसे चेक करें (Beneficiary Status)",
+ "intro": "PM Kisan किस्त का स्टेटस चेक करने के लिए pmkisan.gov.in पर जाएं, 'Know Your Status' पर क्लिक करें, अपना रजिस्ट्रेशन नंबर या आधार से जुड़ा मोबाइल नंबर डालें, OTP वेरिफ़ाई करें — आपकी सभी किस्तों का पूरा विवरण (कब भेजी गई, कितनी राशि, कौन-सी pending) तुरंत स्क्रीन पर दिख जाएगा। यह सुविधा पूरी तरह निःशुल्क है।",
+ "steps_h": "स्टेटस चेक करने के 5 आसान स्टेप",
+ "steps": [
+  "pmkisan.gov.in खोलें — मोबाइल या कंप्यूटर किसी से भी",
+  "होमपेज पर 'Know Your Status' (अपना स्टेटस जानें) पर क्लिक करें",
+  "रजिस्ट्रेशन नंबर डालें। नंबर याद नहीं? 'Know your registration no.' पर क्लिक करके मोबाइल/आधार से पता करें",
+  "कैप्चा भरें और 'Get OTP' दबाएं — आधार से लिंक मोबाइल पर OTP आएगा",
+  "OTP डालते ही सभी किस्तों की पूरी हिस्ट्री दिख जाएगी — तारीख़, राशि, बैंक, और स्थिति"
+ ],
+ "extra_html": "<div class=\\"block\\"><h2>स्टेटस में क्या-क्या दिखता है?</h2><ul><li>अब तक कितनी किस्तें मिलीं और किस तारीख़ को</li><li>पैसा किस बैंक खाते में गया (खाते के आख़िरी 4 अंक)</li><li>e-KYC पूरा है या pending</li><li>भूमि सत्यापन (Land Seeding) की स्थिति</li><li>आधार-बैंक लिंकिंग स्टेटस</li><li>अगर किस्त रुकी है तो कारण (FTO/Payment Failure आदि)</li></ul></div>",
+ "faqs": [
+  ["बिना रजिस्ट्रेशन नंबर के स्टेटस कैसे देखें?", "pmkisan.gov.in पर 'Know Your Status' खोलें → 'Know your registration no.' लिंक पर क्लिक करें → मोबाइल नंबर या आधार नंबर डालें → OTP वेरिफ़ाई करें → आपका रजिस्ट्रेशन नंबर स्क्रीन पर आ जाएगा। फिर उससे स्टेटस देखें।"],
+  ["स्टेटस में 'FTO is generated' का क्या मतलब है?", "FTO (Fund Transfer Order) generate होने का मतलब है कि सरकार ने पैसा भेजने की मंज़ूरी दे दी है। आमतौर पर 4-7 दिन में राशि आपके बैंक खाते में पहुँच जाती है।"],
+  ["Payment Failed दिखे तो क्या करें?", "Payment Failure आमतौर पर बैंक खाता बंद होने, आधार लिंक न होने, या IFSC बदलने से होता है। अपनी बैंक शाखा में जाकर खाता आधार से लिंक कराएं, फिर pmkisan.gov.in के Helpdesk या 155261 पर सुधार का अनुरोध करें।"],
+  ["मोबाइल से स्टेटस चेक हो सकता है?", "हाँ, pmkisan.gov.in मोबाइल ब्राउज़र पर भी पूरी तरह काम करता है। इसके अलावा PM Kisan Mobile App (Google Play Store) से भी स्टेटस देख सकते हैं।"],
+  ["गाँव के सभी लोगों की लिस्ट कैसे देखें?", "pmkisan.gov.in → 'Beneficiary List' → राज्य, ज़िला, तहसील, ब्लॉक, गाँव चुनें → Get Report। पूरे गाँव के लाभार्थियों की सूची दिख जाएगी।"]
+ ]
+},
+{
+ "slug": "ekyc",
+ "nav": "e-KYC",
+ "title": "PM Kisan e-KYC 2026 — मोबाइल से 2 मिनट में ऐसे करें | Sarkari Yojna Mitra",
+ "desc": "PM Kisan e-KYC करें OTP से घर बैठे या CSC पर biometric से। e-KYC के बिना किस्त नहीं आएगी — पूरी प्रक्रिया स्टेप बाय स्टेप हिंदी में।",
+ "h1": "PM Kisan e-KYC कैसे करें (OTP और Biometric दोनों तरीके)",
+ "intro": "PM Kisan e-KYC करने के दो तरीके हैं: (1) OTP-आधारित — pmkisan.gov.in पर आधार नंबर डालकर मोबाइल OTP से घर बैठे 2 मिनट में, और (2) Biometric — नज़दीकी CSC केंद्र पर फ़िंगरप्रिंट से। e-KYC अनिवार्य है; इसके बिना आपकी किस्त रोक दी जाती है। यह पूरी तरह निःशुल्क है (CSC पर ₹15 सेवा शुल्क लग सकता है)।",
+ "steps_h": "OTP से e-KYC — 5 स्टेप (घर बैठे)",
+ "steps": [
+  "pmkisan.gov.in खोलें और दाईं ओर 'e-KYC' बटन पर क्लिक करें",
+  "अपना 12 अंकों का आधार नंबर डालें और Search दबाएं",
+  "आधार से रजिस्टर्ड मोबाइल नंबर डालें — उस पर OTP आएगा",
+  "4 अंकों का OTP डालकर Submit करें",
+  "'e-KYC is successfully completed' का मैसेज दिखेगा — बस हो गया!"
+ ],
+ "extra_html": "<div class=\\"block\\"><h2>OTP नहीं आ रहा? Biometric e-KYC करें</h2><p>अगर आधार से मोबाइल लिंक नहीं है या OTP नहीं आ रहा, तो नज़दीकी CSC (जन सेवा केंद्र) जाएं। साथ ले जाएं: <b>आधार कार्ड</b> और <b>रजिस्टर्ड मोबाइल</b>। CSC ऑपरेटर फ़िंगरप्रिंट स्कैन से 5 मिनट में e-KYC कर देगा। शुल्क: लगभग ₹15। इसके अलावा PM Kisan App में <b>Face Authentication</b> से भी e-KYC हो सकती है — बुज़ुर्गों के लिए सबसे आसान तरीका।</p></div>",
+ "faqs": [
+  ["e-KYC नहीं किया तो क्या होगा?", "e-KYC अनिवार्य है। बिना e-KYC आपकी अगली किस्त रोक दी जाएगी। e-KYC पूरा करते ही रुकी हुई किस्तें अगली पेमेंट साइकिल में जुड़कर आ जाती हैं।"],
+  ["e-KYC free है या पैसे लगते हैं?", "OTP से खुद करने पर बिल्कुल free। CSC पर biometric कराने पर लगभग ₹15 सेवा शुल्क। कोई ₹100-200 माँगे तो वह ग़लत है — शिकायत 155261 पर करें।"],
+  ["आधार से मोबाइल लिंक नहीं है, क्या करूँ?", "दो विकल्प: (1) नज़दीकी आधार सेवा केंद्र पर जाकर मोबाइल लिंक कराएं (₹50 शुल्क), फिर OTP से e-KYC करें; या (2) सीधे CSC पर biometric e-KYC कराएं — इसमें मोबाइल लिंक होना ज़रूरी नहीं।"],
+  ["e-KYC status कैसे चेक करें?", "pmkisan.gov.in पर 'Know Your Status' में रजिस्ट्रेशन नंबर से लॉगिन करें — वहाँ eKYC Status की लाइन में 'Yes' या 'No' दिखेगा।"],
+  ["Face Authentication से e-KYC कैसे करें?", "Google Play Store से 'PM Kisan' official app डाउनलोड करें → Login → e-KYC → आधार नंबर डालें → कैमरे से चेहरा स्कैन करें। बुज़ुर्ग किसानों के लिए यह सबसे आसान तरीका है — न OTP चाहिए, न CSC जाना।"]
+ ]
+},
+{
+ "slug": "installment-date",
+ "nav": "किस्त की तारीख़",
+ "title": "PM Kisan 21वीं किस्त कब आएगी? Date 2026 — पूरी किस्त लिस्ट | Sarkari Yojna Mitra",
+ "desc": "PM Kisan अगली किस्त की तारीख़, अब तक की सभी 20 किस्तों की पूरी लिस्ट, और किस्त जल्दी पाने के लिए ज़रूरी काम — e-KYC, भूमि सत्यापन, आधार लिंकिंग।",
+ "h1": "PM Kisan किस्त कब आएगी? (Installment Dates)",
+ "intro": "PM Kisan की किस्तें साल में तीन बार आती हैं: अप्रैल-जुलाई, अगस्त-नवंबर, और दिसंबर-मार्च की अवधि में। हर किस्त ₹2,000 की होती है। अगली किस्त की सटीक तारीख़ सरकार आधिकारिक घोषणा से बताती है — आमतौर पर प्रधानमंत्री द्वारा किसी कार्यक्रम में जारी की जाती है। किस्त समय पर पाने के लिए e-KYC, आधार-बैंक लिंकिंग, और भूमि सत्यापन तीनों पूरे होने चाहिए।",
+ "steps_h": "किस्त समय पर पाने के लिए ये 4 काम पूरे रखें",
+ "steps": [
+  "e-KYC पूरा करें — pmkisan.gov.in पर OTP से या CSC पर biometric से",
+  "बैंक खाता आधार से लिंक (NPCI seeding) कराएं — बैंक शाखा में जाकर",
+  "भूमि सत्यापन (Land Seeding) कराएं — लेखपाल/तहसील से",
+  "Beneficiary Status में तीनों 'Yes' दिखने चाहिए — तभी किस्त आएगी"
+ ],
+ "extra_html": "<div class=\\"block\\"><h2>किस्त अवधि की पूरी जानकारी</h2><p>सरकार हर वित्तीय वर्ष में तीन किस्तें जारी करती है:</p><ul><li><b>पहली अवधि:</b> अप्रैल से जुलाई — ₹2,000</li><li><b>दूसरी अवधि:</b> अगस्त से नवंबर — ₹2,000</li><li><b>तीसरी अवधि:</b> दिसंबर से मार्च — ₹2,000</li></ul><p>सटीक तारीख़ हर बार अलग होती है और आधिकारिक घोषणा pmkisan.gov.in तथा PIB (pib.gov.in) पर आती है। किसी अनौपचारिक वेबसाइट या WhatsApp मैसेज की तारीख़ पर भरोसा न करें।</p></div>",
+ "faqs": [
+  ["इस बार किस्त क्यों नहीं आई जबकि पहले आती थी?", "सबसे आम कारण: e-KYC pending, भूमि सत्यापन अधूरा, या बैंक खाते की NPCI-आधार seeding टूट गई। pmkisan.gov.in पर 'Know Your Status' में देखें कौन-सा स्टेटस 'No' दिख रहा है — वही ठीक कराएं।"],
+  ["किस्त कितने बजे तक आ जाती है?", "जिस दिन सरकार किस्त जारी करती है, DBT से पैसा 24-72 घंटे में खातों में पहुँचता है। सभी किसानों को एक साथ नहीं — बैच में transfer होता है, इसलिए 2-3 दिन इंतज़ार करें।"],
+  ["नई रजिस्ट्रेशन वालों को किस्त कब से मिलती है?", "आवेदन स्वीकृत होने के बाद जो अगली किस्त जारी होगी, उसी से पैसा मिलना शुरू होगा। पुरानी किस्तों का पैसा नहीं मिलता।"],
+  ["₹4,000 एक साथ क्यों आए किसी-किसी को?", "जब किसी किसान की पिछली किस्त तकनीकी कारण (जैसे e-KYC देर से) रुकी हो और बाद में ठीक हो जाए, तो रुकी किस्त + नई किस्त एक साथ आ जाती है।"],
+  ["किस्त की आधिकारिक घोषणा कहाँ देखें?", "केवल आधिकारिक स्रोत देखें: pmkisan.gov.in, pib.gov.in, या कृषि मंत्रालय का X (Twitter) हैंडल। WhatsApp फ़ॉरवर्ड और अनौपचारिक YouTube वीडियो की तारीख़ों पर भरोसा न करें।"]
+ ]
+},
+{
+ "slug": "beneficiary-list",
+ "nav": "लाभार्थी सूची",
+ "title": "PM Kisan Beneficiary List 2026 — गाँव की लिस्ट में अपना नाम देखें | Sarkari Yojna Mitra",
+ "desc": "PM Kisan लाभार्थी सूची में अपना नाम चेक करें — राज्य, ज़िला, ब्लॉक, गाँव चुनकर पूरी लिस्ट देखें। नाम नहीं है तो क्या करें, पूरी जानकारी।",
+ "h1": "PM Kisan लाभार्थी सूची में नाम कैसे देखें (Beneficiary List)",
+ "intro": "PM Kisan लाभार्थी सूची देखने के लिए pmkisan.gov.in पर 'Beneficiary List' खोलें, अपना राज्य → ज़िला → उप-ज़िला (तहसील) → ब्लॉक → गाँव चुनें और 'Get Report' दबाएं — आपके पूरे गाँव के सभी लाभार्थियों की सूची नाम सहित दिख जाएगी। इसमें अपना नाम खोजें। सूची हर किस्त से पहले अपडेट होती है।",
+ "steps_h": "गाँव की लिस्ट देखने के 4 स्टेप",
+ "steps": [
+  "pmkisan.gov.in खोलें → 'Farmers Corner' में 'Beneficiary List' पर क्लिक करें",
+  "Dropdown से चुनें: राज्य → ज़िला → Sub-District (तहसील) → Block → Village",
+  "'Get Report' बटन दबाएं",
+  "पूरे गाँव की सूची खुल जाएगी — Ctrl+F दबाकर अपना नाम खोजें (मोबाइल में 'Find in page')"
+ ],
+ "extra_html": "<div class=\\"block\\"><h2>लिस्ट में नाम नहीं है — क्या करें?</h2><ul><li><b>नया आवेदन किया है:</b> स्वीकृति में 30-45 दिन लगते हैं — 'Status of Self Registered Farmer' में आवेदन की स्थिति देखें</li><li><b>पहले नाम था, अब हट गया:</b> e-KYC/भूमि सत्यापन अधूरा होने पर नाम अस्थायी रूप से hold हो जाता है — दोनों पूरे कराएं</li><li><b>आवेदन reject हुआ:</b> कारण जानने के लिए कृषि विभाग कार्यालय या लेखपाल से संपर्क करें — अधिकतर मामले भूमि रिकॉर्ड की गड़बड़ी के होते हैं</li><li><b>पात्र हैं पर कभी आवेदन नहीं किया:</b> pmkisan.gov.in पर 'New Farmer Registration' से तुरंत आवेदन करें</li></ul></div>",
+ "faqs": [
+  ["लिस्ट कितनी बार अपडेट होती है?", "हर किस्त जारी होने से पहले सूची अपडेट होती है। नए स्वीकृत किसान जुड़ते हैं और अपात्र पाए गए नाम हटाए जाते हैं।"],
+  ["नाम है लेकिन पैसा नहीं आया?", "लिस्ट में नाम होना = पात्रता स्वीकृत। पैसा न आने का कारण अलग होता है: e-KYC pending, बैंक-आधार लिंक टूटना, या account बंद होना। 'Know Your Status' में payment status देखें।"],
+  ["दूसरे के नाम से मेरी ज़मीन की किस्त जा रही है?", "यह भूमि रिकॉर्ड विवाद का मामला है। तहसील में जाकर खतौनी सुधार कराएं, फिर PM Kisan helpdesk (pmkisan-ict@gov.in / 155261) पर शिकायत करें।"],
+  ["मृत किसान का नाम कैसे हटवाएं?", "मृत्यु प्रमाण पत्र के साथ कृषि विभाग कार्यालय या लेखपाल से संपर्क करें। वारिस अगर पात्र हैं तो भूमि अपने नाम कराकर नया आवेदन कर सकते हैं।"]
+ ]
+},
+{
+ "slug": "registration",
+ "nav": "नया रजिस्ट्रेशन",
+ "title": "PM Kisan Registration 2026 — नया आवेदन ऐसे करें (Online) | Sarkari Yojna Mitra",
+ "desc": "PM Kisan नया रजिस्ट्रेशन करें ऑनलाइन — ज़रूरी दस्तावेज़, स्टेप बाय स्टेप प्रक्रिया, CSC से आवेदन, और स्वीकृति में कितना समय लगता है।",
+ "h1": "PM Kisan नया रजिस्ट्रेशन कैसे करें (New Farmer Registration)",
+ "intro": "PM Kisan में नया रजिस्ट्रेशन pmkisan.gov.in पर 'New Farmer Registration' से होता है — आधार नंबर, आधार-लिंक्ड मोबाइल, बैंक खाता विवरण, और भूमि दस्तावेज़ (खतौनी/खसरा) चाहिए। आवेदन पूरी तरह निःशुल्क है और 10 मिनट में हो जाता है। स्वीकृति में 30-45 दिन लगते हैं क्योंकि राज्य सरकार भूमि रिकॉर्ड सत्यापित करती है।",
+ "steps_h": "ऑनलाइन रजिस्ट्रेशन — 8 स्टेप",
+ "steps": [
+  "pmkisan.gov.in खोलें → 'Farmers Corner' में 'New Farmer Registration' पर क्लिक करें",
+  "Rural Farmer (ग्रामीण) या Urban Farmer (शहरी) चुनें",
+  "आधार नंबर, मोबाइल नंबर, राज्य चुनें और कैप्चा भरें",
+  "'Get OTP' दबाएं — आधार-लिंक्ड मोबाइल पर OTP आएगा, वेरिफ़ाई करें",
+  "व्यक्तिगत विवरण भरें — नाम आधार जैसा ही अपने आप आएगा",
+  "बैंक विवरण डालें — खाता नंबर, IFSC (खाता आधार से लिंक होना ज़रूरी)",
+  "भूमि विवरण भरें — खाता संख्या, खसरा नंबर, क्षेत्रफल (खतौनी से देखकर)",
+  "खतौनी की फ़ोटो अपलोड करें और Submit दबाएं — रजिस्ट्रेशन नंबर नोट कर लें"
+ ],
+ "extra_html": "<div class=\\"block\\"><h2>ज़रूरी दस्तावेज़ — पहले तैयार रखें</h2><ul><li>आधार कार्ड (मोबाइल लिंक होना ज़रूरी — OTP आएगा)</li><li>बैंक पासबुक (खाता आधार से linked/NPCI seeded)</li><li>खतौनी / खसरा की ताज़ा नक़ल (तहसील या bhulekh पोर्टल से)</li><li>मोबाइल नंबर</li></ul><p><b>CSC से आवेदन:</b> ख़ुद नहीं कर पा रहे तो नज़दीकी जन सेवा केंद्र (CSC) पर यही दस्तावेज़ लेकर जाएं — ऑपरेटर ₹15-30 शुल्क में आवेदन कर देगा। किसी को ₹200-500 न दें — प्रक्रिया इतनी ही सरल है।</p></div>",
+ "faqs": [
+  ["रजिस्ट्रेशन के बाद कितने दिन में पैसा आता है?", "आवेदन के बाद राज्य सरकार भूमि रिकॉर्ड सत्यापित करती है — इसमें 30-45 दिन लगते हैं। स्वीकृति के बाद जो अगली किस्त जारी होगी, उससे पैसा मिलना शुरू होगा।"],
+  ["आवेदन की स्थिति कैसे देखें?", "pmkisan.gov.in → 'Status of Self Registered Farmer' → आधार नंबर और कैप्चा डालें। Pending, Approved, या Rejected — तीनों में से स्थिति दिखेगी। Rejected होने पर कारण भी लिखा होता है।"],
+  ["पति-पत्नी दोनों आवेदन कर सकते हैं?", "नहीं। PM Kisan 'परिवार' (पति + पत्नी + नाबालिग बच्चे) इकाई पर आधारित है — एक परिवार से केवल एक सदस्य को लाभ मिलता है, भले ही ज़मीन दोनों के नाम हो।"],
+  ["ज़मीन दादा/पिता के नाम है, मैं आवेदन कर सकता हूँ?", "नहीं, आवेदक के अपने नाम भूमि रिकॉर्ड होना अनिवार्य है। पहले वरासत/बंटवारे से ज़मीन अपने नाम कराएं (लेखपाल/तहसील से), फिर आवेदन करें।"],
+  ["आवेदन reject हो गया, दोबारा कर सकते हैं?", "हाँ। पहले rejection का कारण देखें (अधिकतर भूमि रिकॉर्ड mismatch)। कारण ठीक कराने के बाद नया आवेदन कर सकते हैं या कृषि विभाग कार्यालय में सुधार करा सकते हैं।"]
+ ]
+},
+{
+ "slug": "helpline",
+ "nav": "हेल्पलाइन",
+ "title": "PM Kisan Helpline Number 2026 — शिकायत कैसे और कहाँ करें | Sarkari Yojna Mitra",
+ "desc": "PM Kisan हेल्पलाइन: 155261, 011-24300606। किस्त न आने, e-KYC, नाम सुधार की शिकायत ऑनलाइन और फ़ोन से कैसे करें — पूरी जानकारी।",
+ "h1": "PM Kisan हेल्पलाइन और शिकायत (Helpline & Complaint)",
+ "intro": "PM Kisan की आधिकारिक हेल्पलाइन 155261 और 011-24300606 है (सोमवार-शुक्रवार, कार्यालय समय)। ईमेल: pmkisan-ict@gov.in। किस्त न आने, e-KYC समस्या, नाम/खाता सुधार — सभी शिकायतें pmkisan.gov.in के 'Help Desk' (Query Form) से ऑनलाइन भी दर्ज कर सकते हैं, जहाँ टिकट नंबर मिलता है और स्थिति ट्रैक होती है।",
+ "steps_h": "ऑनलाइन शिकायत दर्ज करने के स्टेप",
+ "steps": [
+  "pmkisan.gov.in खोलें → 'Farmers Corner' में 'Help Desk' पर क्लिक करें",
+  "'Register Query' चुनें",
+  "आधार नंबर / खाता नंबर / मोबाइल नंबर में से कोई एक डालकर Get Details दबाएं",
+  "शिकायत की श्रेणी चुनें (जैसे Installment not received, e-KYC issue, Correction)",
+  "समस्या का विवरण लिखें और Submit करें — टिकट नंबर नोट कर लें",
+  "'Know the Query Status' से टिकट नंबर डालकर जवाब ट्रैक करें"
+ ],
+ "extra_html": "<div class=\\"block\\"><h2>सभी संपर्क एक जगह</h2><ul><li><b>हेल्पलाइन:</b> 155261 (टोल-फ़्री) और 011-24300606</li><li><b>ईमेल:</b> pmkisan-ict@gov.in</li><li><b>ऑनलाइन शिकायत:</b> pmkisan.gov.in → Help Desk</li><li><b>स्थानीय स्तर:</b> ज़िला कृषि अधिकारी / ब्लॉक कृषि कार्यालय / लेखपाल</li><li><b>बैंक संबंधी:</b> अपनी बैंक शाखा (आधार seeding, खाता बंद/बदला)</li></ul><p><b>सावधान:</b> कोई भी अधिकारी फ़ोन पर OTP, बैंक PIN या आधार OTP नहीं माँगता। ऐसा कॉल आए तो वह फ़्रॉड है — 1930 (साइबर क्राइम) पर रिपोर्ट करें।</p></div>",
+ "faqs": [
+  ["हेल्पलाइन पर बात नहीं हो रही, क्या करें?", "155261 पर बहुत भीड़ रहती है। बेहतर विकल्प: pmkisan.gov.in के Help Desk से ऑनलाइन शिकायत करें — टिकट नंबर मिलता है और लिखित जवाब आता है। साथ ही अपने ब्लॉक कृषि कार्यालय भी जा सकते हैं।"],
+  ["शिकायत का जवाब कितने दिन में आता है?", "ऑनलाइन Query का जवाब आमतौर पर 7-15 कार्य दिवसों में आता है। जटिल मामले (भूमि विवाद) में ज़्यादा समय लग सकता है।"],
+  ["नाम/spelling सुधार कैसे कराएं?", "pmkisan.gov.in → 'Name Correction as per Aadhaar' विकल्प से नाम आधार के अनुसार ठीक कर सकते हैं। बाकी सुधार (खाता, IFSC) Help Desk या कृषि कार्यालय से होते हैं।"],
+  ["पैसा ग़लत खाते में चला गया?", "तुरंत अपनी बैंक शाखा और PM Kisan helpdesk दोनों को सूचित करें। Help Desk पर 'Installment credited to wrong account' श्रेणी में शिकायत दर्ज करें।"]
+ ]
+}
+]
+}
+'''
+
+print("PART A: Creating subpages_data.py ...")
+write("subpages_data.py", SUBPAGES_DATA)
+print("  Done: subpages_data.py (PM Kisan x 6 pages)")
+
+# ═══════════════════════════════════════════
+# PART B: Patch generate.py
+# ═══════════════════════════════════════════
+print("\\nPART B: Patching generate.py ...")
+gen = read("generate.py")
+
+# B1: import SUBPAGES
+if "from subpages_data import" not in gen and "SUBPAGES" not in gen:
+    anchor = "OUT = os.path.dirname(os.path.abspath(__file__))"
+    if anchor in gen:
+        gen = gen.replace(anchor, anchor + "\\ntry:\\n    from subpages_data import SUBPAGES\\nexcept Exception:\\n    SUBPAGES = {}", 1)
+        print("  B1: SUBPAGES import added")
+    else:
+        print("  B1 ERROR: OUT anchor not found"); sys.exit(1)
+else:
+    print("  B1: import already exists")
+
+# B2: render_subpage function (insert before render_sitemap)
+if "def render_subpage" not in gen:
+    FUNC = '''
+def render_subpage(s, sp):
+    """Render one Hindi subpage for scheme s."""
+    lang = "hi"; t = T[lang]; c = s[lang]
+    url = "/" + s["slug"] + "/" + sp["slug"]
+    canonical = SITE + url
+    sibs = SUBPAGES.get(s["slug"], [])
+    sibnav = '<div class="chips" style="justify-content:flex-start;margin:0 0 18px">'
+    sibnav += '<a class="chip" href="%s">%s सम्पूर्ण गाइड</a>' % (scheme_url(lang, s["slug"]), s["icon"])
+    for x in sibs:
+        cls = "chip on" if x["slug"] == sp["slug"] else "chip"
+        sibnav += '<a class="%s" href="/%s/%s">%s</a>' % (cls, s["slug"], x["slug"], e(x["nav"]))
+    sibnav += "</div>"
+    steps_html = '<ul class="steps">%s</ul>' % ''.join('<li>%s</li>' % e(i) for i in sp["steps"])
+    faqs_html = ''.join('<div class="faq"><b>%s</b><span>%s</span></div>' % (e(q), e(a)) for q, a in sp["faqs"])
+    jsonld = [
+        {"@context":"https://schema.org","@type":"HowTo","name":sp["h1"],
+         "description":sp["intro"][:200],"inLanguage":"hi",
+         "step":[{"@type":"HowToStep","position":i+1,"text":st} for i, st in enumerate(sp["steps"])]},
+        {"@context":"https://schema.org","@type":"FAQPage","inLanguage":"hi",
+         "mainEntity":[{"@type":"Question","name":q,
+            "acceptedAnswer":{"@type":"Answer","text":a}} for q, a in sp["faqs"]]},
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[
+            {"@type":"ListItem","position":1,"name":t["crumb_home"],"item":SITE+home_url(lang)},
+            {"@type":"ListItem","position":2,"name":s["name"],"item":SITE+scheme_url(lang,s["slug"])},
+            {"@type":"ListItem","position":3,"name":sp["nav"],"item":canonical}]}
+    ]
+    H = head(lang, sp["title"], sp["desc"], canonical, None, jsonld)
+    H += header(lang, home_url("en"))
+    H += ('<div class="wrap"><div class="crumb"><a href="%s">%s</a> › <a href="%s">%s</a> › %s</div>'
+          % (home_url(lang), e(t["crumb_home"]), scheme_url(lang, s["slug"]), e(s["name"]), e(sp["nav"])))
+    H += sibnav
+    H += ('<div class="sp-hero"><span class="ic">%s</span>'
+          '<h1>%s</h1><p class="updated">अंतिम अपडेट: जुलाई 2026 · स्रोत: %s</p>'
+          '<p style="color:#3D2E22;margin-top:8px">%s</p></div>'
+          % (s["icon"], e(sp["h1"]), e(s["portal"].replace("https://","")), e(sp["intro"])))
+    H += '<div class="block"><h2>%s</h2>%s</div>' % (e(sp["steps_h"]), steps_html)
+    if sp.get("extra_html"):
+        H += sp["extra_html"]
+    H += '<div class="block"><h2>अक्सर पूछे जाने वाले सवाल</h2>%s</div>' % faqs_html
+    H += ('<div class="block"><h2>आधिकारिक लिंक</h2>'
+          '<p><a class="cta-apply" href="%s" target="_blank" rel="noopener">%s पर जाएं →</a></p></div>'
+          % (s["portal"], e(s["portal"].replace("https://",""))))
+    rel = ''.join('<a href="/%s/%s">%s</a>' % (s["slug"], x["slug"], e(x["nav"]))
+                  for x in sibs if x["slug"] != sp["slug"])
+    H += '<div class="block"><h2>इस योजना की अन्य गाइड</h2><div class="related">%s<a href="%s">%s सम्पूर्ण जानकारी</a></div></div>' % (rel, scheme_url(lang, s["slug"]), s["icon"])
+    H += "</div>"
+    H += footer(lang)
+    H += "</body></html>"
+    return H
+
+'''
+    anchor = "def render_sitemap():"
+    if anchor in gen:
+        gen = gen.replace(anchor, FUNC + anchor, 1)
+        print("  B2: render_subpage() added")
+    else:
+        print("  B2 ERROR: render_sitemap anchor not found"); sys.exit(1)
+else:
+    print("  B2: render_subpage already exists")
+
+# B3: sitemap includes subpages
+if "SUBPAGES.get" not in gen.split("def render_sitemap")[1][:800]:
+    anchor = '''        for sl in STATIC_SLUGS:
+            urls.append(SITE + static_url(lang, sl))'''
+    add = '''        for sl in STATIC_SLUGS:
+            urls.append(SITE + static_url(lang, sl))
+    for sslug, subs in SUBPAGES.items():
+        for sp in subs:
+            urls.append(SITE + "/" + sslug + "/" + sp["slug"])'''
+    if anchor in gen:
+        gen = gen.replace(anchor, add, 1)
+        print("  B3: sitemap includes subpages")
+    else:
+        print("  B3 WARN: sitemap anchor not found — add manually")
+else:
+    print("  B3: sitemap already includes subpages")
+
+# B4: build loop writes subpages
+if "render_subpage(s, sp)" not in gen:
+    anchor = '''            w(p, render_scheme(s, lang)); n += 1'''
+    add = '''            w(p, render_scheme(s, lang)); n += 1
+            if lang == "hi":
+                for sp in SUBPAGES.get(s["slug"], []):
+                    w(s["slug"] + "/" + sp["slug"] + ".html", render_subpage(s, sp)); n += 1'''
+    if anchor in gen:
+        gen = gen.replace(anchor, add, 1)
+        print("  B4: build loop writes subpages")
+    else:
+        print("  B4 ERROR: build loop anchor not found"); sys.exit(1)
+else:
+    print("  B4: build loop already writes subpages")
+
+# B5: hub page links to subpages (guide chips after intro block)
+if "sp_guides" not in gen:
+    anchor = '''    H += '<div class="block"><h2>%s</h2><p>%s</p></div>' % (e(t["sec_what"]), e(c["intro"]))'''
+    add = '''    H += '<div class="block"><h2>%s</h2><p>%s</p></div>' % (e(t["sec_what"]), e(c["intro"]))
+    sp_guides = SUBPAGES.get(s["slug"], [])
+    if lang == "hi" and sp_guides:
+        g = ''.join('<a href="/%s/%s">📄 %s</a>' % (s["slug"], x["slug"], e(x["nav"])) for x in sp_guides)
+        H += '<div class="block"><h2>विस्तृत गाइड</h2><div class="related">%s</div></div>' % g'''
+    if anchor in gen:
+        gen = gen.replace(anchor, add, 1)
+        print("  B5: hub page guide links added")
+    else:
+        print("  B5 WARN: hub anchor not found — guides section skipped")
+else:
+    print("  B5: hub links already exist")
+
+write("generate.py", gen)
+
+# ═══════════════════════════════════════════
+# REBUILD
+# ═══════════════════════════════════════════
+print("\\nRebuilding ...")
+os.chdir(REPO)
+r = os.system(sys.executable + " generate.py")
+if r == 0:
+    print("  Rebuilt OK!")
+    for f in ["pm-kisan/status.html", "pm-kisan/ekyc.html", "pm-kisan/installment-date.html",
+              "pm-kisan/beneficiary-list.html", "pm-kisan/registration.html", "pm-kisan/helpline.html"]:
+        fp = os.path.join(REPO, f)
+        if os.path.exists(fp):
+            print("  OK: /%s (%d bytes)" % (f.replace(".html",""), os.path.getsize(fp)))
+        else:
+            print("  MISSING: " + f)
+else:
+    print("  ERROR - check above")
+    sys.exit(1)
+
+print("""
+DONE! Preview:
+  start chrome "C:\\Users\\Quimztech\\sarkariyojnamitra\\pm-kisan\\status.html"
+
+Theek lage toh:
+  git add -A
+  git commit -m "Subpage engine + PM Kisan 6 pilot pages"
+  git push origin main
+""")
