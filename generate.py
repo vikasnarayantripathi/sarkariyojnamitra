@@ -497,7 +497,7 @@ if __name__ == "__main__":
             w(p, render_scheme(s, lang)); n += 1
             if lang == "hi":
                 for sp in SUBPAGES.get(s["slug"], []):
-                    w(s["slug"] + "/" + sp["slug"] + ".html", render_subpage(s, sp)); n += 1
+                    w(s["slug"] + "/" + sp["slug"] + "/index.html", render_subpage(s, sp)); n += 1
         for sl in STATIC_SLUGS:
             p = (sl + ".html") if lang == "hi" else ("en/" + sl + ".html")
             w(p, render_static(sl, lang)); n += 1
