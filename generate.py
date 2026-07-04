@@ -61,6 +61,9 @@ html{scroll-behavior:smooth}
 body{font-family:'Mukta',system-ui,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;font-size:16.5px;-webkit-font-smoothing:antialiased}
 .tricolor{height:3px;background:linear-gradient(90deg,#FF9933 33%,#fff 33% 66%,#138808 66%)}
 a{color:inherit;text-decoration:none}
+.block a,.block p a,.block li a,.faq span a,.sp-hero p a{color:var(--o);text-decoration:underline;text-underline-offset:2px;font-weight:600;word-break:break-word}
+.block a:hover,.faq span a:hover{color:#B8460A}
+a{-webkit-tap-highlight-color:rgba(228,89,10,.12)}
 .wrap{max-width:1080px;margin:0 auto;padding:0 20px}
 ::selection{background:#FDE4CE}
 /* static pages */
