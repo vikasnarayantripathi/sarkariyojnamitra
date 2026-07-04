@@ -1,10 +1,20 @@
-<!DOCTYPE html><html lang="hi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Megha Health Insurance Scheme (MHIS) — ₹5.3 लाख / परिवार / वर्ष (सार्वत्रिक) | Sarkari Yojna Mitra</title><meta name="description" content="Megha Health Insurance Scheme (MHIS) मेघालय की राज्य स्वास्थ्य बीमा योजना है। PM-JAY + MHIS = ₹5 लाख तक मुफ़्त। मेघालय के BPL/NFSA परिवार।"><meta property="og:type" content="article"><meta property="article:modified_time" content="2026-07-03"><link rel="canonical" href="https://sarkariyojnamitra.com/ml-mhis">
-<link rel="alternate" hreflang="hi" href="https://sarkariyojnamitra.com/ml-mhis">
-<link rel="alternate" hreflang="en" href="https://sarkariyojnamitra.com/en/ml-mhis">
-<link rel="alternate" hreflang="x-default" href="https://sarkariyojnamitra.com/ml-mhis">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet"><script type="application/ld+json">{"@context": "https://schema.org", "@type": "GovernmentService", "name": "Megha Health Insurance Scheme (MHIS)", "alternateName": "मेघा स्वास्थ्य बीमा योजना (MHIS)", "serviceType": "Health", "areaServed": {"@type": "AdministrativeArea", "name": "Meghalaya"}, "provider": {"@type": "GovernmentOrganization", "name": "स्वास्थ्य विभाग, मेघालय"}, "description": "Megha Health Insurance Scheme (MHIS) मेघालय की राज्य स्वास्थ्य बीमा योजना है। PM-JAY + MHIS = ₹5 लाख तक मुफ़्त। मेघालय के BPL/NFSA परिवार।", "url": "https://sarkariyojnamitra.com/ml-mhis", "availableChannel": {"@type": "ServiceChannel", "serviceUrl": "https://mhis.org.in"}}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "hi", "mainEntity": [{"@type": "Question", "name": "MHIS और PM-JAY?", "acceptedAnswer": {"@type": "Answer", "text": "दोनों मिलकर मेघालय में ₹5 लाख कवर।"}}]}</script>
-<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "होम", "item": "https://sarkariyojnamitra.com/"}, {"@type": "ListItem", "position": 2, "name": "Megha Health Insurance Scheme (MHIS)", "item": "https://sarkariyojnamitra.com/ml-mhis"}]}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ7KBCEX94"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YQ7KBCEX94");</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3246006644123903" crossorigin="anonymous"></script><style>
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+DESIGN v2: RISING SUN (उगता सूरज)
+Sunrise vermillion + amber gold + dawn cream — premium restraint, warm identity.
+Run: python design_sunrise.py
+"""
+import os, sys
+
+REPO = os.path.dirname(os.path.abspath(__file__))
+
+def read(f):
+    with open(os.path.join(REPO, f), "r", encoding="utf-8") as fh: return fh.read()
+def write(f, c):
+    with open(os.path.join(REPO, f), "w", encoding="utf-8") as fh: fh.write(c)
+
+NEW_CSS = r'''
 *{margin:0;padding:0;box-sizing:border-box}
 :root{
  --o:#E4590A;--o2:#F97316;--sun:#F59E1B;--sunbg:#FEF6E7;
@@ -146,4 +156,40 @@ footer a{transition:color .15s}footer a:hover{color:#F5A623}
  .hero{padding:38px 0 28px}
  section{padding:30px 0}
 }
-</style></head><body><div class="tricolor"></div><header><div class="wrap hd"><a class="logo" href="/"><span class="box"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg></span><span><b>Sarkari Yojna Mitra</b><small>आपकी हर योजना का साथी</small></span></a><nav><a href="/#schemes">योजनाएँ</a><a href="/#finder">पात्रता जाँच</a><a href="/#tools">उपयोगी सेवाएँ</a><a href="/#schemes">हमारे बारे में</a><a class="lang" href="/en/ml-mhis">EN</a></nav></div></header><div class="wrap"><div class="crumb"><a href="/">होम</a> › Megha Health Insurance Scheme (MHIS)</div><div class="sp-hero"><span class="ic">🏥</span><span class="lvl st" style="margin-left:10px">मेघालय</span><h1>Megha Health Insurance Scheme (MHIS)</h1><p class="updated">अंतिम अपडेट: 03/07/2026</p><p class="sub">मेघा स्वास्थ्य बीमा योजना (MHIS)</p><div class="facts"><div class="fact"><span>लाभ</span><b>₹5.3 लाख / परिवार / वर्ष (सार्वत्रिक)</b></div><div class="fact"><span>कौन पात्र</span><b>मेघालय के सभी निवासी (सरकारी कर्मचारी छोड़कर)</b></div><div class="fact"><span>मंत्रालय/विभाग</span><b>स्वास्थ्य विभाग, मेघालय</b></div><div class="fact"><span>अंतिम तिथि</span><b>सतत</b></div></div></div><div class="block"><h2>योजना क्या है?</h2><p>Megha Health Insurance Scheme (MHIS) मेघालय की राज्य स्वास्थ्य बीमा योजना है। PM-JAY + MHIS = ₹5 लाख तक मुफ़्त। मेघालय के BPL/NFSA परिवार।</p></div><div class="block"><h2>मुख्य लाभ</h2><ul class=""><li>₹5 लाख मुफ़्त स्वास्थ्य बीमा</li><li>कैशलेस — empanelled अस्पतालों में</li><li>PM-JAY + MHIS convergence</li></ul></div><div class="block"><h2>पात्रता (कौन ले सकता है?)</h2><ul class=""><li>मेघालय का निवासी</li><li>BPL/NFSA राशन कार्ड</li><li>PM-JAY पात्र</li></ul></div><div class="block"><h2>ज़रूरी दस्तावेज़</h2><ul class=""><li>आधार कार्ड</li><li>राशन कार्ड</li><li>MHIS/आयुष्मान कार्ड</li></ul></div><div class="block"><h2>आवेदन कैसे करें?</h2><ul class="steps"><li>empanelled अस्पताल में कार्ड दिखाएं</li><li>CSC से कार्ड बनवाएं</li></ul></div><div class="block" style="text-align:center"><a class="cta-apply" href="https://mhis.org.in" target="_blank" rel="nofollow noopener">आधिकारिक पोर्टल पर आवेदन करें →</a></div><div class="block"><h2>अक्सर पूछे जाने वाले सवाल</h2><div class="faq"><b>MHIS और PM-JAY?</b><span>दोनों मिलकर मेघालय में ₹5 लाख कवर।</span></div></div><div class="wrap"><div class="alert"><b>सावधान — धोखाधड़ी से बचें:</b> असली सरकारी योजनाओं में आवेदन हमेशा <b>निःशुल्क या आधिकारिक रूप से सब्सिडी वाला</b> होता है। किसी एजेंट को पैसे न दें, अनजान लिंक से APK डाउनलोड न करें, और अपनी बैंक/OTP जानकारी किसी से साझा न करें। आवेदन केवल आधिकारिक <b>.gov.in</b> पोर्टल से ही करें।</div></div><section><div class="wrap"><div class="sec-h"><h2>संबंधित योजनाएँ</h2></div><div class="related"><a href="/ayushman-bharat">🏥 Ayushman Bharat (PM-JAY)</a><a href="/mh-mjpjay">🏥 Mahatma Jyotirao Phule Jan Arogya Yojana</a><a href="/delhi-ayushman">🏥 Ayushman Bharat (Delhi)</a></div></div></section></div><footer><div class="wrap"><div class="fgrid"><div><div class="flogo"><span class="box"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg></span><b>Sarkari Yojna Mitra</b></div><p>भारत की प्रमुख सरकारी योजनाओं की सरल भाषा में जानकारी — पात्रता, लाभ और आधिकारिक आवेदन लिंक एक जगह।</p></div><div><h4>लोकप्रिय योजनाएँ</h4><ul><li><a href="/pm-kisan">PM Kisan Samman Nidhi</a></li><li><a href="/ayushman-bharat">Ayushman Bharat (PM-JAY)</a></li><li><a href="/pm-awas-yojana">Pradhan Mantri Awas Yojana</a></li><li><a href="/pm-mudra-loan">PM Mudra Loan (PMMY)</a></li><li><a href="/kisan-credit-card">Kisan Credit Card (KCC)</a></li><li><a href="/pm-fasal-bima">PM Fasal Bima Yojana</a></li></ul></div><div><h4>लिंक</h4><ul><li><a href="/#schemes">सभी योजनाएँ</a></li><li><a href="/#finder">पात्रता जाँच</a></li><li><a href="/#tools">उपयोगी सेवाएँ</a></li><li><a href="/privacy">गोपनीयता नीति</a></li><li><a href="/disclaimer">अस्वीकरण</a></li><li><a href="/terms">उपयोग की शर्तें</a></li><li><a href="/about">हमारे बारे में</a></li><li><a href="/contact">संपर्क</a></li></ul></div></div><div class="disc"><b>Disclaimer:</b> यह एक स्वतंत्र सूचनात्मक वेबसाइट है, किसी सरकारी संस्था से संबद्ध नहीं। योजना की शर्तें, ब्याज़ दर और पात्रता समय-समय पर बदल सकती हैं — कृपया आधिकारिक पोर्टल पर पुष्टि करें।</div><div class="copy">© 2026 Sarkari Yojna Mitra · A Quimztech Network site</div></div></footer></body></html>
+'''
+
+print("DESIGN v2: Rising Sun palette apply ho raha hai ...")
+gen = read("generate.py")
+
+start = gen.find('CSS = r"""')
+if start < 0:
+    print("ERROR: CSS block not found")
+    sys.exit(1)
+end = gen.find('"""', start + 10)
+if end < 0:
+    print("ERROR: CSS end not found")
+    sys.exit(1)
+end += 3
+
+gen = gen[:start] + 'CSS = r"""' + NEW_CSS + '"""' + gen[end:]
+write("generate.py", gen)
+print("  Done: Rising Sun CSS applied")
+
+print("\nRebuilding ...")
+os.chdir(REPO)
+r = os.system(sys.executable + " generate.py")
+if r == 0:
+    print("  Rebuilt OK!")
+else:
+    print("  ERROR")
+    sys.exit(1)
+
+print("""
+DONE! Preview:
+  start chrome index.html
+
+Pasand aaye toh:
+  git add -A
+  git commit -m "Design: Rising Sun premium palette"
+  git push origin main
+""")

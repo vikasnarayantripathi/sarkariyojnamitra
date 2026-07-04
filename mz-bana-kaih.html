@@ -6,124 +6,144 @@
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "inLanguage": "hi", "mainEntity": [{"@type": "Question", "name": "कौन पात्र?", "acceptedAnswer": {"@type": "Answer", "text": "मिज़ोरम के BPL परिवार।"}}, {"@type": "Question", "name": "कैसे आवेदन करें?", "acceptedAnswer": {"@type": "Answer", "text": "ज़िला/ब्लॉक कार्यालय में।"}}]}</script>
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "होम", "item": "https://sarkariyojnamitra.com/"}, {"@type": "ListItem", "position": 2, "name": "Bana Kaih Scheme", "item": "https://sarkariyojnamitra.com/mz-bana-kaih"}]}</script><script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ7KBCEX94"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YQ7KBCEX94");</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3246006644123903" crossorigin="anonymous"></script><style>
 *{margin:0;padding:0;box-sizing:border-box}
-:root{--o:#ff6a00;--o2:#ff8c33;--ink:#1f2430;--mut:#5b6472;--bg:#fff7f0;--line:#ffe2cc;--card:#fff}
+:root{
+ --o:#E4590A;--o2:#F97316;--sun:#F59E1B;--sunbg:#FEF6E7;
+ --ink:#241811;--mut:#6E5F52;--bg:#FFFAF4;--line:#F1E4D3;--card:#fff;
+ --glow:0 1px 2px rgba(36,24,17,.04),0 8px 24px rgba(228,89,10,.07)
+}
 html{scroll-behavior:smooth}
-body{font-family:'Mukta',system-ui,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.65}
-.tricolor{height:4px;background:linear-gradient(90deg,#FF9933 33%,#fff 33% 66%,#138808 66%)}
+body{font-family:'Mukta',system-ui,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.7;font-size:16.5px;-webkit-font-smoothing:antialiased}
+.tricolor{height:3px;background:linear-gradient(90deg,#FF9933 33%,#fff 33% 66%,#138808 66%)}
 a{color:inherit;text-decoration:none}
-.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
-/* static pages (privacy/about/contact) */
-.static{padding:30px 0 50px;max-width:760px}
-.static h1{font-size:1.8rem;margin-bottom:18px;color:var(--ink)}
-.static h2{font-size:1.2rem;margin:24px 0 10px;color:var(--ink)}
-.static p{margin-bottom:12px;line-height:1.65;color:var(--ink)}
-.static ul{margin:8px 0 16px 22px}
-.static li{margin-bottom:6px;line-height:1.55}
-.static a{color:var(--o);text-decoration:underline}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+::selection{background:#FDE4CE}
+/* static pages */
+.static{padding:34px 0 56px;max-width:760px}
+.static h1{font-size:1.9rem;margin-bottom:20px;letter-spacing:-.01em}
+.static h2{font-size:1.22rem;margin:28px 0 10px}
+.static p{margin-bottom:13px;color:#3D2E22}
+.static ul{margin:8px 0 18px 22px}
+.static li{margin-bottom:6px}
+.static a{color:var(--o);text-decoration:underline;text-underline-offset:3px}
 /* header */
-header{background:var(--card);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
-.hd{display:flex;align-items:center;gap:12px;padding:12px 0}
-.logo{display:flex;align-items:center;gap:10px;font-weight:700}
-.logo .box{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--o),var(--o2));display:flex;align-items:center;justify-content:center}
-.logo b{font-size:1.12rem;line-height:1}.logo small{display:block;font-size:.7rem;color:var(--mut);font-weight:500}
-nav{margin-left:auto;display:flex;align-items:center;gap:18px}
-nav a{color:var(--mut);font-weight:600;font-size:.93rem}
+header{background:rgba(255,252,248,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
+.hd{display:flex;align-items:center;gap:12px;padding:13px 0}
+.logo{display:flex;align-items:center;gap:11px;font-weight:700}
+.logo .box{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,#F59E1B,#E4590A);display:flex;align-items:center;justify-content:center;box-shadow:0 2px 10px rgba(228,89,10,.3)}
+.logo b{font-size:1.1rem;line-height:1.2;letter-spacing:-.01em}
+.logo small{display:block;font-size:.68rem;color:var(--mut);font-weight:500}
+nav{margin-left:auto;display:flex;align-items:center;gap:20px}
+nav a{color:var(--mut);font-weight:600;font-size:.92rem;transition:color .15s}
 nav a:hover{color:var(--o)}
-.lang{border:1.5px solid var(--o);color:var(--o);border-radius:20px;padding:4px 13px;font-weight:700;font-size:.85rem}
-.lang:hover{background:var(--o);color:#fff}
+.lang{border:1px solid var(--line);color:var(--o);background:#fff;border-radius:8px;padding:5px 14px;font-weight:700;font-size:.84rem;transition:.15s}
+.lang:hover{background:var(--o);color:#fff;border-color:var(--o)}
 .burger{display:none}
-/* hero */
-.hero{background:linear-gradient(160deg,#fff,var(--bg));padding:46px 0 30px;text-align:center}
-.badge{display:inline-flex;align-items:center;gap:7px;background:#fff;border:1px solid var(--line);color:var(--o);font-weight:600;font-size:.82rem;padding:6px 14px;border-radius:30px;margin-bottom:16px}
-.hero h1{font-family:'Tiro Devanagari Hindi',serif;font-size:2.1rem;line-height:1.3;margin-bottom:12px}
-.hero h1 span{color:var(--o)}
-.hero p{color:var(--mut);max-width:680px;margin:0 auto 22px}
-.search{display:flex;max-width:620px;margin:0 auto;background:#fff;border:2px solid var(--line);border-radius:14px;overflow:hidden}
-.search input{flex:1;border:0;padding:14px 16px;font-size:1rem;font-family:inherit;outline:none}
-.search button{border:0;background:var(--o);color:#fff;font-weight:700;padding:0 22px;cursor:pointer;font-size:.95rem}
-.stats{display:flex;justify-content:center;gap:30px;margin-top:24px;flex-wrap:wrap}
-.stat b{display:block;font-size:1.5rem;color:var(--o)}.stat span{font-size:.8rem;color:var(--mut)}
+/* hero — dawn glow */
+.hero{background:radial-gradient(ellipse 900px 420px at 50% -80px,#FEEFD8 0%,#FFFAF4 55%,var(--bg) 100%);padding:52px 0 36px;text-align:center;border-bottom:1px solid var(--line)}
+.badge{display:inline-flex;align-items:center;gap:7px;background:var(--sunbg);border:1px solid #F6DFAE;color:#9A6A08;font-weight:600;font-size:.8rem;padding:6px 14px;border-radius:999px;margin-bottom:18px}
+.hero h1{font-family:'Tiro Devanagari Hindi',serif;font-size:2.25rem;line-height:1.28;margin-bottom:13px;letter-spacing:-.01em}
+.hero h1 span{background:linear-gradient(100deg,#E4590A,#F59E1B);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--mut);max-width:660px;margin:0 auto 26px;font-size:1.02rem}
+.search{display:flex;max-width:600px;margin:0 auto;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--glow);transition:border-color .15s}
+.search:focus-within{border-color:var(--o2)}
+.search input{flex:1;border:0;padding:15px 18px;font-size:1rem;font-family:inherit;outline:none;background:transparent}
+.search button{border:0;background:linear-gradient(135deg,#F97316,#E4590A);color:#fff;font-weight:700;padding:0 24px;cursor:pointer;font-size:.94rem;font-family:inherit;transition:filter .15s}
+.search button:hover{filter:brightness(1.08)}
+.stats{display:flex;justify-content:center;gap:38px;margin-top:28px;flex-wrap:wrap}
+.stat b{display:block;font-size:1.55rem;color:var(--o);font-variant-numeric:tabular-nums}
+.stat span{font-size:.78rem;color:var(--mut);font-weight:500;letter-spacing:.02em}
 /* sections */
-section{padding:34px 0}
-.sec-h{text-align:center;margin-bottom:22px}
-.sec-h h2{font-family:'Tiro Devanagari Hindi',serif;font-size:1.6rem}
-.sec-h p{color:var(--mut);font-size:.92rem}
-.chips{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-bottom:24px}
-.chip{border:1.5px solid var(--line);background:#fff;color:var(--mut);border-radius:22px;padding:7px 15px;font-size:.85rem;font-weight:600;cursor:pointer;font-family:inherit}
+section{padding:40px 0}
+.sec-h{text-align:center;margin-bottom:26px}
+.sec-h h2{font-family:'Tiro Devanagari Hindi',serif;font-size:1.65rem;letter-spacing:-.01em}
+.sec-h p{color:var(--mut);font-size:.92rem;margin-top:4px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:26px}
+.chip{border:1px solid var(--line);background:#fff;color:var(--mut);border-radius:999px;padding:7px 16px;font-size:.85rem;font-weight:600;cursor:pointer;font-family:inherit;transition:.15s}
 .chip.on,.chip:hover{background:var(--o);color:#fff;border-color:var(--o)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;display:flex;flex-direction:column;transition:.16s;cursor:pointer}
-.card:hover{transform:translateY(-3px);box-shadow:0 10px 26px rgba(255,106,0,.13);border-color:var(--o2)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(255px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:19px;display:flex;flex-direction:column;transition:border-color .15s,transform .15s,box-shadow .15s;cursor:pointer}
+.card:hover{transform:translateY(-2px);box-shadow:var(--glow);border-color:#EBC79E}
 .card-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:10px}
-.ic{font-size:1.7rem}
-.lvl{font-size:.68rem;font-weight:700;padding:3px 9px;border-radius:20px}
-.lvl.c{background:#eef4ff;color:#2a5bd7}.lvl.up{background:#fff0e6;color:var(--o)}.lvl.st{background:#fff0e6;color:var(--o)}
-.card h3{font-size:1.04rem;margin-bottom:2px}
-.card .sub{font-family:'Tiro Devanagari Hindi',serif;color:var(--mut);font-size:.86rem;margin-bottom:10px}
-.ben{background:var(--bg);border-radius:9px;padding:7px 11px;font-size:.85rem;margin-bottom:12px}
-.ben b{color:var(--o)}
-.more{margin-top:auto;color:var(--o);font-weight:700;font-size:.86rem}
-.empty{text-align:center;color:var(--mut);padding:30px;display:none}
+.ic{font-size:1.65rem}
+.lvl{font-size:.66rem;font-weight:700;padding:3px 10px;border-radius:999px;letter-spacing:.03em}
+.lvl.c{background:#E8F0FE;color:#1A56C4}.lvl.up{background:#FDEBDD;color:#C24A05}.lvl.st{background:#FDEBDD;color:#C24A05}
+.card h3{font-size:1.03rem;margin-bottom:2px;letter-spacing:-.005em}
+.card .sub{font-family:'Tiro Devanagari Hindi',serif;color:var(--mut);font-size:.86rem;margin-bottom:11px}
+.ben{background:var(--sunbg);border:1px solid #F6DFAE;border-radius:9px;padding:7px 12px;font-size:.85rem;margin-bottom:13px}
+.ben b{color:#9A6A08;font-variant-numeric:tabular-nums}
+.more{margin-top:auto;color:var(--o);font-weight:700;font-size:.85rem}
+.empty{text-align:center;color:var(--mut);padding:34px;display:none}
 /* finder */
-.finder{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;max-width:780px;margin:0 auto}
-.finder h2{font-family:'Tiro Devanagari Hindi',serif;font-size:1.4rem;text-align:center}
-.finder>p{text-align:center;color:var(--mut);font-size:.9rem;margin-bottom:18px}
-.fq{font-weight:700;margin:14px 0 9px}
-.opts{display:flex;flex-wrap:wrap;gap:9px}
-.opt{border:1.5px solid var(--line);background:#fff;border-radius:12px;padding:9px 14px;font-size:.88rem;font-weight:600;cursor:pointer;font-family:inherit}
+.finder{background:#fff;border:1px solid var(--line);border-radius:18px;padding:30px;max-width:780px;margin:0 auto;box-shadow:var(--glow)}
+.finder h2{font-family:'Tiro Devanagari Hindi',serif;font-size:1.45rem;text-align:center}
+.finder>p{text-align:center;color:var(--mut);font-size:.9rem;margin-bottom:20px}
+.fq{font-weight:700;margin:16px 0 9px;font-size:.95rem}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{border:1px solid var(--line);background:#fff;border-radius:10px;padding:9px 15px;font-size:.87rem;font-weight:600;cursor:pointer;font-family:inherit;transition:.15s}
+.opt:hover{border-color:#EBC79E}
 .opt.on{background:var(--o);color:#fff;border-color:var(--o)}
-.fres{margin-top:18px;display:none}
+.fres{margin-top:20px;display:none}
 .fres .lbl{font-weight:700;margin-bottom:10px}
-.fres a{display:block;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:10px 13px;margin-bottom:8px;font-weight:600}
-.fres a:hover{border-color:var(--o)}
+.fres a{display:block;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:11px 14px;margin-bottom:8px;font-weight:600;transition:.15s}
+.fres a:hover{border-color:var(--o2);background:#FFF3E6}
 /* tools */
-.tools{background:#fff}
-.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
-.tool{border:1px solid var(--line);border-radius:16px;padding:18px;position:relative;background:linear-gradient(160deg,#fff,var(--bg))}
-.tool .tag{position:absolute;top:12px;right:12px;font-size:.62rem;color:var(--mut);background:var(--bg);padding:2px 8px;border-radius:10px}
-.tool .e{font-size:1.8rem}.tool h3{margin:8px 0 5px;font-size:1.05rem}
+.tools{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.tgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(235px,1fr));gap:14px}
+.tool{border:1px solid var(--line);border-radius:14px;padding:19px;position:relative;background:#fff;transition:.15s}
+.tool:hover{border-color:#EBC79E;box-shadow:var(--glow)}
+.tool .tag{position:absolute;top:13px;right:13px;font-size:.6rem;color:var(--mut);background:var(--bg);padding:2px 9px;border-radius:999px;font-weight:600;letter-spacing:.04em}
+.tool .e{font-size:1.7rem}
+.tool h3{margin:9px 0 5px;font-size:1.03rem}
 .tool p{color:var(--mut);font-size:.85rem;margin-bottom:12px}
-.tool a{color:var(--o);font-weight:700;font-size:.87rem}
+.tool a{color:var(--o);font-weight:700;font-size:.86rem}
 /* alert */
-.alert{background:#fff4e6;border:1px solid #ffd9a8;border-left:4px solid var(--o);border-radius:12px;padding:15px 17px;font-size:.88rem;margin:0 auto;max-width:1044px}
-.adwrap{margin:26px auto;max-width:1044px;min-height:90px;background:#fafafa;border:1px dashed #ddd;border-radius:10px;display:flex;align-items:center;justify-content:center;color:#bbb;font-size:.8rem}
-/* footer */
-footer{background:#241c16;color:#cbb8a8;padding:34px 0 20px;font-size:.9rem}
-.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:26px;margin-bottom:22px}
-footer h4{color:#fff;margin-bottom:12px;font-size:1rem}
-.flogo{display:flex;align-items:center;gap:9px;margin-bottom:10px}
-.flogo .box{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,var(--o),var(--o2));display:flex;align-items:center;justify-content:center}
-.flogo b{color:#fff;font-size:1.05rem}
-footer ul{list-style:none}footer li{margin-bottom:7px}footer a:hover{color:var(--o2)}
-.disc{border-top:1px solid #3a2f26;padding-top:16px;font-size:.78rem;color:#9a8a7c}
-.copy{text-align:center;margin-top:12px;font-size:.78rem;color:#7d6f63}
+.alert{background:var(--sunbg);border:1px solid #F6DFAE;border-left:3px solid var(--sun);border-radius:12px;padding:14px 18px;font-size:.88rem;margin:0 auto;max-width:1040px;color:#6B4A06}
+.adwrap{margin:28px auto;max-width:1040px;min-height:90px;background:#FCFAF7;border:1px dashed var(--line);border-radius:12px;display:flex;align-items:center;justify-content:center;color:#C9BBA9;font-size:.78rem}
+/* footer — dusk */
+footer{background:#231407;color:#C4A98E;padding:40px 0 22px;font-size:.9rem}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px;margin-bottom:24px}
+footer h4{color:#fff;margin-bottom:13px;font-size:.98rem}
+.flogo{display:flex;align-items:center;gap:10px;margin-bottom:11px}
+.flogo .box{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,#F59E1B,#E4590A);display:flex;align-items:center;justify-content:center}
+.flogo b{color:#fff;font-size:1.03rem}
+footer ul{list-style:none}footer li{margin-bottom:7px}
+footer a{transition:color .15s}footer a:hover{color:#F5A623}
+.disc{border-top:1px solid #3B2812;padding-top:16px;font-size:.77rem;color:#9A8168}
+.copy{text-align:center;margin-top:13px;font-size:.77rem;color:#7D6850}
 /* scheme page */
 .crumb{font-size:.82rem;color:var(--mut);padding:16px 0}
 .crumb a:hover{color:var(--o)}
-.sp-hero{background:linear-gradient(160deg,#fff,var(--bg));border:1px solid var(--line);border-radius:18px;padding:24px;margin-bottom:22px}
-.sp-hero .ic{font-size:2.6rem}
-.sp-hero h1{font-size:1.7rem;margin:8px 0 3px}
-.sp-hero .sub{font-family:'Tiro Devanagari Hindi',serif;color:var(--mut);margin-bottom:14px}
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:8px}
-.fact{background:#fff;border:1px solid var(--line);border-radius:11px;padding:10px 13px}
-.fact span{font-size:.72rem;color:var(--mut);display:block}.fact b{font-size:.95rem}
-.block{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px;margin-bottom:18px}
-.block h2{font-family:'Tiro Devanagari Hindi',serif;font-size:1.3rem;margin-bottom:13px;color:var(--o)}
-.block p{color:#3a4150}
+.updated{font-size:.8rem;color:var(--mut);margin:-.4rem 0 1rem}
+.sp-hero{background:linear-gradient(160deg,#fff 60%,#FFF6EA);border:1px solid var(--line);border-radius:16px;padding:26px;margin-bottom:20px;box-shadow:var(--glow)}
+.sp-hero .ic{font-size:2.5rem}
+.sp-hero h1{font-size:1.75rem;margin:9px 0 3px;letter-spacing:-.01em}
+.sp-hero .sub{font-family:'Tiro Devanagari Hindi',serif;color:var(--mut);margin-bottom:15px}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:11px;margin-top:10px}
+.fact{background:#fff;border:1px solid var(--line);border-radius:11px;padding:11px 14px}
+.fact span{font-size:.7rem;color:var(--mut);display:block;font-weight:600;letter-spacing:.03em}
+.fact b{font-size:.95rem;font-variant-numeric:tabular-nums}
+.block{background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 24px;margin-bottom:16px}
+.block h2{font-family:'Tiro Devanagari Hindi',serif;font-size:1.32rem;margin-bottom:14px;color:var(--o)}
+.block p{color:#3D2E22}
 .block ul{list-style:none;margin-top:4px}
-.block li{padding:7px 0 7px 28px;position:relative;border-bottom:1px solid #f5ede5}
+.block li{padding:8px 0 8px 30px;position:relative;border-bottom:1px solid #F8EFE2}
 .block li:last-child{border-bottom:0}
-.block li:before{content:"✓";position:absolute;left:0;top:7px;color:#fff;background:var(--o);width:18px;height:18px;border-radius:50%;font-size:.7rem;display:flex;align-items:center;justify-content:center}
-.steps{counter-reset:s}.steps li:before{content:counter(s);counter-increment:s;background:var(--o2)}
-.faq{border-bottom:1px solid #f0e7de;padding:12px 0}.faq:last-child{border:0}
-.faq b{display:block;margin-bottom:4px}.faq span{color:var(--mut);font-size:.92rem}
-.cta-apply{display:inline-block;background:var(--o);color:#fff;font-weight:700;padding:13px 24px;border-radius:12px;margin-top:4px}
-.cta-apply:hover{background:#e85f00}
-.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:13px}
-.related a{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px;font-weight:600;font-size:.9rem}
-.related a:hover{border-color:var(--o)}
+.block li:before{content:"✓";position:absolute;left:0;top:8px;color:#fff;background:var(--o);width:19px;height:19px;border-radius:50%;font-size:.68rem;display:flex;align-items:center;justify-content:center}
+.steps{counter-reset:s}
+.steps li:before{content:counter(s);counter-increment:s;background:var(--sun);color:#fff;font-weight:700}
+.faq{border-bottom:1px solid #F8EFE2;padding:13px 0}.faq:last-child{border:0}
+.faq b{display:block;margin-bottom:4px}
+.faq span{color:var(--mut);font-size:.92rem}
+.cta-apply{display:inline-block;background:linear-gradient(135deg,#F97316,#E4590A);color:#fff;font-weight:700;padding:13px 26px;border-radius:11px;margin-top:6px;transition:.15s;box-shadow:0 3px 14px rgba(228,89,10,.32)}
+.cta-apply:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.related{display:grid;grid-template-columns:repeat(auto-fill,minmax(215px,1fr));gap:12px}
+.related a{background:#fff;border:1px solid var(--line);border-radius:11px;padding:13px 15px;font-weight:600;font-size:.9rem;transition:.15s}
+.related a:hover{border-color:var(--o2);background:#FFF6EC}
 @media(max-width:760px){
- nav{gap:12px}.hero h1{font-size:1.6rem}.fgrid{grid-template-columns:1fr}
+ nav{gap:12px}.hero h1{font-size:1.65rem}.fgrid{grid-template-columns:1fr}
  nav a:not(.lang){display:none}
+ body{font-size:16px}
+ .hero{padding:38px 0 28px}
+ section{padding:30px 0}
 }
 </style></head><body><div class="tricolor"></div><header><div class="wrap hd"><a class="logo" href="/"><span class="box"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg></span><span><b>Sarkari Yojna Mitra</b><small>आपकी हर योजना का साथी</small></span></a><nav><a href="/#schemes">योजनाएँ</a><a href="/#finder">पात्रता जाँच</a><a href="/#tools">उपयोगी सेवाएँ</a><a href="/#schemes">हमारे बारे में</a><a class="lang" href="/en/mz-bana-kaih">EN</a></nav></div></header><div class="wrap"><div class="crumb"><a href="/">होम</a> › Bana Kaih Scheme</div><div class="sp-hero"><span class="ic">💼</span><span class="lvl st" style="margin-left:10px">मिज़ोरम</span><h1>Bana Kaih Scheme</h1><p class="updated">अंतिम अपडेट: 03/07/2026</p><p class="sub">बाना काइह योजना</p><div class="facts"><div class="fact"><span>लाभ</span><b>ब्याज-मुक्त ऋण ₹50 लाख तक + फसल MSP</b></div><div class="fact"><span>कौन पात्र</span><b>मिज़ोरम के छोटे उद्यमी व किसान</b></div><div class="fact"><span>मंत्रालय/विभाग</span><b>मिज़ोरम सरकार</b></div><div class="fact"><span>अंतिम तिथि</span><b>पोर्टल पर जाँचें</b></div></div></div><div class="block"><h2>योजना क्या है?</h2><p>बाना कैह योजना मिज़ोरम में गरीब परिवारों को आर्थिक सहायता देती है। BPL परिवारों को विभिन्न सामाजिक सुरक्षा लाभ। मिज़ोरम सरकार की कल्याणकारी योजना।</p></div><div class="block"><h2>मुख्य लाभ</h2><ul class=""><li>गरीब परिवारों को आर्थिक सहायता</li><li>सामाजिक सुरक्षा लाभ</li><li>BPL परिवारों को प्राथमिकता</li></ul></div><div class="block"><h2>पात्रता (कौन ले सकता है?)</h2><ul class=""><li>मिज़ोरम का BPL परिवार</li><li>आय सीमा लागू</li></ul></div><div class="block"><h2>ज़रूरी दस्तावेज़</h2><ul class=""><li>आधार कार्ड</li><li>BPL प्रमाण</li><li>निवास प्रमाण</li><li>बैंक खाता</li></ul></div><div class="block"><h2>आवेदन कैसे करें?</h2><ul class="steps"><li>ज़िला कार्यालय/Block कार्यालय में आवेदन</li><li>संबंधित विभाग से संपर्क</li></ul></div><div class="block" style="text-align:center"><a class="cta-apply" href="https://mizoram.gov.in" target="_blank" rel="nofollow noopener">आधिकारिक पोर्टल पर आवेदन करें →</a></div><div class="block"><h2>अक्सर पूछे जाने वाले सवाल</h2><div class="faq"><b>कौन पात्र?</b><span>मिज़ोरम के BPL परिवार।</span></div><div class="faq"><b>कैसे आवेदन करें?</b><span>ज़िला/ब्लॉक कार्यालय में।</span></div></div><div class="wrap"><div class="alert"><b>सावधान — धोखाधड़ी से बचें:</b> असली सरकारी योजनाओं में आवेदन हमेशा <b>निःशुल्क या आधिकारिक रूप से सब्सिडी वाला</b> होता है। किसी एजेंट को पैसे न दें, अनजान लिंक से APK डाउनलोड न करें, और अपनी बैंक/OTP जानकारी किसी से साझा न करें। आवेदन केवल आधिकारिक <b>.gov.in</b> पोर्टल से ही करें।</div></div><section><div class="wrap"><div class="sec-h"><h2>संबंधित योजनाएँ</h2></div><div class="related"><a href="/pm-mudra-loan">💼 PM Mudra Loan (PMMY)</a><a href="/pm-vishwakarma">🔨 PM Vishwakarma Yojana</a><a href="/pm-svanidhi">🛒 PM SVANidhi</a></div></div></section></div><footer><div class="wrap"><div class="fgrid"><div><div class="flogo"><span class="box"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><path d="m9 15 2 2 4-4"/></svg></span><b>Sarkari Yojna Mitra</b></div><p>भारत की प्रमुख सरकारी योजनाओं की सरल भाषा में जानकारी — पात्रता, लाभ और आधिकारिक आवेदन लिंक एक जगह।</p></div><div><h4>लोकप्रिय योजनाएँ</h4><ul><li><a href="/pm-kisan">PM Kisan Samman Nidhi</a></li><li><a href="/ayushman-bharat">Ayushman Bharat (PM-JAY)</a></li><li><a href="/pm-awas-yojana">Pradhan Mantri Awas Yojana</a></li><li><a href="/pm-mudra-loan">PM Mudra Loan (PMMY)</a></li><li><a href="/kisan-credit-card">Kisan Credit Card (KCC)</a></li><li><a href="/pm-fasal-bima">PM Fasal Bima Yojana</a></li></ul></div><div><h4>लिंक</h4><ul><li><a href="/#schemes">सभी योजनाएँ</a></li><li><a href="/#finder">पात्रता जाँच</a></li><li><a href="/#tools">उपयोगी सेवाएँ</a></li><li><a href="/privacy">गोपनीयता नीति</a></li><li><a href="/disclaimer">अस्वीकरण</a></li><li><a href="/terms">उपयोग की शर्तें</a></li><li><a href="/about">हमारे बारे में</a></li><li><a href="/contact">संपर्क</a></li></ul></div></div><div class="disc"><b>Disclaimer:</b> यह एक स्वतंत्र सूचनात्मक वेबसाइट है, किसी सरकारी संस्था से संबद्ध नहीं। योजना की शर्तें, ब्याज़ दर और पात्रता समय-समय पर बदल सकती हैं — कृपया आधिकारिक पोर्टल पर पुष्टि करें।</div><div class="copy">© 2026 Sarkari Yojna Mitra · A Quimztech Network site</div></div></footer></body></html>
