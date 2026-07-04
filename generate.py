@@ -219,8 +219,10 @@ def head(lang, title, desc, canonical, slug=None, jsonld=None):
 
 def header(lang, toggle_href):
     t = T[lang]
-    nav = ''.join('<a href="%s">%s</a>' % (anchor(lang, a), e(n))
-                  for a, n in zip(["schemes","finder","tools","schemes"], t["nav"]))
+    _navkeys = ["schemes","finder","tools","about"]
+    _navhrefs = [anchor(lang,"schemes"), anchor(lang,"finder"), anchor(lang,"tools"), static_url(lang,"about")]
+    nav = ''.join('<a href="%s">%s</a>' % (h, e(n))
+                  for h, n in zip(_navhrefs, t["nav"]))
     return ('<header><div class="wrap hd">'
             '<a class="logo" href="%s"><span class="box">%s</span>'
             '<span><b>%s</b><small>%s</small></span></a>'
