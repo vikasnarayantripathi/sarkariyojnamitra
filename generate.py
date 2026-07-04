@@ -206,7 +206,7 @@ def head(lang, title, desc, canonical, slug=None, jsonld=None):
     return ('<!DOCTYPE html><html lang="%s"><head><meta charset="UTF-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
             '<title>%s</title><meta name="description" content="%s"><meta property="og:type" content="article"><meta property="article:modified_time" content="2026-07-03">'
-            '<link rel="canonical" href="%s">\n%s\n%s%s'
+            '<link rel="canonical" href="%s"><link rel="icon" type="image/svg+xml" href="/favicon.svg">\n%s\n%s%s'
             '<script async src="https://www.googletagmanager.com/gtag/js?id=G-YQ7KBCEX94"></script><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-YQ7KBCEX94");</script><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3246006644123903" crossorigin="anonymous"></script>'
             '<style>%s</style></head><body><div class="tricolor"></div>'
             % (lang, e(title), e(desc), canonical, hreflang(slug), GF, j, CSS))
@@ -503,6 +503,7 @@ if __name__ == "__main__":
             w(p, render_static(sl, lang)); n += 1
     w("sitemap.xml", render_sitemap())
     w("llms.txt", open(os.path.join(OUT,"llms.txt"),"r",encoding="utf-8").read())
+    w("favicon.svg", open(os.path.join(OUT,"favicon.svg"),encoding="utf-8").read())
     w("ads.txt", "google.com, pub-3246006644123903, DIRECT, f08c47fec0942fa0\n")
     w("google6b8fece3b82b2876.html", "google-site-verification: google6b8fece3b82b2876.html")
     json.dump([{**{k:s[k] for k in ("slug","icon","cat","level","tags","name","hindi","portal")},
